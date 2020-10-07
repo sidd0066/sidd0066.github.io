@@ -61,3 +61,11 @@ Selecting element that has attribute of href set to value #tow
 [target="_blank"]{
     text-transform: uppercase;
 }
+/* Using Pseudo Classes Styling Navigation */
+nav ul a,
+nav ul a:link,
+nav ul a:visited{
+    background: orange;
+    /* horizontal, vertical, blur, spread, color */
+    box-shadow: -2px 2px 4px 2px black;
+}
