@@ -58,3 +58,6 @@ Selecting element that has attribute of href set to value #tow
 [href="#tow"]{
     font-weight: bold;
 }
+[target="_blank"]{
+    text-transform: uppercase;
+}
