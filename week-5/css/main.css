@@ -109,3 +109,7 @@ table td:nth-child(n){
 table td:nth-child(2n+1){
     background: rgba(0, 0, 0, .2);
 }
+
+footer{
+    background: aqua;
+}
