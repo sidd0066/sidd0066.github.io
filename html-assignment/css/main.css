@@ -1,15 +1,19 @@
 
+/* Styling body with font-style and font-size */
 body{
   background-color: grey;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
-      
+
+/* Styling header and footer */
 header,
 footer{
     background-color: darkcyan;
 }
 
+/* Syling site-title class on main heading */
 .site-title{
     color: lawngreen;
+
 }
