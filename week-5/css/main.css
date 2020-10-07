@@ -11,3 +11,8 @@ h1{
 p{
     background-color: lightblue;
 }
+
+h2,
+h3{
+    text-decoration: underline;
+}
