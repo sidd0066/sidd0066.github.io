@@ -110,10 +110,19 @@ table td:nth-child(2n+1){
     background: rgba(0, 0, 0, .2);
 }
 
+/* CSS Specifcity
+Formula: inline-styles id class tag-name 
+specificity: 0001
+*/
 footer{
     background: aqua;
 }
 
-footer{
+/* CSS Specifcity
+Formula: inline-styles id class tag-name 
+specificity: 0001
+*/
+body footer{
+    /* 0002 */
     background: red;
 }
