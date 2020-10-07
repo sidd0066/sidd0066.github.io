@@ -19,7 +19,7 @@ h3{
 }
 /* Selecting child elemets */
 
-nav ul{
+nav li{
     list-style: square;
 }
 
