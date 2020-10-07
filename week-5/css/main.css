@@ -184,3 +184,11 @@ body {
   footer.site-footer {
     background-color: lightgreen;
   }
+
+  header .title{
+      color: red;
+  }
+
+  article p{
+
+  }
