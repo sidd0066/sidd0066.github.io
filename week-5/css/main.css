@@ -92,6 +92,8 @@ table{
     border-collapse: collapse;
 }
 
+/* nth-child selector */
 tbody tr:nth-child(even){
+    /* hex value for color with 6 characters */
     background-color: #d5836c;
 }
