@@ -97,3 +97,10 @@ tbody tr:nth-child(even){
     /* hex value for color with 6 characters */
     background-color: #d5836c;
 }
+
+/* using the nth-child with n
+Where n is 0,1,2,....until the number of elements */
+table td:nth-child(n),
+table td:nth-child(n){
+    border: 1px solid #000;
+}
