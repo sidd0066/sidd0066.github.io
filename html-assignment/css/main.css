@@ -23,6 +23,6 @@ footer{
     box-shadow: 0px 0px 2px 1px black;
 }
 
-ul li:last-child{
+section ul li{
     list-style: square;
 }
