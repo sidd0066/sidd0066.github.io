@@ -91,3 +91,7 @@ section ol li:last-child{
 table{
     border-collapse: collapse;
 }
+
+tbody tr:nth-child(even){
+    background-color: #d5836c;
+}
