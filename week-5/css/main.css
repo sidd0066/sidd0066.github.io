@@ -113,3 +113,7 @@ table td:nth-child(2n+1){
 footer{
     background: aqua;
 }
+
+footer{
+    background: red;
+}
