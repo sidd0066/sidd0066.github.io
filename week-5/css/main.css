@@ -83,3 +83,7 @@ aside ul li:first-child{
     font-weight: bold;
     
 } 
+/* last child slector */
+section ol li:last-child{
+    font-weight: bold;
+}
