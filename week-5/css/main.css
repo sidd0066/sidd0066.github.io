@@ -133,8 +133,10 @@ specificity:
 .site-footer{
     background-color: orange;
 }
-
-/*  */
+/*
+    adding a style using class name and tag name
+ specificity: 0011 
+*/
 .site-footer-footer{
     background-color: lightgreen;
 }
