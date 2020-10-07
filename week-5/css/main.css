@@ -78,3 +78,8 @@ nav ul a:focus{
 nav ul a:active{
     box-shadow: 0 0 4px 2px black;
 }
+/* Postion related selector */
+aside ul li:first-child{
+    font-weight: bold;
+    
+} 
