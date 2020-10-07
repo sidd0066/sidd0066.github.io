@@ -38,3 +38,7 @@ nav a{
 #tow{
     background: orange;
 }
+/* We can add multiple classes to one element */
+.larger-text{
+    font-size: 20px;
+}
