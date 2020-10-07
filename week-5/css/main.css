@@ -69,3 +69,8 @@ nav ul a:visited{
     /* horizontal, vertical, blur, spread, color */
     box-shadow: -2px 2px 4px 2px black;
 }
+/*  */
+nav ul a:hover,
+nav ul a:focus{
+    text-decoration: underline;
+}
