@@ -87,3 +87,7 @@ aside ul li:first-child{
 section ol li:last-child{
     font-weight: bold;
 }
+/* collapse table border into one  */
+table{
+    border-collapse: collapse;
+}
