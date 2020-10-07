@@ -20,5 +20,10 @@ h3{
 /* Selecting child elemets */
 
 nav ul{
-    list-style: none;
+    list-style: square;
+}
+
+nav ul a{
+    color: darkslategray;
+    text-decoration: none;
 }
