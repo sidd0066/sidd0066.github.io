@@ -42,7 +42,8 @@ nav a{
 .larger-text{
     font-size: 20px;
 }
-/* Child slector or Direct Child selector  */
-article p{
+/* Child slector or Direct Child selector 
+Seelecting only the p directly inside the article */
+article>p{
     font-size: 24px;
 }
