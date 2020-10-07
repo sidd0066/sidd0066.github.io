@@ -9,3 +9,7 @@ header,
 footer{
     background-color: darkcyan;
 }
+
+.site-title{
+    color: lawngreen;
+}
