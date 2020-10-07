@@ -34,3 +34,7 @@ nav a{
     color: orange;
     text-decoration: none;
 }
+/* Selecting id value for styling the element */
+#tow{
+    background: orange;
+}
