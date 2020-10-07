@@ -23,6 +23,7 @@ footer{
     box-shadow: 0px 0px 2px 1px black;
 }
 
+/* Replacing the bullets from the list of hobbies with squares */
 section ul li{
     list-style: square;
 }
