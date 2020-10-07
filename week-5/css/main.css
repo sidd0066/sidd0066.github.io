@@ -17,3 +17,8 @@ h2,
 h3{
     text-decoration: underline;
 }
+/* Selecting child elemets */
+
+nav ul{
+    list-style: none;
+}
