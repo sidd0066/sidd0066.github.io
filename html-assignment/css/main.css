@@ -15,6 +15,7 @@ footer{
 /* Syling site-title class on main heading */
 .site-title{
     color: lawngreen;
+    text-align: center;
 
 }
 
