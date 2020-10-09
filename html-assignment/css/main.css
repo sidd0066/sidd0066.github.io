@@ -46,3 +46,7 @@ a:link{
     
 }
 
+nav li:hover,
+nav li:focus{
+    background: #5CBEFF;
+}
