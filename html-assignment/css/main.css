@@ -27,3 +27,20 @@ footer{
 section ul li{
     list-style: square;
 }
+
+/* Using nth-child selector 
+to add a background to the odd list items in the hobby list  */
+section ul li:nth-child(odd){
+    background: red;
+}
+
+
+/* Styling the Navigation */
+nav li{
+    list-style: none;
+}
+
+nav ul li{
+    text-decoration: none;
+}
+
