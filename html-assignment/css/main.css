@@ -46,7 +46,8 @@ nav li:hover,
 nav li:focus{
     background: #5CBEFF;
 }
-
+ 
+ 
 a:link {
     color: blue;
     background-color: transparent;
@@ -54,12 +55,12 @@ a:link {
   }
   a:visited {
     color: orange;
-    background-color: transparent;
+    background-color: yellow;
     
   }
   a:hover {
     color: red;
-    background-color: transparent;
+    background-color: fuchsia;
     text-decoration: none;
   }
   a:active {
