@@ -42,42 +42,16 @@ nav li{
     list-style: none;
 }
 
-
-nav li:hover,
-nav li:focus{
- 
+/* Removing underline */
+a:link{
+  text-decoration: none;
+  
 }
- 
- 
-a:link {
-    color: blue;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:visited {
-    color: black;
-    background-color: yellow;
-    
-  }
-  a:hover {
-    color: red;
-    background-color: fuchsia;
-    text-decoration: none;
-  }
-  a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: none;
-  }
-/* Adding Border */
-  a {
-    border: 1px solid black;
-  }
 
-  nav ul a,
-  nav ul a:link,
-  nav ul a:visited {
-    background: teal;
-    /* horizontal vertical blur spread color */
-    box-shadow: -2px 2px 4px 2px black;
-  }
+/* Adding Background Colour and Border to Links */
+nav ul a,
+nav ul a:link,
+nav ul a:visited:{
+  background: black;
+  border: 1px black;
+}
