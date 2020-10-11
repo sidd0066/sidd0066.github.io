@@ -12,7 +12,7 @@ footer{
     background-color: darkcyan;
 }
 
-/* Syling site-title class on main heading */
+/* Styling site-title class on main heading */
 .site-title{
     color: lawngreen;
     text-align: center;
@@ -51,7 +51,8 @@ a:link{
 /* Adding Background Colour and Border to Links */
 nav ul a,
 nav ul a:link,
-nav ul a:visited:{
-  background: black;
-  border: 1px black;
+nav ul a:visited {
+  background: teal;
+  color: white;
+ 
 }
