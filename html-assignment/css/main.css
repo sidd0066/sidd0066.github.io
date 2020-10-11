@@ -68,3 +68,5 @@ a:link {
     background-color: transparent;
     text-decoration: none;
   }
+  a {
+    border: 1px solid black;
