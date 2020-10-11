@@ -59,6 +59,10 @@ nav ul a:visited {
 
 /* Changing Background colour on hover or focus state of links */
 nav ul a:hover,
-  nav ul a:focus {
+nav ul a:focus {
     background-color:yellow ;
+  }
+
+  nav ul a:active{
+    color: red;
   }
