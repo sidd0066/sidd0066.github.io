@@ -52,9 +52,9 @@ a:link{
 nav ul a,
 nav ul a:link,
 nav ul a:visited {
-  background: teal;
+  background: green;
   color: black;
- border: 2px solid black;
+  border: 2px solid black;
 }
 
 /* Changing Background colour on hover or focus state of links */
