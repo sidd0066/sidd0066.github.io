@@ -37,6 +37,7 @@ section ul li:nth-child(odd){
 
 
 /* Styling the Navigation */
+/* Removing Bullets */
 nav li{
     list-style: none;
 }
@@ -68,5 +69,7 @@ a:link {
     background-color: transparent;
     text-decoration: none;
   }
+/* Adding Border */
   a {
     border: 1px solid black;
+  }
