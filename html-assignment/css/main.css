@@ -53,8 +53,12 @@ nav ul a,
 nav ul a:link,
 nav ul a:visited {
   background: teal;
-  color: white;
+  color: black;
  border: 2px solid black;
 }
 
 /* Changing Background colour on hover or focus state of links */
+nav ul a:hover,
+  nav ul a:focus {
+    background-color:yellow ;
+  }
