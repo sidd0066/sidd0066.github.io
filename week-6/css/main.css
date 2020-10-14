@@ -212,3 +212,25 @@ body {
   article p{
 
   }
+  /* CSS Box Models */
+  section p{
+    width: 50%;
+    /* padding: 1em; */
+    /* Top Right Bottom left */
+    /* padding: 1em .5em 1em .5em; */
+    /* Top-bottom Left-right */
+    padding: 1em .5em;
+
+    /* margin: 2em; */
+
+    margin: -1em 2em 2em 2em;
+    /* 2em = 2 x 16 = 32px */
+    border-bottom: 2px solid black; 
+  }
+  /* Adding border as separators */
+  aside ul li{
+    border-bottom: 1px solid black;
+  }
+  aside ul li:last-child{
+    border: none;
+  }
