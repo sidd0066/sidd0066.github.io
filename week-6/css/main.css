@@ -2,6 +2,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: darkslategrey;
+    /* Adding background image */
+    background-image: url("../images/white_brick_wall.png");
   }
   
   /* 
@@ -47,7 +49,12 @@ body {
   
   /* Selecting id value for styling the element */
   #tow {
-    background: orange;
+    /* color, image, repeat x-axis y-axis */
+    background: orange url("../images/bread.jpg") no-repeat center center;
+    background-size: cover;
+    /* Additional styles to make text visible */
+    color: white;
+    font-size: 24px;
   }
   
   /* We can add multiple classes to one element */
