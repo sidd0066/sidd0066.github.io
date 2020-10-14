@@ -194,7 +194,7 @@ body {
     specificity: 0010
   */
   .site-footer {
-    background-color: orange;
+    background: orange;
   }
   
   /* 
