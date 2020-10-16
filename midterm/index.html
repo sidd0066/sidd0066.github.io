@@ -60,11 +60,11 @@
  <form action="thanks.html" method="post">
     <div>
     <label for="fullname">Your Name</label>
-    <input type="text" id="fullname" name="fullname" placeholder="Concord" value="Mr.">
+    <input type="text" id="fullname" name="fullname" placeholder="John" required>
     </div>
     <div>
       <label for="youremail">Email</label>
-    <input type="email" id="youremail" name="youremail" required>
+    <input type="email" id="youremail" name="youremail" placeholder="abc123@youremail.com" required>
     </div>
     <div>
       <label for="message">Message</label>
@@ -72,18 +72,7 @@
 
       </textarea>
     </div>
-    <div>
-      <label for="tickets">How many Tickets? (sold in pairs)</label>
-      <input type="number" name="tickets" id="tickets">
-    </div>
-    <div>
-      <label for="row">Select Row</label>
-      <select name="row" id="row">
-      <option value="front">Front</option>
-      <option value="center" selected>Center</option>
-      <option value="back">Back</option>
-      </select>
-    </div>
+   
     <div>
       <h3>Have you been here before?</h3>
       <label for="yes">Yes</label>
@@ -95,9 +84,9 @@
     <div>
       <h3>Policies</h3>
       <input type="checkbox" name="policies" id="policies" required checked>
-      <label for="policies">I agrre with the Terms of this policy</label>
+      <label for="policies">I agree with the Terms of this policy</label>
     </div>
-    <button type="submit">Sign Me up!</button>
+    <button type="submit">Send</button>
   </form>
 
 
