@@ -44,6 +44,7 @@ section ul li:nth-child(odd){
 /* Removing Bullets */
 nav li{
     list-style: none;
+    color: black;
 }
 
 /* Removing underline */
