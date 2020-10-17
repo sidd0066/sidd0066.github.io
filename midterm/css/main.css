@@ -37,6 +37,12 @@ a:link{
   text-decoration: none;
 }
 
+nav ul a:hover,
+nav ul a:focus {
+    text-decoration: underline ;
+    font-weight: bold;
+  }
+
 footer p{
     text-align: right;
     padding: 20px;
