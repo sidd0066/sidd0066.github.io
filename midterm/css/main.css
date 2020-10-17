@@ -40,7 +40,6 @@ a:link{
 nav ul a:hover,
 nav ul a:focus {
     text-decoration: underline ;
-    font-weight: bold;
   }
 
 footer p{
