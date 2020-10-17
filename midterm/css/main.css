@@ -27,6 +27,8 @@ header img{
 nav li{
     list-style: none;
     font-size: 24px;
+    display: inline;
+    padding: 50px;
     
 }
 
