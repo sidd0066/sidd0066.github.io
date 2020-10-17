@@ -26,10 +26,16 @@ header .wide-image{
 /* Removing Bullets */
 nav li{
     list-style: none;
-    font-size: 24px;
+    font-size: 25px;
     display: inline;
     padding: 50px;
+    text-transform: uppercase;
     
+}
+
+h2,
+h3{
+    margin: 10px;
 }
 
 /* Removing underline */
@@ -44,10 +50,12 @@ nav ul a:focus {
 
 article .close-up{
     float: left;
-    padding: 0 10px 0 0;
+    padding: 0 5px 0 0;
     max-width: 10%;
     height: auto;
 }
+
+
 footer p{
     text-align: right;
     padding: 20px;
