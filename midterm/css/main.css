@@ -23,13 +23,18 @@ header .wide-image{
 
 
 /* Styling the Navigation */
-/* Removing Bullets */
+
 nav li{
     list-style: none;
     font-size: 25px;
     display: inline;
-    padding: 50px;
+    padding: 68px;
     text-transform: uppercase;
+    
+    }
+
+nav li a{
+    color: black;
     
 }
 
@@ -53,6 +58,7 @@ article .close-up{
     padding: 0 5px 0 0;
     max-width: 10%;
     height: auto;
+    line-height: normal;
 }
 
 
