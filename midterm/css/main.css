@@ -29,15 +29,58 @@ nav li{
     font-size: 25px;
     display: inline;
     padding: 68px;
+    padding-left: 10%;
     text-transform: uppercase;
+    
     
     }
 
+    .home {
+        float: none;
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        transform: translate (-50%, -50%);
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        
+    }
+    .story {
+        float: none;
+        position: absolute;
+        top: 40%;
+        left: 47%;
+        transform: translate (-50%, -50%);
+        text-decoration: none;
+        font-size: 25px;
+        border-left: solid 4px black;
+        border-right:solid 4px black;
+        color: black;
+        
+    }
+    .contact {
+        float: none;
+        position: absolute;
+        top: 40%;
+        left: 75%;
+        transform: translate (-50%, -50%);
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+    }
+        
+
+
+
 nav li a{
     color: black;
-    
+    left: 30%;
 }
 
+.story{
+    border-left: solid 1px black;
+}
 
 
 }
