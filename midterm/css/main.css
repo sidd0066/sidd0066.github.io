@@ -27,7 +27,7 @@ header .wide-image{
 
 /* Styling the Navigation */
 
-nav a{
+nav table a{
     list-style: none;
     font-size: 25px;
     display: inline;
@@ -51,8 +51,10 @@ nav a{
         padding: 1em;
     }
 
+header,
 main{
-    background-color: #d4e9e7;
+    background: #d4e9e7;
+
 }
 
 
