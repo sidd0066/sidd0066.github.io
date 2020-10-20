@@ -35,6 +35,7 @@ nav table a{
     padding: 68px;
     padding-left: 10%;
     text-transform: uppercase;
+    color: black;
  }
 
  table{
@@ -71,7 +72,7 @@ a:link{
 
 nav table a:hover,
 nav table a:focus {
-    text-decoration: underline ;
+    text-decoration: underline;
   }
 
 article .close-up{
