@@ -74,6 +74,10 @@ nav table a:focus {
     text-decoration: underline;
   }
 
+  nav table a:active{
+    color: #aad4cf;
+  }
+
 article .close-up{
     float: left;
     padding: 0 5px 0 0;
