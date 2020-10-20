@@ -24,17 +24,19 @@ header .wide-image{
 
 /* Styling the Navigation */
 
-nav li{
+nav a{
     list-style: none;
     font-size: 25px;
     display: inline;
     padding: 68px;
     padding-left: 10%;
     text-transform: uppercase;
-    
-    
-    }
+ }
 
+ table{
+        width: 100%;
+        text-align: center;
+ }
     .home {
         float: none;
         position: absolute;
@@ -44,6 +46,7 @@ nav li{
         text-decoration: none;
         font-size: 25px;
         color: black;
+        border-right: 1px solid black;
         
     }
     .story {
@@ -55,8 +58,7 @@ nav li{
         text-decoration: none;
         font-size: 25px;
         color: black;
-        border-left: solid 1px black;
-        border-right: solid 1px black;
+       
         
     }
     .contact {
@@ -125,4 +127,9 @@ input[type=text], select {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.contact-border{
+    border: 1px solid black;
+    padding: 1em 
 }
