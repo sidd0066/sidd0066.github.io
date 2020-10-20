@@ -61,6 +61,12 @@ nav a{
        
         
     }
+
+    td{
+        /* border-right: 1px solid black; */
+        font-size: 20px;
+        padding: .3em
+    }
     .contact {
         float: none;
         position: absolute;
