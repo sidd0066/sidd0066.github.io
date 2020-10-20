@@ -66,15 +66,15 @@ a:link{
   text-decoration: none;
 }
 
-nav a:hover,
-nav a:focus {
+nav table a:hover,
+nav table a:focus {
     text-decoration: underline ;
   }
 
 article .close-up{
     float: left;
     padding: 0 5px 0 0;
-    max-width: 10%;
+    max-width: 20%;
     height: auto;
     line-height: normal;
 }
