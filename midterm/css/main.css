@@ -86,15 +86,7 @@ footer p{
     margin: 20px;
 }
 
-input[type=text], select {
-    width: 10%;
-    padding: 12px 10px;
-    margin: 11px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
+
 
 .button{
     
