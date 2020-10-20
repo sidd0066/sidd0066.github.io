@@ -3,6 +3,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 15%;
     margin-right: 15%;
+    padding: 1.5rem;
 }
 
 h1{
@@ -10,7 +11,7 @@ h1{
     font-size: 48px;
     font-weight: lighter;
     position: absolute;
-    top: 15%;
+    top: 30%;
     left: 50%;
     transform: translate(-45%, -53%);
 }
@@ -19,7 +20,7 @@ header .wide-image{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
 
 }
 
@@ -39,30 +40,9 @@ nav a{
         width: 100%;
         text-align: center;
  }
-    .home {
-        float: none;
-        position: absolute;
-        top: 40%;
-        left: 20%;
-        transform: translate (-50%, -50%);
-        text-decoration: none;
-        font-size: 25px;
-        color: black;
-        border-right: 1px solid black;
+    
         
-    }
-    .story {
-        float: none;
-        position: absolute;
-        top: 40%;
-        left: 47%;
-        transform: translate (-50%, -50%);
-        text-decoration: none;
-        font-size: 25px;
-        color: black;
-       
-        
-    }
+
 
     td{
         /* border-right: 1px solid black; */
