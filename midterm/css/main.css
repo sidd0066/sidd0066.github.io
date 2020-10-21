@@ -25,6 +25,11 @@ header .wide-image{
 
 }
 
+/* Fix margin */
+header p{
+    
+    }
+}
 
 /* Styling the Navigation */
 
@@ -83,6 +88,7 @@ article .close-up{
     padding: 0 5px 0 0;
     max-width: 15%;
     height: auto;
+    margin: 10px;
     
 }
 
