@@ -52,8 +52,32 @@ body {
     background: darkslategrey;
     color: orange;
     text-decoration: none;
+    padding: 1.5em;
+    display: block;
   }
   
+  /* Two colums layout value for styling the element */
+
+  article,
+  aside{
+    background-color: rgba(255,255,255,0.6);
+    border: 1px solid black;
+    padding: 1.5em;
+    width: 80%;
+    box-sizing: border-box;
+    float: left;
+  }
+
+img{
+  width: 100%;
+}
+aside{
+  width: 20%;
+}
+section{
+  clear: both;
+}
+
   /* Selecting id value for styling the element */
   #tow {
     /* color, image, repeat x-axis y-axis */

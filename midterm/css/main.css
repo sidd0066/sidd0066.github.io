@@ -26,8 +26,9 @@ header .wide-image{
 }
 
 /* Fix margin */
-header p{
-    
+section p{
+
+    margin: 10px;
     
 }
 
