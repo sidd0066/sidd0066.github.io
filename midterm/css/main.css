@@ -74,6 +74,8 @@ a:link{
   text-decoration: none;
 }
 
+
+
 nav table a:hover,
 nav table a:focus {
     text-decoration: underline;
