@@ -33,9 +33,16 @@ body {
   nav ul {
     list-style: none;
   }
+
+ /* Put this in code change back to ul */
+  nav ul li{
+    display: inline-block;
+    width: 20%;
+  }
   
   /* Selecting child elements multiple level */
   nav ul a {
+    display: block;
     color: darkslategrey;
     text-decoration: none;
   }

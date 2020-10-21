@@ -28,7 +28,7 @@ header .wide-image{
 /* Fix margin */
 header p{
     
-    }
+    
 }
 
 /* Styling the Navigation */
@@ -36,8 +36,7 @@ header p{
 nav table a{
     list-style: none;
     font-size: 25px;
-    display: inline;
-    padding: 50px;
+    display: inline-block;
     text-transform: uppercase;
     color: black;
  }
