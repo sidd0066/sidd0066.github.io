@@ -18,6 +18,11 @@ body {
   p {
     background-color: lightblue;
   }
+
+  .container{
+    max-width: 1024px;
+    margin: 0 auto;
+  }
   
   /* Selecting multiple elements to add same styles */
   h1,
