@@ -7,6 +7,7 @@ body{
     padding: 1.5em;
 }
 
+/* Styling h1 */
 h1{
     color: #ffffff;
     font-size: 48px;
@@ -17,6 +18,7 @@ h1{
     transform: translate(-45%, -53%);
 }
 
+/* Styling Wide Image */
 header .wide-image{
     display: block;
     margin-left: auto;
@@ -25,7 +27,7 @@ header .wide-image{
 
 }
 
-/* Fix margin */
+/* Adding margin to paragraph */
 section p{
 
     margin: 10px;
@@ -42,6 +44,7 @@ nav table a{
     color: black;
  }
 
+ /* Fixing alignment */
  table{
         width: 100%;
         text-align: center;
