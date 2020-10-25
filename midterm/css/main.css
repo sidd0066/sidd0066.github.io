@@ -114,7 +114,6 @@ div input{
 }
 
 .message-box{
-    max-width: 100%;
     display: block;
     margin: 10px;
     width: 96%; 
