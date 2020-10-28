@@ -138,3 +138,14 @@ div input{
     margin: 10px;
     padding: 1em;
 }
+
+footer a{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    padding: 1em;
+    text-align: right;
+    color: black;
+
+    
+}
+/* Fix alignment and  */
