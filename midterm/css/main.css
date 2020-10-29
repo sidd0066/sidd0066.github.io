@@ -146,11 +146,18 @@ div input{
 footer .top{
     padding: 1em;
     margin: 10px;
-    left: 50%;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    text-decoration: underline;
     font-weight: bold;
     
 }
-/* Fix alignment and  */
+
+footer .top:hover,
+footer .top:focus{
+    text-decoration: underline;
+}
+
+footer .top:active{
+    color: #aad4cf;
+}
