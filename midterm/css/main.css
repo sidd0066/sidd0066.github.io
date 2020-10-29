@@ -22,6 +22,12 @@ h1{
     transform: translate(-45%, -53%);
 }
 
+/* h1, 
+.close-up{
+    position: relative;
+    text-align: center;
+} */
+
 /* Styling Wide Image */
 header .wide-image{
     display: block;
