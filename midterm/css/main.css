@@ -17,7 +17,7 @@ h1{
     font-size: 48px;
     font-weight: lighter;
     position: absolute;
-    top: 30%;
+    top: 55%;
     left: 50%;
     transform: translate(-45%, -53%);
 }
@@ -38,6 +38,10 @@ section p{
 
     margin: 10px;
     
+}
+
+.container{
+    position: relative;
 }
 
 /* Styling the Navigation */
@@ -125,8 +129,9 @@ div input{
     resize: none;
     height: 150px;
 }
+
 .forms{
-    max-width: 20%;
+    max-width: 100%;
 }
 
 .button{
