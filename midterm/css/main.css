@@ -63,6 +63,15 @@ a{
     text-decoration: none;
 }
 
+nav table a:hover,
+nav table a:focus {
+    text-decoration: underline;
+  }
+
+  nav table a:active{
+    color: #aad4cf;
+  }
+
 /* BG center colour */
 article{
     background-color: #d4e9e7;
@@ -83,14 +92,7 @@ a:link{
 
 
 
-nav table a:hover,
-nav table a:focus {
-    text-decoration: underline;
-  }
 
-  nav table a:active{
-    color: #aad4cf;
-  }
 
 article .close-up{
     float: left;
