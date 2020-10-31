@@ -60,7 +60,7 @@ td{
 
 a{
     color: black;
-    text-decoration: none;
+    
 }
 
 nav table a:hover,
@@ -79,7 +79,7 @@ article{
 
 }
 
-/*  */
+/* Adding margin on h2 and h3 */
 h2,
 h3{
     margin: 10px;
@@ -93,7 +93,7 @@ a:link{
 
 
 
-
+/* Image wrap */
 article .close-up{
     float: left;
     padding: 0 5px 0 0;
