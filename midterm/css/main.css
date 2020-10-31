@@ -164,6 +164,7 @@ footer .top{
     
 }
 
+/* Hover, Focus, Active */
 footer .top:hover,
 footer .top:focus{
     text-decoration: underline;
