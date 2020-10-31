@@ -128,8 +128,9 @@ input[type=email]{
     box-sizing: border-box;
  } 
 
+ /* Button */
 .button{
-    
+
     background-color: #d4e9e7; 
     border-radius: 5px;
     padding: 5px 10px;
