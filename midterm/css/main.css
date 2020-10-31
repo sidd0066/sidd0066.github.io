@@ -114,17 +114,19 @@ div input{
     margin: 10px;
 }
 
+/* Message */
 .message-box{
     display: block;
     margin: 10px;
-    width: 96%; 
+    width: 94.5%; 
     resize: none;
     height: 150px;
 }
 
+/* Input */
 input[type=text], 
 input[type=email]{ 
-    width: 100%;
+    width: 95%;
     resize: vertical;
     box-sizing: border-box;
  } 
