@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* Styling body */
+/* body */
 body{
     background-color: #aad4cf;
     font-family: Arial, Helvetica, sans-serif;
@@ -63,13 +63,14 @@ a{
     text-decoration: none;
 }
 
+/* BG center colour */
 article{
-    background: #d4e9e7;
+    background-color: #d4e9e7;
     
 
 }
 
-
+/*  */
 h2,
 h3{
     margin: 10px;
