@@ -53,13 +53,14 @@ table{
     text-align: center;
 }
 td{
-    font-size: 25px;
+    font-size: 20px;
     padding: .4em;
     text-transform: uppercase;
 }
 
 a{
     color: black;
+    text-decoration: none;
 }
 
 article{
