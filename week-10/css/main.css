@@ -226,6 +226,19 @@ p{
   .banner h1{
       color: white;
   }
+  /* Navigation */
+.nav-list{
+    display: flex;
+}
+.nav-list li{
+    flex: 1;
+    border: none;
+    border-right: 1px solid grey;
+}
+
+.nav-list li:last-child{
+    border: none;
+}
   /* app section */
   .app img{
       width: 40%;
@@ -236,3 +249,9 @@ p{
       float: right;
   }
 } 
+
+@media screen and (min-width: 800px){
+    .actions-list li{
+        max-width: 20%;
+    }
+}
