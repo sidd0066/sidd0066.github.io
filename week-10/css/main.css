@@ -3,89 +3,176 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-/* -----------------------------------------
-            Custom Style
------------------- --------------------------------*/
-
-html{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    box-sizing: border-box;
+/* ---------------------------------
+          Custom Styles
+------------------------------------ */
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
 }
-body{
-    line-height: 1.5;
+
+body {
+  line-height: 1.5;
 }
 
 *,
 *::after,
-*::before{
-    box-sizing: inherit;
-    line-height: inherit;
+*::before {
+  box-sizing: inherit;
+  line-height: inherit;
 }
 
-.clearfix::after{
-    content: '';
-    display: table;
-    clear: both;
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
 
 a,
 a:link,
 a:visited {
-    color: inherit;
+  color: inherit;
 }
 
 a:hover,
 a:focus {
-    color: lightblue;
+  color: #00ADD8;
 }
 
 h1,
@@ -93,165 +180,252 @@ h2,
 h3,
 h4,
 h5 {
-    font-weight: bold;
-    /* top, left-right, bottom  */
-    margin: 1em 0 0.5;
+  font-weight: bold;
+  /* top left-right bottom */
+  margin: 1em 0 0.5em;
 }
 
-h1{
-    font-size: 5.863rem;
-}
-h2{
-    font-size: 3.375rem;
+/* Modular Scale https://www.modularscale.com/?1&rem&1.5 */
+h1 {
+  font-size: 5.063rem;
 }
 
-h3{
-    font-size: 2.25rem;
+h2 {
+  font-size: 3.375rem;
 }
 
-h4{
-    font-size: 1.5rem;
+h3 {
+  font-size: 2.25rem;
 }
 
-h5{
-    font-size: 1rem;
+h4 {
+  font-size: 1.5rem;
 }
 
-p{
-    margin: 1em 0;
+h5 {
+  font-size: 1rem;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1em;
+p {
+  margin: 1em 0;
 }
 
-/* -----header----- */
-.mobile-logo{
-    max-width: 150px;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1em;
 }
 
-.desktop-logo{
-    display: none;
+/* ----------- header -------- */
+.mobile-logo {
+  max-width: 150px;
 }
-.banner{
-    height: 600px;
-    background: grey url("../images/mobile-banner.jpg") no-repeat center bottom;
-    background-size: cover;
+
+.desktop-logo {
+  display: none;
 }
-.banner h1{
-    margin: 0;
-    padding-top: 250px;
-    text-transform: uppercase;
-    text-align: center;
+
+/* banner */
+.banner {
+  height: 600px;
+  background: grey url("../images/mobile-banner.jpg") no-repeat center bottom;
+  background-size: cover;
 }
+
+.banner h1 {
+  margin: 0;
+  padding-top: 250px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 /* Navigation */
-.nav-list li{
-    border-bottom: 1px solid grey;
-    text-align: center;
+.nav-list li {
+  border-bottom: 1px solid grey;
+  text-align: center;
 }
-/* LOVE HATE */
+
+/* LoVe HAte */
 .nav-list a,
 .nav-list a:link,
-.nav-list a:visited{
-    display: block;
-    padding: 1em 0;
-    text-decoration: none;
+.nav-list a:visited {
+  display: block;
+  padding: 1em 0;
+  text-decoration: none;
 }
 
 .nav-list a:hover,
 .nav-list a:focus,
-.nav-list a.current{
-    background-color: #00ADD8;
-    color: inherit;
+.nav-list a.current {
+  background-color: #00ADD8;
+  color: inherit;
 }
 
-/* Simple Actions */
-.actions-list{
-    display: flex;
-    flex-flow: row wrap;
-}
-.actions-list li{
-    max-width: 50%;
-    padding: 1em;
-    text-align: center;
-    font-size: 1.5rem;
-}
+
 /* mobile app section */
-.btn{
-    text-decoration: none;
-    display: inline-block;
-    padding: 20px;
-    border: 1px solid black;
-    border-radius: 4px;
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 4px;
 }
 
 .btn:hover,
-.btn:focus{
-    background-color: lightblue;
-    color: inherit;
+.btn:focus {
+  background-color: #00ADD8;
+  color: inherit;
+}
+
+/* Simple Actions */
+.actions-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.actions-list li {
+  max-width: 50%;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 /* Footer */
-
-.site-footer{
-    margin-top: 20px;
-    border-top: 2px solid lightblue;
-    padding: 20px 0;
+.site-footer {
+  margin-top: 20px;
+  border-top: 2px solid #00ADD8;
+  padding: 20px 0;
 }
 
-.site-footer .copy{
-    text-align: right;
+.site-footer .copy {
+  text-align: right;
 }
 
-/* -----------------------------------
-            Desktop Styles
-------------------------------------- */
+/* ---------------------------
+      Climate Page Styles
+----------------------------- */
+/* cards section */
+.card {
+  border: 1px solid #00ADD8;
+  border-radius: 4px;
+  margin-bottom: 1em;
+}
 
-@media screen and (min-width: 600px){
-  html{
-      font-size: 16px;
-  } 
-  .mobile-logo{
-      display: none;
-  } 
-  .desktop-logo{
-      display: inline-block;
-      max-width: 300px;
+.card .info {
+  padding: 1em;
+}
+
+.card .info h3 {
+  margin-top: 0;
+}
+
+/* news section */
+.news {
+  border-top: 2px solid #00ADD8;
+  margin-top: 2em;
+}
+
+/* --------------------------
+      Desktop Styles
+---------------------------- */
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 16px;
   }
-  .banner{
-      background-image: url("../images/desktop-banner.jpg");
+
+  .mobile-logo {
+    display: none;
   }
-  .banner h1{
-      color: white;
+
+  .desktop-logo {
+    display: inline-block;
+    max-width: 300px;
   }
+
+  .banner {
+    background-image: url("../images/desktop-banner.jpg");
+  }
+
+  .banner h1 {
+    color: white;
+  }
+
   /* Navigation */
-.nav-list{
+  .nav-list {
     display: flex;
-}
-.nav-list li{
+  }
+
+  .nav-list li {
     flex: 1;
     border: none;
     border-right: 1px solid grey;
-}
+  }
 
-.nav-list li:last-child{
+  .nav-list li:last-child {
     border: none;
-}
-  /* app section */
-  .app img{
-      width: 40%;
-      float: left;
-      margin: 0 1em 1em 0;
   }
-  .app .btn{
-      float: right;
-  }
-} 
 
-@media screen and (min-width: 800px){
-    .actions-list li{
-        max-width: 20%;
-    }
+  /* app section */
+  .app img {
+    width: 40%;
+    float: left;
+    margin: 0 1em 1em 0;
+  }
+
+  .app .btn {
+    float: right;
+  }
 }
+
+@media screen and (min-width: 800px) {
+  .actions-list li {
+    max-width: 20%;
+  }
+
+  /* ----------------------------
+      Climate Action Page
+  ----------------------------- */
+  /* ---- cards section ---- */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1em;
+  }
+
+  /* -------- news section ------- */
+  .news {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+      "head head"
+      "left right1"
+      "left right2";
+    gap: 1em;
+  }
+
+  .news h2 {
+    grid-area: head;
+  }
+
+  .news .left {
+    grid-area: left;
+  }
+
+  .news .right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+  }
+
+  .news .right img {
+    grid-row: 1 / 3;
+  }
+
+  .news .right h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+}
+
