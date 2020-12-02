@@ -215,15 +215,13 @@ body{
     width: 550px;
     height: auto;
     top: 90%;
-    
+    padding: 2em;
 }
-.main-p{
-    position: absolute;
-    top: 20px;
-}
+
+
 .banner-img{
     position: relative;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -239,7 +237,7 @@ h5 {
 }
 
 h1{
-    color: black;
+    color: white;
     font-size: 4rem;
 }
 
@@ -282,7 +280,7 @@ button:focus{
     margin: .5rem;
     }
 
-
+/* Table */
 th{
 background-color: #ffe6ac;
 }
