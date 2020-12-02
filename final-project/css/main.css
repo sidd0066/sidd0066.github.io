@@ -211,9 +211,9 @@ body{
   }
 
 .banner{
-    background-color: #222;
     
-    padding: .5em;
+    background-color: rgba(0, 0, 0, 0.445);
+   
 }
 .banner-img{
     max-width: 100%;
@@ -270,6 +270,7 @@ button:focus{
     font-size: 1rem;
     padding: .5em;
     background-color:#222 ;
+    margin: .5rem;
     }
 
 
