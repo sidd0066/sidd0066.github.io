@@ -226,18 +226,45 @@ h5 {
     margin: 1em 0 0.5;
 }
 
-.connect{
+h1{
+    color: black;
+    Font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+    padding: 15px;
+}
+h3{
+    font-size: 2rem;
+    padding: 15px;
+}
+button:hover,
+button:focus{
+   text-decoration: underline; 
+}
+/* Buttons */
+.main-button{
     border: none;
-    background: #c78c06;
+    background-color: #c78c06;
     padding: 1rem;
     font-size: large;
+    
 }
+
 .im-care-right{
-border: none;
-background: #222;
-color: #c78c06;
-font-size: 25px;
+    padding: .5em;
 }
+
+
+.content-button{
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: .5em;
+    background-color:black ;
+    }
+
 
 th{
 background-color: #ffe6ac;
