@@ -147,6 +147,8 @@ body{
     line-height: 1.5;
   }
 
+  /* Navigation */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -155,3 +157,4 @@ body{
 .banner-img{
     max-width: 100%;
 }
+
