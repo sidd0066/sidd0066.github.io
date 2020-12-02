@@ -149,6 +149,9 @@ body{
 
   /* Navigation */
 
+
+  
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -158,3 +161,12 @@ body{
     max-width: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: bold;
+    /* top, left-right, bottom  */
+    margin: 1em 0 0.5;
+}
