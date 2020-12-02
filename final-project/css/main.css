@@ -185,11 +185,12 @@ body{
     color: #c78c06;
     background-color: black;
     border: 1px solid #c78c06;
-    padding: .1em;
+    padding: .5em;
      
 }
 .search-bar{
     display: flex;
+    padding: 1em;
 }
 #search{
    flex: 1;
