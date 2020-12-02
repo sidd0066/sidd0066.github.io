@@ -140,7 +140,7 @@ table {
 
 html {
     font-family: 'Open Sans', sans-serif;
-    scroll-behavior: smooth;
+    
   }
 
 body{
@@ -210,14 +210,23 @@ body{
     margin: 0 auto;
   }
 
-.banner{
+.main-div{
+    position: absolute;
+    width: 550px;
+    height: auto;
+    top: 90%;
     
-    background-color: rgba(0, 0, 0, 0.445);
-   
+}
+.main-p{
+    position: absolute;
+    top: 20px;
 }
 .banner-img{
-    max-width: 100%;
+    position: relative;
+    width: 100%;
+    height: auto;
 }
+
 
 h1,
 h2,
@@ -231,7 +240,7 @@ h5 {
 
 h1{
     color: black;
-    Font-size: 4rem;
+    font-size: 4rem;
 }
 
 h2{
