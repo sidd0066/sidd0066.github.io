@@ -167,10 +167,16 @@ body{
 .nav-list a:visited{
     display: block;
     text-decoration: none;
-    color: #c78c06;
-    
+    color: #c78c06;    
 }
 
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current{
+    background-color: #c78c06;
+    background-size: cover;
+    color: inherit;
+}
 
 
 
