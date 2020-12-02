@@ -185,16 +185,23 @@ body{
     color: #c78c06;
     background-color: black;
     border: 1px solid #c78c06;
-    padding: .1em;   
+    padding: .1em;
+     
 }
-
 .search-bar{
-    display: block;
-    width: 100%; 
-    resize: none;
+    display: flex;
+}
+#search{
+   flex: 1;
+  padding: 12px;
+  margin: 2px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
     
 
-}
+
 .wrapper{
     
 }
