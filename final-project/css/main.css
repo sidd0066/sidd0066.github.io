@@ -147,11 +147,13 @@ body{
     line-height: 1.5;
   }
 
-  
+  .main-head{
+      background-color: black;
+  }
   .logo-container{
       padding: 1em;
       background-color: #c78c06;
-      background-size: 200px 100px;
+      background-size: 300px 200px;
     }
     
     /* Navigation */
@@ -159,7 +161,7 @@ body{
     list-style: none;
     text-align: center;
     padding: .5em;
-    background-color: black;
+    
 }
 
 .nav-list a,
@@ -174,7 +176,7 @@ body{
 .nav-list a:focus,
 .nav-list a.current{
     background-color: #c78c06;
-    background-size: cover;
+    background-size: auto ;
     color: inherit;
 }
 
