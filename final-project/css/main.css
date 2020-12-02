@@ -177,8 +177,7 @@ body{
 .nav-list a:hover,
 .nav-list a:focus,
 .nav-list a.current{
-    background-color: #c78c06;
-    
+    background-color: #c78c06;  
     color: inherit;
 }
 
