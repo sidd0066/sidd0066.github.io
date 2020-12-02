@@ -212,17 +212,22 @@ body{
 
 .main-div{
     position: absolute;
-    width: 550px;
+    width: 500px;
     height: auto;
-    top: 90%;
+    top: 80%;
     padding: 2em;
+    background: rgba(34, 34, 34, 0.534);
+}
+
+.main-div p{
+    color: white;
 }
 
 
 .banner-img{
     position: relative;
     max-width: 100%;
-    height: auto;
+    
 }
 
 
