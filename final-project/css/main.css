@@ -185,7 +185,15 @@ body{
     color: #c78c06;
     background-color: black;
     border: 1px solid #c78c06;
-       
+    padding: .1em;   
+}
+
+.search-bar{
+    display: block;
+    width: 100%; 
+    resize: none;
+    
+
 }
 .wrapper{
     
