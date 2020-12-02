@@ -149,12 +149,13 @@ body{
 
 .main-head{
       background-color: black;
-      padding-top: 1.5em;
+      padding: 1em;
+     
   }
   .logo-container{
-      padding: 1em;
+      padding: .5em;
       background-color: #c78c06;
-      background-size: 300px 200px;
+      
     }
     
     /* Navigation */
@@ -170,14 +171,14 @@ body{
     display: block;
     text-decoration: none;
     color: #c78c06;    
-    padding: .5em;
+    padding: 1em;
 }
 
 .nav-list a:hover,
 .nav-list a:focus,
 .nav-list a.current{
     background-color: #c78c06;
-    background-size: auto ;
+    
     color: inherit;
 }
 
