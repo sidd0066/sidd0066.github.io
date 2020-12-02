@@ -147,8 +147,9 @@ body{
     line-height: 1.5;
   }
 
-  .main-head{
+.main-head{
       background-color: black;
+      padding-top: 1.5em;
   }
   .logo-container{
       padding: 1em;
@@ -181,7 +182,9 @@ body{
 }
 
 
-
+.wrapper{
+    
+}
 
 .container {
     max-width: 1200px;
@@ -201,3 +204,4 @@ h5 {
     /* top, left-right, bottom  */
     margin: 1em 0 0.5;
 }
+
