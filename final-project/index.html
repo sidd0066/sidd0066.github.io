@@ -16,8 +16,11 @@
         <title>Three Star Media</title>
       </head>
 <body>
-    <div class="container">
+    <div class="wrapper">
         <header class="main-head">
+            <div class="container">
+
+            
             <div class="logo-container">
                 <img src="images/logo.png" alt="Logo" class="main-logo">
             </div>
@@ -31,20 +34,22 @@
                     <li><a href="#team">Team</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li>
-                        <form class="search-bar">
-                            <input type="text" placeholder="Search" name="search">
+                       <form class="search-bar">
+                           <label for="search">Search</label>
+                            <input id="search" type="text" placeholder="Search" name="search">
                             <button type="submit"><i class="im im-magnifier"></i></button>
                         </form>
                     </li>
 
                 </ul>
             </nav>
+            </div>
         </header>
         
         <!-- Banner Image and Text -->
         <main class="content">
-            <section class="main-head">
-                <div class="banner">
+            <section class="banner">
+                <div class="container">
                     <img src="images/main-banner.jpg" alt="main-banner" class="banner-img">
                     <h1>Welcome to Three Star Media</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt praesentium culpa consequuntur veritatis ipsa pariatur consectetur, magni repellat cum maiores alias? Ducimus nemo unde possimus ex totam itaque aliquid sunt.       
@@ -57,7 +62,7 @@
             
             <!-- About Us -->
             <section class="about-us">
-                <div>
+                <div class="container">
                     <img src="images/about-us.jpg" alt="about-us">
                         <h2>About Us</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam repellat temporibus maiores inventore asperiores? Explicabo, voluptas iusto suscipit ratione repellendus, molestias expedita dolor error tenetur nihil numquam, eius adipisci totam.</p>
@@ -67,6 +72,7 @@
             
             <!-- Our Services-->
             <div class="cards-1" id="service">
+                <div class="container">
                 <h2>Our Services</h2>
                 <!-- Digital Transformation -->
                 <section class="digital-sect">
@@ -105,10 +111,11 @@
                     </div>
                 </section>
             </div>
+        </div>
             
             <!-- Our Vision -->
             <section class="vison-sect">
-                <div class="vision-info">
+                <div class="vision-info container">
                     <h2>Our Vision</h2>
                     <img src="images/vision.jpg" alt="vision" class="vision-img">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab dolores, quasi nulla sunt explicabo libero nobis dignissimos quidem nesciunt laudantium odit consequuntur voluptatum autem ducimus quaerat nemo, esse impedit dolore?</p>
@@ -118,6 +125,7 @@
             
             <!-- Our Team -->
             <div class="cards-2" id="team">
+                <div class="container">
                 <h2>Our Team</h2>
                 <!-- John Doe -->
             <section class="team-1">
@@ -139,9 +147,11 @@
                 </div>
             </section>
             </div>
+        </div>
 
             <!-- Contact Us -->
             <div class="cards-3" id="contact">
+                <div class="container">
                 <h2>Contact Us</h2>
                 <section class="form">
                     <h3>Send Us a message</h3>
@@ -194,11 +204,14 @@
                           </div>
                     </section>
              </div>
+            </div>
         </main>
         <!-- Footer -->
         <footer>
-            <p class="footer-top">&copy; Copyright Three Star Media, 2020</p>
-            <p class="footer-bottom">All images are taken from <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
+            <div class="container">
+                <p class="footer-top">&copy; Copyright Three Star Media, 2020</p>
+                <p class="footer-bottom">All images are taken from <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
+            </div>
         </footer>
     </div>   
 </body>

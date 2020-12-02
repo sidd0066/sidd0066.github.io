@@ -160,7 +160,6 @@ body{
 .nav-list li{
     list-style: none;
     text-align: center;
-    padding: .5em;
     
 }
 
@@ -170,6 +169,7 @@ body{
     display: block;
     text-decoration: none;
     color: #c78c06;    
+    padding: .5em;
 }
 
 .nav-list a:hover,
