@@ -181,7 +181,12 @@ body{
     color: inherit;
 }
 
-
+.im-magnifier{
+    color: #c78c06;
+    background-color: black;
+    border: 1px solid #c78c06;
+       
+}
 .wrapper{
     
 }
