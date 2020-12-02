@@ -148,7 +148,7 @@ body{
   }
 
 .main-head{
-      background-color: black;
+      background-color:#222;
       padding: 1em;
      
   }
@@ -183,7 +183,7 @@ body{
 
 .im-magnifier{
     color: #c78c06;
-    background-color: black;
+    background-color: #222;
     border: 1px solid #c78c06;
     padding: .5em;
      
@@ -203,15 +203,18 @@ body{
     
 
 
-.wrapper{
-    
-}
+
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
   }
 
+.banner{
+    background-color: #222;
+    
+    padding: .5em;
+}
 .banner-img{
     max-width: 100%;
 }
@@ -237,6 +240,10 @@ h2{
 }
 h3{
     font-size: 2rem;
+    padding: 15px;
+}
+h4{
+    font-size: 1rem;
     padding: 15px;
 }
 button:hover,
@@ -278,6 +285,7 @@ border: 1px solid black;
 padding: 15px;
 }
 
+/* Footer */
 .unsplash{
     color: inherit;
 }
