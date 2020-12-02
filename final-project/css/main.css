@@ -147,4 +147,11 @@ html {
     max-width: 1200px;
     margin: 0 auto;
   }
-  
+
+img{
+    
+}
+
+.banner-img{
+    max-width: 100%;
+}
