@@ -147,10 +147,33 @@ body{
     line-height: 1.5;
   }
 
-  /* Navigation */
-
-
   
+  .logo-container{
+      padding: 1em;
+      background-color: #c78c06;
+      background-size: 200px 100px;
+    }
+    
+    /* Navigation */
+.nav-list li{
+    list-style: none;
+    text-align: center;
+    padding: .5em;
+    background-color: black;
+}
+
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited{
+    display: block;
+    text-decoration: none;
+    color: #c78c06;
+    
+}
+
+
+
+
 
 .container {
     max-width: 1200px;
