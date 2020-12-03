@@ -495,19 +495,10 @@ padding: 1em;
   padding: 1em;
 }
 
-/* Form */
-
-div input{
-  display: inline-block;
-  padding-right: 80%;
-  margin: 10px;
-}
+/* Forms */
 
 
 /* Input */
-.contact-border{
-  padding: 1em;
-}
 
 input[type=text], 
 input[type=email]{ 
