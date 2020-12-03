@@ -491,6 +491,9 @@ padding: 1em;
 
 /* Contact Us */
 
+.hours{
+  padding-top: 1em;
+}
 .cards-3{
   padding: 1em;
 }
@@ -526,6 +529,9 @@ input[type=email]{
 }
 
 /* Location */
+.location-container{
+  padding-top: 1em;
+}
 .location-container iframe{
  
   max-width: 100%;
