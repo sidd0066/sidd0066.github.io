@@ -395,6 +395,17 @@ width: 100%;
 font-size: smaller;
 }
 
+/* Our Vision Section */
+
+.vision-sect .vision-div{
+  position: absolute;
+  top: 35%
+  height: auto;
+  color: white;
+}
+.vision-img{
+  position: relative;
+}
 /* Table */
 th{
 background-color: #ffe6ac;
