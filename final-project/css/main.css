@@ -215,12 +215,12 @@ body{
 /* Banner */
 .main-div{
   position: absolute;
-  width: 530px;
+  width: 520px;
   height: auto;
   top: 85%;
   padding: .5em;
   background-color: rgba(34, 34, 34, 0.534);
-  background-repeat: no-repeat;
+  
   
 }
 
