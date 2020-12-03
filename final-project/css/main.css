@@ -399,14 +399,18 @@ font-size: smaller;
 
 .vision-sect .vision-div{
   position: absolute;
-  
+  transform: translate(1%, -100%);
   width: 520px;
   height: auto;
   color: white;
+  padding: 1em;
+}
+.vision-sect p{
+  font-size: smaller;
 }
 .vision-img{
   position: relative;
-  height: 300px;
+  
   width: 100%;
 }
 /* Table */
