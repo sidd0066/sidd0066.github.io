@@ -495,7 +495,40 @@ padding: 1em;
   padding: 1em;
 }
 
+/* Form */
 
+div input{
+  display: inline-block;
+  padding-right: 80%;
+  margin: 10px;
+}
+
+/* Message */
+.message-box{
+  display: block;
+  margin: 10px;
+  width: 94.5%; 
+  resize: none;
+  height: 150px;
+}
+
+/* Input */
+.contact-border{
+  padding: 1em;
+}
+input[type=text], 
+input[type=email]{ 
+  width: 95%;
+  resize: vertical;
+  box-sizing: border-box;
+  padding: .5em;
+} 
+
+.submit-button{
+  color: #c78c06;
+  background-color: #222;
+  padding: .5em;
+}
 
 /* Footer */
 .unsplash{
