@@ -501,15 +501,12 @@ padding: 1em;
 .unsplash{
     color: inherit;
 }
-footer .container{
+footer p{
 background-color: #222;
 color: #c78c06;
-padding: 20px;
+padding: 1em;
 }
-footer .container p{
-padding: 10px;
 
-}
 
 /* -----------------------
       Desktop Styles
