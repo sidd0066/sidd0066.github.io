@@ -243,8 +243,7 @@ img{
 .banner-img{
   position: relative;
   max-width: 100%;
-  height: 0 auto;
-  background-size: cover;
+  
 }
 
 
@@ -286,14 +285,6 @@ button:focus{
 }
 
 /* Main */
-
-.about-us{
-  background-color: #ffe6ac;
-  padding: 1em;
-}
-.about-us p{
-  font-size: smaller;
-}
 .content-button{
   border: none;
     color: white;
@@ -303,6 +294,27 @@ button:focus{
     margin: .5rem;
     }
 
+  /* About Us */
+.about-us{
+  background-color: #ffe6ac;
+  padding: 1em;
+}
+.about-us p{
+  font-size: smaller;
+}
+
+/* Our Services */
+.cards-1{
+  padding: 1em;
+}
+
+/* Digital Section */
+.digital-sect .info{
+  background-color: #ffe6ac;
+}
+.digital-sect p{
+font-size: smaller;
+}
 /* Table */
 th{
 background-color: #ffe6ac;
@@ -313,7 +325,7 @@ width: 100%;
 }
 td, th{
 border: 1px solid black;
-padding: 15px;
+padding: 1em;
 }
 
 /* Footer */
