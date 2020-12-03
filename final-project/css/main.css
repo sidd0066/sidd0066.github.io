@@ -149,11 +149,12 @@ body{
 
 .container{
   max-width: 1200px;
-  margin: 0 auto;
+  
 }
 
 img{
   max-width: 100%;
+  height: auto;
 }
 
 /* Header */
@@ -237,7 +238,7 @@ img{
 .main-div p{
   color: white;
   padding: 1em;
-  font-size: smaller;
+  font-size: 12px;
 }
 
 
@@ -310,9 +311,69 @@ button:focus{
 /* Digital Section */
 .digital-sect{
   background-color: #ffe6ac;
-  background-size: cover;
+  background-size: 90%; 
+  margin: cover;  
+}
+
+.digital-sect .info{
+  padding: 1em;
+}
+
+.digital-sect img{
+width: 100%;
 }
 .digital-sect p{
+font-size: smaller;
+}
+/* Marketing Section */
+.market-sect{
+  background-color: #ffe6ac;
+  background-size: 90%; 
+  margin: cover;  
+}
+
+.market-sect .info{
+  padding: 1em;
+}
+
+.market-sect img{
+width: 100%;
+}
+.market-sect p{
+font-size: smaller;
+}
+/* Video Production Section */
+.video-sect{
+  background-color: #ffe6ac;
+  background-size: 90%; 
+  margin: cover;  
+}
+
+.video-sect .info{
+  padding: 1em;
+}
+
+.video-sect img{
+width: 100%;
+}
+.video-sect p{
+font-size: smaller;
+}
+/* Web Development */
+.web-sect{
+  background-color: #ffe6ac;
+  background-size: 90%; 
+  margin: cover;  
+}
+
+.web-sect .info{
+  padding: 1em;
+}
+
+.web-sect img{
+width: 100%;
+}
+.web-sect p{
 font-size: smaller;
 }
 /* Table */
@@ -322,6 +383,7 @@ background-color: #ffe6ac;
 table{
 border-collapse: collapse;
 width: 100%;
+padding: 1em;
 }
 td, th{
 border: 1px solid black;
@@ -340,3 +402,18 @@ padding: 20px;
 footer .container p{
 padding: 10px;
 }
+
+/* -----------------------
+      Desktop Styles
+------------------------- */
+
+@media screen and (min-width: 760px){
+  .nav-list li{
+    display: inline-block;
+  }
+  .main-logo{
+      
+    background-color: no-repeat;
+    
+  }
+} 
