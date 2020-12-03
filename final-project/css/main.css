@@ -359,7 +359,7 @@ width: 100%;
 .video-sect p{
 font-size: smaller;
 }
-/* Web Development */
+/* Web Development Section */
 .web-sect{
   background-color: #ffe6ac;
   background-size: 90%; 
@@ -376,6 +376,25 @@ width: 100%;
 .web-sect p{
 font-size: smaller;
 }
+
+/* Print Section */
+.print-sect{
+  background-color: #ffe6ac;
+  background-size: 90%; 
+  margin: cover;  
+}
+
+.print-sect .info{
+  padding: 1em;
+}
+
+.print-sect img{
+width: 100%;
+}
+.print-sect p{
+font-size: smaller;
+}
+
 /* Table */
 th{
 background-color: #ffe6ac;
