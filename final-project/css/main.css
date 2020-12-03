@@ -193,8 +193,9 @@ body{
     display: flex;
     padding: 1em;
 }
+
 #search{
-   flex: 1;
+  flex: 1;
   padding: 12px;
   margin: 2px 0;
   border: 1px solid #ccc;
@@ -284,7 +285,7 @@ button:focus{
     background-color: #c78c06;
     padding: .5em;
     font-size: 1rem;
-    
+    text-align: center;
 }
 
 .im-care-right{
