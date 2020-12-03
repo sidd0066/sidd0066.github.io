@@ -316,7 +316,7 @@ button:focus{
 .digital-sect{
   background-color: #ffe6ac;
   background-size: 90%; 
-  margin: cover;  
+   
 }
 
 .digital-sect .info{
@@ -332,8 +332,7 @@ font-size: smaller;
 /* Marketing Section */
 .market-sect{
   background-color: #ffe6ac;
-  background-size: 90%; 
-  margin: cover;  
+  background-size: 90%;  
 }
 
 .market-sect .info{
@@ -349,8 +348,7 @@ font-size: smaller;
 /* Video Production Section */
 .video-sect{
   background-color: #ffe6ac;
-  background-size: 90%; 
-  margin: cover;  
+  background-size: 90%;   
 }
 
 .video-sect .info{
@@ -366,8 +364,7 @@ font-size: smaller;
 /* Web Development Section */
 .web-sect{
   background-color: #ffe6ac;
-  background-size: 90%; 
-  margin: cover;  
+  background-size: 90%;   
 }
 
 .web-sect .info{
@@ -384,8 +381,7 @@ font-size: smaller;
 /* Print Section */
 .print-sect{
   background-color: #ffe6ac;
-  background-size: 90%; 
-  margin: cover;  
+  background-size: 90%;   
 }
 
 .print-sect .info{
@@ -433,8 +429,7 @@ font-size: smaller;
 /* John Doe */
 .team-1{
   background-color: #ffe6ac;
-  background-size: 90%; 
-  margin: cover;  
+  background-size: 90%;   
 }
 
 .team-1 .info{
@@ -456,8 +451,7 @@ padding-top: 1em;
 /* Bob Rite */
 .team-2{
   background-color: #ffe6ac;
-  background-size: 90%; 
-  margin: cover;  
+  background-size: 90%;  
 }
 
 .team-2 .info{
