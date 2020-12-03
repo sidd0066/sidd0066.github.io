@@ -417,15 +417,16 @@ font-size: smaller;
 
 /* Our Team */
 
-/* John Doe */
 .cards-2{
   padding: 1em;
   
- 
+  
 }
 .cards-2 h2{
   padding: .5em;
 }
+
+/* John Doe */
 .team-1{
   background-color: #ffe6ac;
   background-size: 90%; 
