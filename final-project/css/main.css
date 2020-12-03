@@ -308,6 +308,10 @@ button:focus{
  
 }
 
+.cards-1 h2{
+  padding-top: .5em;
+}
+
 /* Digital Section */
 .digital-sect{
   background-color: #ffe6ac;
@@ -423,7 +427,7 @@ font-size: smaller;
   
 }
 .cards-2 h2{
-  padding: .5em;
+  padding-top: .5em;
 }
 
 /* John Doe */
