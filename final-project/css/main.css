@@ -399,12 +399,15 @@ font-size: smaller;
 
 .vision-sect .vision-div{
   position: absolute;
-  top: 35%
+  
+  width: 520px;
   height: auto;
   color: white;
 }
 .vision-img{
   position: relative;
+  height: 300px;
+  width: 100%;
 }
 /* Table */
 th{
