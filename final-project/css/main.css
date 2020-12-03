@@ -220,9 +220,7 @@ img{
   height: auto;
   top: 85%;
   padding: .5em;
-  background-color: rgba(34, 34, 34, 0.534);
-  
-  
+  background-color: rgba(34, 34, 34, 0.534);  
 }
 
 .main-button{
@@ -230,7 +228,7 @@ img{
   background-color: #c78c06;
   padding: .5em;
   font-size: 1rem;
-  text-align: center;
+  
 }
 
 .main-div p{
@@ -241,9 +239,7 @@ img{
 
 
 .banner-img{
-  position: relative;
-  max-width: 100%;
-  
+  position: relative;  
 }
 
 
@@ -252,9 +248,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: bold;
-  /* top, left-right, bottom  */
-  margin: 1em 0 0.5;
+  font-weight: bold;  
 }
 
 h1{
@@ -309,8 +303,10 @@ button:focus{
 }
 
 /* Digital Section */
-.digital-sect .info{
+.digital-sect{
   background-color: #ffe6ac;
+  margin-bottom: 2em;
+   ;
 }
 .digital-sect p{
 font-size: smaller;
