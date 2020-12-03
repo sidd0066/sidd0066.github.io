@@ -404,15 +404,20 @@ font-size: smaller;
   height: auto;
   color: white;
   padding: 1em;
+  
 }
 .vision-sect p{
   font-size: smaller;
 }
 .vision-img{
   position: relative;
-  
+  height: auto;
   width: 100%;
 }
+
+/* Our Team */
+
+
 /* Table */
 th{
 background-color: #ffe6ac;
