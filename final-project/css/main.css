@@ -149,7 +149,6 @@ body{
 
 .container{
   max-width: 1200px;
-  
 }
 
 img{
@@ -199,6 +198,7 @@ img{
     padding: .5em;
      
 }
+/* Searchbar styles */
 .search-bar{
     display: flex;
     padding: 1em;
