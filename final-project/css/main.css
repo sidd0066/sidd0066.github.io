@@ -223,7 +223,10 @@ img{
   background-color: rgba(34, 34, 34, 0.534);  
 }
 
-.main-button{
+.conatiner .main-button{
+  padding: 1em;
+}
+.main-button {
   border: none;
   background-color: #c78c06;
   padding: .5em;
@@ -300,13 +303,14 @@ button:focus{
 /* Our Services */
 .cards-1{
   padding: 1em;
+  
+ 
 }
 
 /* Digital Section */
 .digital-sect{
   background-color: #ffe6ac;
-  margin-bottom: 2em;
-   ;
+  background-size: cover;
 }
 .digital-sect p{
 font-size: smaller;
