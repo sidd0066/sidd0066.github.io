@@ -534,6 +534,12 @@ input[type=email]{
   padding: .5em;
 }
 
+/* Location */
+.location-container iframe{
+ 
+  max-width: 100%;
+}
+
 /* Footer */
 .unsplash{
     color: inherit;
