@@ -316,6 +316,7 @@ button:focus{
 .digital-sect{
   background-color: #ffe6ac;
   background-size: 90%; 
+  margin-top: 1em;
    
 }
 
@@ -333,6 +334,7 @@ font-size: smaller;
 .market-sect{
   background-color: #ffe6ac;
   background-size: 90%;  
+  margin-top: 1em;
 }
 
 .market-sect .info{
@@ -348,7 +350,8 @@ font-size: smaller;
 /* Video Production Section */
 .video-sect{
   background-color: #ffe6ac;
-  background-size: 90%;   
+  background-size: 90%;  
+  margin-top: 1em; 
 }
 
 .video-sect .info{
@@ -364,7 +367,8 @@ font-size: smaller;
 /* Web Development Section */
 .web-sect{
   background-color: #ffe6ac;
-  background-size: 90%;   
+  background-size: 90%; 
+  margin-top: 1em;  
 }
 
 .web-sect .info{
@@ -381,7 +385,8 @@ font-size: smaller;
 /* Print Section */
 .print-sect{
   background-color: #ffe6ac;
-  background-size: 90%;   
+  background-size: 90%;  
+  margin-top: 1em; 
 }
 
 .print-sect .info{
@@ -429,7 +434,8 @@ font-size: smaller;
 /* John Doe */
 .team-1{
   background-color: #ffe6ac;
-  background-size: 90%;   
+  background-size: 90%;  
+  margin-top: 1em; 
 }
 
 .team-1 .info{
@@ -451,7 +457,8 @@ padding-top: 1em;
 /* Bob Rite */
 .team-2{
   background-color: #ffe6ac;
-  background-size: 90%;  
+  background-size: 90%;
+  margin-top: 1em;  
 }
 
 .team-2 .info{
