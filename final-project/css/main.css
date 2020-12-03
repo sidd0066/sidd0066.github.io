@@ -148,9 +148,13 @@ body{
 }
 
 .container{
-        max-width: 1200px;
-        margin: 0 auto;
-      }
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img{
+  max-width: 100%;
+}
 
 /* Header */
 .main-head{
@@ -209,9 +213,6 @@ body{
 }
     
 
-
-
-
 /* Banner */
 .main-div{
   position: absolute;
@@ -230,10 +231,6 @@ body{
   padding: .5em;
   font-size: 1rem;
   text-align: center;
-    }
-
-.banner{
-  
 }
 
 .main-div p{
@@ -250,9 +247,6 @@ body{
   background-size: cover;
 }
 
-img{
-  max-width: 100%;;
-}
 .about-us{
   background-color: #ffe6ac;
 }
