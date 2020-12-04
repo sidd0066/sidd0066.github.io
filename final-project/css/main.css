@@ -147,8 +147,9 @@ body{
   line-height: 1.5;
 }
 
-.wrapper{
+.container{
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 img{
@@ -557,5 +558,9 @@ padding: 1em;
   .nav-list ul li{
     display: inline-block;
   }
+  #search{
+    margin-top: 4px;
+  }
+
   
 } 
