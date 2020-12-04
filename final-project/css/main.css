@@ -554,7 +554,7 @@ padding: 1em;
 ------------------------- */
 
 @media screen and (min-width: 760px){
-  .nav-list li{
+  .nav-list ul li{
     display: inline-block;
   }
   
