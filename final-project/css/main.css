@@ -280,7 +280,6 @@ button:focus{
   border: none;
   color: white;
   font-size: 1rem;
-  padding: .5em;
   background-color:#222 ;
   margin: .5rem;
   
@@ -291,7 +290,6 @@ button:focus{
 .main-button {
   border: none;
   background-color: #c78c06;
-  padding: .5em;
   font-size: 1rem;
   
 }
