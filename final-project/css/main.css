@@ -225,16 +225,8 @@ img{
   background-color: rgba(34, 34, 34, 0.534);  
 }
 
-.conatiner .main-button{
-  padding: 1em;
-}
-.main-button {
-  border: none;
-  background-color: #c78c06;
-  padding: .5em;
-  font-size: 1rem;
-  
-}
+
+
 
 .main-div p{
   color: white;
@@ -280,20 +272,30 @@ button:focus{
 /* Buttons */
 
 .im-care-right{
-  padding: .5em;
+  padding: 1em;
 }
 
 /* Main */
 .content-button{
   border: none;
-    color: white;
-    font-size: 1rem;
-    padding: .5em;
-    background-color:#222 ;
-    margin: .5rem;
-    }
+  color: white;
+  font-size: 1rem;
+  padding: .5em;
+  background-color:#222 ;
+  margin: .5rem;
+  
+}
 
-  /* About Us */
+
+
+.main-button {
+  border: none;
+  background-color: #c78c06;
+  padding: .5em;
+  font-size: 1rem;
+  
+}
+/* About Us */
 .about-us{
   background-color: #ffe6ac;
   padding: 1em;
@@ -306,98 +308,29 @@ button:focus{
 .cards-1{
   padding: 1em;
   
- 
+  
 }
 
 .cards-1 h2{
   padding-top: .5em;
 }
 
-/* Digital Section */
-.digital-sect{
+/* Our Services Sections */
+.service-sect{
   background-color: #ffe6ac;
   background-size: 90%; 
   margin-top: 1em;
    
 }
 
-.digital-sect .info{
+.service-sect .info{
   padding: 1em;
 }
 
-.digital-sect img{
+.service-sect img{
 width: 100%;
 }
-.digital-sect p{
-font-size: smaller;
-}
-/* Marketing Section */
-.market-sect{
-  background-color: #ffe6ac;
-  background-size: 90%;  
-  margin-top: 1em;
-}
-
-.market-sect .info{
-  padding: 1em;
-}
-
-.market-sect img{
-width: 100%;
-}
-.market-sect p{
-font-size: smaller;
-}
-/* Video Production Section */
-.video-sect{
-  background-color: #ffe6ac;
-  background-size: 90%;  
-  margin-top: 1em; 
-}
-
-.video-sect .info{
-  padding: 1em;
-}
-
-.video-sect img{
-width: 100%;
-}
-.video-sect p{
-font-size: smaller;
-}
-/* Web Development Section */
-.web-sect{
-  background-color: #ffe6ac;
-  background-size: 90%; 
-  margin-top: 1em;  
-}
-
-.web-sect .info{
-  padding: 1em;
-}
-
-.web-sect img{
-width: 100%;
-}
-.web-sect p{
-font-size: smaller;
-}
-
-/* Print Section */
-.print-sect{
-  background-color: #ffe6ac;
-  background-size: 90%;  
-  margin-top: 1em; 
-}
-
-.print-sect .info{
-  padding: 1em;
-}
-
-.print-sect img{
-width: 100%;
-}
-.print-sect p{
+.service-sect p{
 font-size: smaller;
 }
 
@@ -432,48 +365,27 @@ font-size: smaller;
   padding-top: .5em;
 }
 
-/* John Doe */
-.team-1{
-  background-color: #ffe6ac;
-  background-size: 90%;  
-  margin-top: 1em; 
-}
 
-.team-1 .info{
-  padding: 1em;
-}
-.team-1 .info h4{
-  border-bottom: solid 4px #c78c06;
-  
-}
 
-.team-1 .john{
-width: 100%;
-}
-.team-1 p{
-font-size: smaller;
-padding-top: 1em;
-}
-
-/* Bob Rite */
-.team-2{
+/* Our Team Section */
+.team{
   background-color: #ffe6ac;
   background-size: 90%;
   margin-top: 1em;  
 }
 
-.team-2 .info{
+.team .info{
   padding: 1em;
 }
-.team-2 .info h4{
+.team .info h4{
   border-bottom: solid 4px #c78c06;
   
 }
 
-.team-2 .bob{
+.team img{
 width: 100%;
 }
-.team-2 p{
+.team p{
 font-size: smaller;
 padding-top: 1em;
 }
@@ -527,7 +439,7 @@ input[type=email]{
 .submit-button{
   color: #c78c06;
   background-color: #222;
-  padding: .5em;
+  padding: 1em;
 }
 
 /* Location */
@@ -557,10 +469,28 @@ padding: 1em;
 @media screen and (min-width: 760px){
   .nav-list ul li{
     display: inline-block;
-  }
-  #search{
-    margin-top: 4px;
+    margin: 1.5em;
   }
 
-  
+  .nav-list ul li:nth-child(7){
+    margin-top: 1em;
+  }
+  .search-bar{
+    margin-bottom: 1em;
+  }
+
+p{
+  font-size: large;
+}
+
+h1{
+  font-size: 5rem;
+}
+
+.main-div{
+  width: 750px;
+}
+
+
+ 
 } 
