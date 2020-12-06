@@ -23,7 +23,7 @@
             
                 <nav class="nav-list">
                     <ul>
-                        <!-- Navigation with Search bar -->
+                        <!-- Navigation with Search bar and Logo -->
                         
                     <li>
                         <div class="logo-container">
@@ -51,9 +51,9 @@
         <!-- Banner Image and Text -->
         <main class="content">
             <section class="banner">
-                    <div class="container">    
+                    <div>    
                         <img src="images/main-banner.jpg" alt="main-banner" class="banner-img">
-                        <div class="main-div">
+                        <div class="main-div container">
                         <h1>Welcome to Three Star Media</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt praesentium culpa consequuntur veritatis ipsa pariatur consectetur, magni repellat cum maiores alias? Ducimus nemo unde possimus ex totam itaque aliquid sunt.       
                         </p>
@@ -64,13 +64,17 @@
 
             <!-- About Us -->
             <section class="about-us" id="about">
-                <div class="container">
-                    <img src="images/about-us.jpg" alt="about-us">
+                <div class="container about-grid">
+                    <div class="about-img">
+                    <img src="images/about-us.jpg" class="about-us-img" alt="about-us">
+                    </div>
+                    <div class="about-info">
                         <h2>About Us</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam repellat temporibus maiores inventore asperiores? Explicabo, voluptas iusto suscipit ratione repellendus, molestias expedita dolor error tenetur nihil numquam, eius adipisci totam.</p>
                         <br>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam repellat temporibus maiores inventore asperiores? Explicabo, voluptas iusto suscipit ratione repellendus, molestias expedita dolor error tenetur nihil numquam, eius adipisci totam.</p>
-                </div>
+                    </div>
+            </div>
             </section>
             
             <!-- Our Services-->
@@ -128,7 +132,7 @@
         </div>
             <!-- Our Vision -->
             <section class="vision-sect">
-                <div class="vision-info container">
+                <div class="vision-info">
                     <img src="images/vision.jpg" alt="vision" class="vision-img">
                     <div class="vision-div">
                     <h2>Our Vision</h2>
@@ -139,36 +143,43 @@
             </section>
             
             <!-- Our Team -->
-            <div class="cards-2" id="team">
-                <div class="container">
-                <h2>Our Team</h2>
+        <div class="container">
+            <h2>Our Team</h2>
+            <section class="cards-2" id="team">
+
+            <div class="team-grid"> 
                 <!-- John Doe -->
-            <section class="team">
+            <div class="team">
+                <div class="our-team">
                 <img src="images/john.jpg" alt="John Doe" class="john">
-                <div class="info">
+                </div>
+                <div class="info our-team">
                 <h3>John Doe</h3>
                 <h4>CEO and Co-owner</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque alias, totam aliquid voluptas qui animi iste maxime libero, minus veniam quaerat culpa omnis autem quae molestiae adipisci repudiandae? Magnam, repellendus.</p>
-                </div>
-            </section>
-
-            <!-- Bob Rite -->
-            <section class="team">
-                <img src="images/bob.jpg" alt="Bob Rite" class="bob">
-                <div class="info">
-                <h3>Bob Rite</h3>
-                <h4>CFO and Co-owner</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque alias, totam aliquid voluptas qui animi iste maxime libero, minus veniam quaerat culpa omnis autem quae molestiae adipisci repudiandae? Magnam, repellendus.</p>
-                </div>
-            </section>
             </div>
         </div>
 
+            <!-- Bob Rite -->
+            <div class="team">
+                <div class="our-team">
+                <img src="images/bob.jpg" alt="Bob Rite" class="bob">
+            </div>
+                <div class="info our-team">
+                <h3>Bob Rite</h3>
+                <h4>CFO and Co-owner</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque alias, totam aliquid voluptas qui animi iste maxime libero, minus veniam quaerat culpa omnis autem quae molestiae adipisci repudiandae? Magnam, repellendus.</p>
+            </div>
+            </div>
+        </div>  
+        </section>
+        </div>
+
             <!-- Contact Us -->
-            <div class="cards-3" id="contact">
-                <div class="container">
+            <div class="container">
+            <section class="cards-3" id="contact">
                 <h2>Contact Us</h2>
-                <section class="form">
+                <div class="form">
                     <h3>Send us a message</h3>
                     <form class="contact-border" method="post">
                         <div>
@@ -188,10 +199,10 @@
                         </div>
                         <button class="submit-button" type="submit">Send</button>
                     </form> 
-                </section>
+                </div>
 
                     <!-- Hours of Operation -->
-                    <section class="hours">
+                    <div class="hours">
 
                         <h2>Hours of operation</h2>
                             <table>
@@ -208,17 +219,17 @@
                                     <td>Closed</td>
                                 </tr>
                             </table>
-                    </section>
+                        </div>
                     <!-- Location -->
-                    <section class="location">
+                    <div class="location">
                         <div class="location-container">
 
                             <h2>Location</h2>
                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1402.0196660285858!2d-75.75755199852998!3d45.348018292419795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20%E2%80%93%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1606435074898!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
                                     </iframe>
                           </div>
-                    </section>
-             </div>
+                        </div>
+            </section>
             </div>
         </main>
         <!-- Footer -->

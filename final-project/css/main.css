@@ -199,7 +199,7 @@ img{
     padding: .5em;
      
 }
-/* Searchbar styles */
+/* Searchbar styles Using flex */
 .search-bar{
     display: flex;
     padding: 1em;
@@ -236,7 +236,7 @@ img{
 
 
 .banner-img{
-  position: relative;  
+  position: relative; 
   vertical-align: bottom; 
 }
 
@@ -316,9 +316,9 @@ button:focus{
   
 }
 
-.cards-1 .ser-head{
-  padding-top: 1em;
-  padding-left: 1em;
+.ser-head{
+  padding: .5em .5em;
+  
 }
 
 /* Our Services Sections */
@@ -384,7 +384,7 @@ font-size: smaller;
   padding: 1em;
 }
 .team .info h4{
-  border-bottom: solid 4px #c78c06;
+  border-bottom: solid 3px #c78c06;
   
 }
 
@@ -476,7 +476,7 @@ font-size: smaller;
 @media screen and (min-width: 760px){
   .nav-list ul li{
     display: inline-block;
-    margin: 1.5em;
+    margin: 1em;
   }
 
   .nav-list ul li:nth-child(7){
@@ -498,9 +498,20 @@ h1{
   width: 750px;
 }
 
+.about-grid img{
+  width: 80%;
+}
+/* About Us using Grid */
+.about-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 1em;
+}
 
+
+/* Service Section using Grid */
 .cards-1{
-  padding: 1em;
   display: grid; 
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2);
@@ -531,5 +542,44 @@ h1{
 }
 
 
+
+.team-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: 
+      "one two"
+      "three four"
+  ;
+}
  
+.team-grid .john{
+  grid-area: one;
+
+}
+
+.team-grid .john-info{
+  grid-area: two;
+
+}
+
+.team-grid .our-team:nth-child(3){
+  grid-area: three;
+
+}
+
+.team-grid .our-team:nth-child(4){
+  grid-area: four;
+
+}
+
+ .cards-3{
+   display: flex;
+ }
+
+ .cards-3 .location{
+  order: 2;
+}
+
+
 } 
