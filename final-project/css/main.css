@@ -498,9 +498,6 @@ h1{
   width: 750px;
 }
 
-.about-grid img{
-  width: 80%;
-}
 /* About Us using Grid */
 .about-grid{
   display: grid;
