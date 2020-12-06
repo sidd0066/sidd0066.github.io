@@ -553,12 +553,12 @@ h1{
   ;
 }
  
-.team-grid .john{
+.team-grid .our-team:nth-child(1){
   grid-area: one;
 
 }
 
-.team-grid .john-info{
+.team-grid .our-team:nth-child(2){
   grid-area: two;
 
 }
