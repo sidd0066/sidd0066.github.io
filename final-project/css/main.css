@@ -237,6 +237,7 @@ img{
 
 .banner-img{
   position: relative;  
+  vertical-align: bottom; 
 }
 
 
