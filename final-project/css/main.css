@@ -395,6 +395,8 @@ width: 100%;
 font-size: smaller;
 padding-top: 1em;
 }
+
+
 /* Table */
 th{
 background-color: #ffe6ac;
@@ -498,12 +500,14 @@ h1{
   width: 750px;
 }
 
+
 /* About Us using Grid */
 .about-grid{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(1, 1fr);
   gap: 1em;
+  
 }
 
 
@@ -540,43 +544,27 @@ h1{
 
 
 
-.team-grid{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: 
-      "one two"
-      "three four"
-  ;
-}
- 
-.team-grid .our-team:nth-child(1){
-  grid-area: one;
-
-}
-
-.team-grid .our-team:nth-child(2){
-  grid-area: two;
-
-}
-
-.team-grid .our-team:nth-child(3){
-  grid-area: three;
-
-}
-
-.team-grid .our-team:nth-child(4){
-  grid-area: four;
-
-}
 
  .cards-3{
-   display: flex;
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2);
+  grid-template-areas: 
+      "form form form map map map"
+      "hour hour hour hour hour hour";
+  gap: 1em;
+ }
+
+ .cards-3 .form{
+   grid-area: form;
  }
 
  .cards-3 .location{
-  order: 2;
+  grid-area: map;
 }
 
+.cards-3 .hours{
+  grid-area: hour;
+}
 
 } 
