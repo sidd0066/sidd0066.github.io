@@ -544,7 +544,7 @@ h1{
 
 
 /* Our Team Section using Grid */
-.cards-2 .team-grid{
+.cards-2 .team{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -554,19 +554,19 @@ h1{
   ;
 }
 
-.team-grid .john-img{
+.team .john-img{
   grid-area: img-1;
 }
 
-.team-grid .bob-img{
+.team .bob-img{
   grid-area: img-2;
 }
 
-.team-grid .john-info{
+.team .john-info{
   grid-area: info-1;
 }
 
-.team-grid .bob-info{
+.team .bob-info{
   grid-area: info-2;
 }
 
