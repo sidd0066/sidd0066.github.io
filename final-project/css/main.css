@@ -543,8 +543,39 @@ h1{
 }
 
 
+/* Our Team Section using Grid */
+.cards-2 .team-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: 
+  "img-1 info-1"
+  "info-2 img-2"
+  ;
+}
+
+.team-grid .john-img{
+  grid-area: img-1;
+}
+
+.team-grid .bob-img{
+  grid-area: img-2;
+}
+
+.team-grid .john-info{
+  grid-area: info-1;
+}
+
+.team-grid .bob-info{
+  grid-area: info-2;
+}
 
 
+
+
+
+
+/* Contact Section Using Grid */
  .cards-3{
    display: grid;
    grid-template-columns: repeat(6, 1fr);
