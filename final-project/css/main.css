@@ -218,9 +218,10 @@ img{
 /* Banner */
 .main-div{
   position: absolute;
-  width: 520px;
+  width: 540px;
   height: auto;
-  top: 88%;
+  top: 90%;
+  
   padding: .5em;
   background-color: rgba(34, 34, 34, 0.534);  
 }
@@ -231,7 +232,7 @@ img{
 .main-div p{
   color: white;
   margin-top: 1em;
-  font-size: 12px;
+  font-size: smaller;
 }
 
 
@@ -239,7 +240,7 @@ img{
   position: relative; 
   vertical-align: bottom;
   width: 100%; 
-  max-height: 75%;
+ 
 }
 
 
@@ -500,8 +501,34 @@ h1{
   font-size: 5rem;
 }
 
+
+/* Banner */
 .main-div{
-  width: 750px;
+  padding: 1.5em;
+  width: 1000px;
+  height: auto;
+  top: 50%;
+  left: 10.5%;
+
+}
+
+.main-button {
+  border: none;
+  background-color: #c78c06;
+  font-size: 1.6rem;
+  margin-top: 2em;
+  padding: 1em;
+  
+}
+
+.main-div p{
+  font-size: large;
+}
+
+
+.banner-img{
+ max-height: 700px; 
+ object-fit: cover;
 }
 
 
@@ -605,4 +632,4 @@ h1{
   grid-area: hour;
 }
 
-}
+} 
