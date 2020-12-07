@@ -373,7 +373,7 @@ font-size: smaller;
 
 
 
-/* Our Team Section */
+
 .team{
   background-color: #ffe6ac;
   background-size: 90%;
@@ -390,10 +390,12 @@ font-size: smaller;
 
 .team img{
 width: 100%;
+vertical-align: bottom;
 }
 .team p{
 font-size: smaller;
 padding-top: 1em;
+margin-top: 1em;
 }
 
 
@@ -422,8 +424,6 @@ padding: 1em;
 
 /* Forms */
 
-
-/* Input */
 
 input[type=text], 
 input[type=email]{ 
@@ -545,6 +545,7 @@ h1{
 
 /* Our Team Section using Grid */
 .cards-2 .team{
+  vertical-align: bottom;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -564,10 +565,12 @@ h1{
 
 .team .john-info{
   grid-area: info-1;
+  vertical-align: bottom;
 }
 
 .team .bob-info{
   grid-area: info-2;
+  vertical-align: bottom;
 }
 
 
