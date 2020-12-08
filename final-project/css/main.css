@@ -550,7 +550,7 @@ h1{
 .cards-1{
   display: grid; 
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 2;
+  grid-template-rows: 1fr;
   grid-template-areas: 
       "ser1 ser1 ser1 ser2 ser2 ser2"
       "ser3 ser3 ser4 ser4 ser5 ser5";
@@ -617,7 +617,7 @@ h1{
  .cards-3{
    display: grid;
    grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 2;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas: 
       "form form form map map map"
       "hour hour hour hour hour hour";
