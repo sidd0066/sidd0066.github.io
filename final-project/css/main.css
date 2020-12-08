@@ -484,7 +484,7 @@ font-size: smaller;
 @media screen and (min-width: 760px){
   .nav-list ul li{
     display: inline-block;
-    margin: 1em;
+    margin: 1.5em;
   }
 
   .nav-list ul li:nth-child(7){
