@@ -197,7 +197,6 @@ img{
     background-color: #222;
     border: 1px solid #c78c06;
     padding: .5em;
-     
 }
 /* Searchbar styles Using flex */
 .search-bar{
@@ -349,7 +348,7 @@ font-size: smaller;
 .vision-sect .vision-div{
   position: absolute;
   transform: translate(1%, -100%);
-  width: 520px;
+  width: 800px;
   height: auto;
   color: white;
   padding: 1em;
@@ -427,6 +426,8 @@ padding: 1em;
   padding: 1em;
 }
 
+
+
 /* Forms */
 
 
@@ -485,10 +486,11 @@ font-size: smaller;
   .nav-list ul li{
     display: inline-block;
     margin: 1.5em;
+    text-align: center;
   }
 
-  .nav-list ul li:nth-child(7){
-    margin-top: 1em;
+  .nav-list li:nth-child(7){
+    margin-top: 2em;
   }
   .search-bar{
     margin-bottom: 1em;
@@ -508,7 +510,7 @@ h1{
   padding: 1.5em;
   width: 1000px;
   height: auto;
-  
+  transform: translate(50%, -100%);
 
 }
 
@@ -544,6 +546,8 @@ h1{
 /* Services buttons width */
 .content-button{
   width: 100%;
+  padding: .5em;
+  text-align: center;
 }
 
 /* Service Section using Grid */
@@ -577,6 +581,10 @@ h1{
   grid-area: ser5;
 }
 
+
+.vision-sect .vision-div{
+  left: 18%;
+}
 
 /* Our Team Section using Grid */
 .cards-2 .team{
