@@ -515,10 +515,11 @@ h1{
 /* Banner */
 .main-div{
   padding: 1.5em;
-  width: 1000px;
+  width: 1100px;
   height: auto;
   transform: translate(50%, -100%);
-
+  top: 95%;
+  left: -12%;
 }
 
 .main-button {
@@ -527,7 +528,6 @@ h1{
   font-size: 1.6rem;
   margin-top: 1em;
   padding: 1em;
-  
 }
 
 .main-div p{
