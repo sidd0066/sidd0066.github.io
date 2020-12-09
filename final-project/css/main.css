@@ -588,7 +588,9 @@ h1{
 }
 
 
-
+.vision-sect .vision-div{
+  left: 10%;
+}
 
 /* Our Team Section using Grid */
 .cards-2 .team{
