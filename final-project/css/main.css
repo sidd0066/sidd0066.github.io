@@ -367,7 +367,8 @@ font-size: smaller;
 }
 .vision-sect p{
   font-size: smaller;
-  padding-top: 1em ;
+  padding-top: 1em;
+  margin-bottom: .5em;
 }
 .vision-img{
   position: relative;
@@ -606,6 +607,7 @@ h1{
   left: 10%;
   top: 10%;
 }
+
 
 /* Our Team Section using Grid */
 .cards-2 .team{
