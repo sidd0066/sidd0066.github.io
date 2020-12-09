@@ -221,7 +221,7 @@ img{
   height: 300px;
   top: 5%;
   position: absolute;
-  padding: .5em;
+  padding: 1em;
   background-color: rgba(34, 34, 34, 0.534);  
 }
 
@@ -286,14 +286,13 @@ button:focus{
   color: white;
   font-size: 1.1rem;
   background-color:#222 ;
-  
+  margin-bottom: 1em;
   padding: 1.5em;
  
 }
 
 .vision-button{
   border: 1px solid #c78c06;
-  margin-top: 1em;
 }
 
 
@@ -602,8 +601,10 @@ h1{
 }
 
 
+
 .vision-sect .vision-div{
   left: 10%;
+  top: 10%;
 }
 
 /* Our Team Section using Grid */
