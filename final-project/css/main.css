@@ -512,13 +512,11 @@ font-size: smaller;
     vertical-align: middle;
   }
 
-  .nav-list li:nth-child(7){
-    margin-top: 2em;
-  }
   .search-bar{
     margin-bottom: 1em;
   }
 
+/* h1 and p Styles */
 p{
   font-size: large;
 }
@@ -567,7 +565,7 @@ h1{
   
 }
 
-/* Services buttons width */
+/* Our Services buttons width */
 .content-button{
   box-sizing: border-box;
   width: 100%;
@@ -577,7 +575,7 @@ h1{
   display: block;
 }
 
-/*  Our Service Section using Grid */
+/*  Our Services Section using Grid */
 .cards-1{
   display: grid; 
   grid-template-columns: repeat(6, 1fr);
@@ -608,7 +606,7 @@ h1{
   grid-area: ser5;
 }
 
-
+/* Our Vision Styles */
 
 .vision-sect .vision-div{
   left: 10%;
@@ -650,14 +648,10 @@ h1{
   margin: 0;
 }
 
-
-
-
-
-/* Contact Section Using Grid */
+/* Contact Us Section Using Grid */
  .cards-3{
-   display: grid;
-   grid-template-columns: repeat(6, 1fr);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr;
   grid-template-areas: 
       "form form form map map map"
