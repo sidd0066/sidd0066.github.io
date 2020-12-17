@@ -170,7 +170,7 @@ body{
   .nav-list a:hover,
   .nav-list a:focus,
   .nav-list a.current{
-      color: gray;  
+      color: gray;
   }
   
   .welcome{
@@ -188,9 +188,9 @@ body{
   .site-title{
     text-align: center;
     color: white;
-    left: 5%;
+    left: 10%;
     position: absolute;
-    top: 35%;
+    top: 37%;
     
   }
   
@@ -268,3 +268,5 @@ max-width: 35%;
     text-align: left;
     padding-top: 1em;
   }
+
+}
