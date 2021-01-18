@@ -52,10 +52,10 @@ table {
 /* ---------------------------------------------------
                 Style for Mobile Screens
 --------------------------------------------------- */
+
 body{
     margin: 0 auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
 #nav.nav{
     border: none;
@@ -83,7 +83,7 @@ body{
 
 #home.home p{
     color: #e7e7de;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: lighter;
     line-height: 2;
     
@@ -100,18 +100,24 @@ body{
 }
 
 #about.about .about-image{
-    width: 200px;
-    padding: 1em;
+    width: 300px;
+    padding-left: 100px;
+    margin-top: 30px;
+    float: none;
+    display: block;
+    
+    padding-bottom: 10px;
 }
 
 #about.about h2{
     font-size: 36px;
 }
 #about.about p{
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 2;
     margin-top: 12px;
+    padding: 1em;
 }
 
 .contact .contact-form{
