@@ -20,16 +20,17 @@ body{
 
 #home.home h1{
     font-size: 60px;
-    color: #0095fd;
+    color: #e7e7de;
 }
 
 #home.home p{
-    color: white;
+    color: #e7e7de;
     font-size: smaller;
+    line-height: 1.5;
 }
 
 #home.home{
-    background-color: rgb(87, 13, 13);
+    background-color: #008891;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
