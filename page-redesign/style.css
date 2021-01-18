@@ -1,5 +1,8 @@
 
-/*CSS Reset 
+/*
+---------------------------------------
+            CSS RESET
+------------------------------------- 
  http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -134,6 +137,8 @@ body{
 
 #contact.contact{
     background-color: #0f3057;
+    color: #e7e7de;
+    /* line-height: 1.5; */
 }
 .contact .contact-form{
     background-color: #008891;
