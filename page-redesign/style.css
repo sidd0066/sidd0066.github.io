@@ -57,10 +57,17 @@ body{
     margin: 0 auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+#main.main{
+    max-width: 100%;
+}
+
+/* Navigation */
 #nav.nav{
     border: none;
     background-color:#008891;
-    
+    max-width: 100%;
+    margin: 0;
 }
 
 .nav .nav-link{
@@ -75,6 +82,7 @@ body{
     text-decoration: underline;
 }
 
+/* Home */
 #home.home h1{
     font-size: 56px;
     color: #e7e7de;
@@ -94,6 +102,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* About */
 #about.about{
     background-color: #00587a;
     
@@ -120,8 +129,14 @@ body{
     padding: 1em;
 }
 
+
+/* Contact */
+
+#contact.contact{
+    background-color: #0f3057;
+}
 .contact .contact-form{
-    background-color: #f24333;
+    background-color: #008891;
 }
 
 
