@@ -213,3 +213,29 @@ footer p{
     margin: 10px;
     font-size: 14px;
 }
+
+/* ---------------------------------------------------
+            Style for Desktop Screens
+--------------------------------------------------- */
+
+@media screen and (min-width: 760px){
+.nav .nav-link {
+    display: inline; 
+    padding: 3em;  
+}
+
+#nav.nav{
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+}
