@@ -61,11 +61,12 @@ body{
     margin-right: auto;
     /* Segoe UI', Tahoma, Geneva, Verdana, sans-serif to please the eyes on screens */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* overflow-x: hidden; */
+    
 }
 
 #main.main{
     max-width: 100%;
+
 }
 
 /* Navigation */
@@ -74,8 +75,9 @@ body{
     /* Chose #008891 for ADD */
     background-color:#008891;
     width: 100%;
-    padding: 12px;
-    /* margin: 0 auto; */
+    padding: 0;
+    margin: 0;
+    
 }
 
 .nav .nav-link{
@@ -83,9 +85,13 @@ body{
     color: #e7e7de;
     display: block;
 	list-style-type: none;
-	padding-top: 10px;
+    padding-top: 10px;
+    margin: 0;
 }
 
+#nav.nav-links{
+    margin: 0;
+}
 .nav .nav-link:hover{
     text-decoration: underline;
 }
@@ -145,6 +151,7 @@ body{
     background-color: #0f3057;
     color: #e7e7de;
     line-height: 1.5;
+    width: 100%;
 }
 
 #contact.contact p{
@@ -153,11 +160,12 @@ body{
 }
 .contact .contact-form{
     background-color: #0f3057;
+    max-width: 120px;
 }
 
-.contact-form-input{
-    width: 12px;
-    padding: 1em;
+.contact-form .contact-form-input{
+    width: 200px;
+    padding: .5em;
 }
 
 footer{
