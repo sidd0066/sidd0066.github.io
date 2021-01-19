@@ -57,7 +57,7 @@ table {
 --------------------------------------------------- */
 
 body{
-    /* margin: 0 auto; */
+    margin: 0 auto;
     /* Segoe UI', Tahoma, Geneva, Verdana, sans-serif to please the eyes on screens */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
@@ -73,7 +73,8 @@ body{
     /* Chose #008891 for ADD */
     background-color:#008891;
     max-width: 100%;
-    /* margin: 0 auto; */
+    padding: 12px;
+    margin: 0 auto;
 }
 
 .nav .nav-link{
@@ -100,6 +101,7 @@ body{
     font-size: 16px;
     font-weight: lighter;
     line-height: 2;
+    
     
 }
 
@@ -141,10 +143,15 @@ body{
 #contact.contact{
     background-color: #0f3057;
     color: #e7e7de;
-    /* line-height: 1.5; */
+    line-height: 1.5;
+}
+
+#contact.contact p{
+    line-height: 2;
+    padding: 1em;
 }
 .contact .contact-form{
-    background-color: #008891;
+    background-color: #0f3057;
 }
 
 
