@@ -57,10 +57,11 @@ table {
 --------------------------------------------------- */
 
 body{
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     /* Segoe UI', Tahoma, Geneva, Verdana, sans-serif to please the eyes on screens */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 #main.main{
@@ -72,9 +73,9 @@ body{
     border: none;
     /* Chose #008891 for ADD */
     background-color:#008891;
-    max-width: 100%;
+    width: 100%;
     padding: 12px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .nav .nav-link{
@@ -154,6 +155,10 @@ body{
     background-color: #0f3057;
 }
 
+.contact-form-input{
+    width: 12px;
+    padding: 1em;
+}
 
 footer{
     background-color: #008891;
