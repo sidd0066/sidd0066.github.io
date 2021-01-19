@@ -143,6 +143,7 @@ body{
     line-height: 2;
     margin-top: 12px;
     padding: 1em;
+    text-align: center;
 }
 
 
@@ -158,6 +159,7 @@ body{
 #contact.contact p{
     line-height: 2;
     padding: 1em;
+    text-align: center;
 }
 .contact .contact-form{
     background-color: #0f3057;
