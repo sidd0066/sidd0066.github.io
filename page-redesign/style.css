@@ -86,10 +86,11 @@ body{
     display: block;
 	list-style-type: none;
     padding-top: 10px;
+    padding: 1em;
     margin: 0;
 }
 
-#nav.nav-links{
+#nav .nav-link {
     margin: 0;
 }
 .nav .nav-link:hover{
