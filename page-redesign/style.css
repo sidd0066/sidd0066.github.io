@@ -174,12 +174,14 @@ body{
 
 input[type=text],
 input[type=email]{
-    width: 250px;
+    width: 200px;
     padding: .5em;
 }
 
+.contact-form .contact-form-input{
+    width: 250px;
+}
 textarea{
-    box-sizing: border-box;
     width: 700px;
     height: 150px;
     resize: none;
@@ -248,25 +250,29 @@ footer p{
 
 #about.about{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
 
     
 }
 
-
+/* .about-image{
+    grid-area: img;
+} */
 #about.about h2{
     font-size: 48px;
 }
 #about.about p{
     font-size: 18px;
     text-align: left;
+    
 }
 
 
 
 #contact.contact h2{
     font-size: 48px;
+    padding-left: 10px;
 }
 #contact.contact p{
     font-size: 18px;
@@ -281,14 +287,10 @@ section#contact.contact{
 }
 
 
-input[type=text],
-input[type=email]{
+.contact-form .contact-form-input{
     width: 450px;
 }
 
-/* textarea{
-    width: 700px;
-} */
 
 
 
