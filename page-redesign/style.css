@@ -245,6 +245,8 @@ footer p{
     font-size: 18px;
     text-align: left;
     line-height: 2.5;
+    padding-left: 5em;
+    padding-right: 2em;
 }
 
 #about.about h2{
@@ -255,6 +257,7 @@ footer p{
     text-align: left;
     padding: 2em;    
     line-height: 2.5;
+    padding-right: 5em;
 }
 
 #about.about .about-image{
@@ -265,26 +268,25 @@ footer p{
 
 #contact.contact h2{
     font-size: 48px;
-    padding-left: 100px;
-}
-
-/* Using grid to put paragraph and forms beside each other */
-section#contact.contact{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
 }
 
 #contact.contact p{
     font-size: 18px;
     text-align: left;
     line-height: 2.5;
-    padding: 2em;
+    padding-left: 10em;
+    padding-right: 5em;
+    margin-top: 20px;
     
 }
 
+.contact .contact-form{
+padding-right: 500px;
+}
+
+
 .contact-form .contact-form-input{
-    width: 450px;  
+    width: 600px;  
 }
 
 }
