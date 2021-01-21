@@ -64,6 +64,7 @@ body{
     
 }
 
+/* max-width at 100% so it's filling whole screen */
 #main.main{
     max-width: 100%;
 
@@ -72,7 +73,7 @@ body{
 /* Navigation */
 #nav.nav{
     border: none;
-    /* Chose #008891 for ADD */
+    /* Chose #008891 to make Naviagtion stand out more */
     background-color:#008891;
     width: 100%;
     padding: 0;
@@ -130,7 +131,6 @@ body{
     margin-top: 30px;
     float: none;
     display: block;
-    
     padding-bottom: 10px;
 }
 
@@ -171,18 +171,13 @@ body{
     padding-right: 150px;
 }
 
-/* input[type=text],
-input[type=email]{
-    width: 200px;
-    padding: .5em;
-} */
 
 .contact-form .contact-form-input{
     width: 250px;
 }
 textarea{
     width: 700px;
-    height: 225px;
+    height: 125px;
     resize: none;
 }
 .contact-form-section{
@@ -222,8 +217,8 @@ footer p{
     font-size: 14px;
 }
 
-/* ---------------------------------------------------
-            Style for Desktop Screens
+/* -----------------------------------------------------
+    Adding a Media Query to make the web-page responsive
 --------------------------------------------------- */
 
 @media screen and (min-width: 760px){
@@ -284,6 +279,9 @@ footer p{
 padding-right: 500px;
 }
 
+textarea{
+    height: 225px;
+}
 
 .contact-form .contact-form-input{
     width: 600px;  
