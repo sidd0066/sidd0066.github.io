@@ -111,7 +111,6 @@ body{
     font-weight: lighter;
     line-height: 2;
     
-    
 }
 
 #home.home{
@@ -169,14 +168,14 @@ body{
     background-color: #0f3057;
     max-width: 120px;
     padding: 0;
-    padding-right: 130px;
+    padding-right: 150px;
 }
 
-input[type=text],
+/* input[type=text],
 input[type=email]{
     width: 200px;
     padding: .5em;
-}
+} */
 
 .contact-form .contact-form-input{
     width: 250px;
@@ -254,7 +253,8 @@ footer p{
 #about.about p{
     font-size: 18px;
     text-align: left;
-    padding: 2.3em;    
+    padding: 2em;    
+    line-height: 2.5;
 }
 
 #about.about .about-image{
@@ -265,26 +265,26 @@ footer p{
 
 #contact.contact h2{
     font-size: 48px;
-    padding-left: 10px;
+    padding-left: 100px;
 }
-#contact.contact p{
-    font-size: 18px;
-    text-align: left;
-    line-height: 2.5;
-}
+
+/* Using grid to put paragraph and forms beside each other */
 section#contact.contact{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
+}
+
+#contact.contact p{
+    font-size: 18px;
+    text-align: left;
+    line-height: 2.5;
+    padding: 2em;
     
 }
 
-
 .contact-form .contact-form-input{
-    width: 450px;
+    width: 450px;  
 }
-
-
-
 
 }
