@@ -214,12 +214,12 @@ footer p{
     color: #e7e7de;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 10px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
-/* -----------------------------------------------------
-    Adding a Media Query to make the web-page responsive
---------------------------------------------------- */
+/* ---------------------------------------------------------------------------------
+    Adding a Media Query to make the web-page responsive for Desktop screens
+------------------------------------------------------------------------------------ */
 
 @media screen and (min-width: 760px){
 .nav .nav-link {
@@ -227,6 +227,7 @@ footer p{
     padding: 3em;  
 }
 
+/* Adding more paddings to have more space for nav texts */
 #nav.nav{
     padding-bottom: 25px;
     padding-top: 25px;
@@ -255,6 +256,7 @@ footer p{
     padding-right: 5em;
 }
 
+/* Floating image to the left for better ... */
 #about.about .about-image{
     float: left;
     width: 300px;
@@ -279,13 +281,17 @@ footer p{
 padding-right: 500px;
 }
 
-/* Adjusting height of message-box for... */
+/* Adjusting height of message-box for better alignment */
 textarea{
     height: 225px;
 }
 
 .contact-form .contact-form-input{
     width: 600px;  
+}
+
+footer p{
+    font-size: 14px;
 }
 
 }
