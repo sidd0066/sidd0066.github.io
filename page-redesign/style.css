@@ -105,6 +105,8 @@ body{
 }
 
 /* These are the styles for the Home Section*/
+
+/* h1 styles to make it more readable */
 #home.home h1{
     font-size: 68px;
     color: #e7e7de;
@@ -120,6 +122,7 @@ body{
     
 }
 
+/* Chose #0f3057 to make it easy on the eyes */
 #home.home{
     background-color: #0f3057;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -243,8 +246,10 @@ footer p{
 ------------------------------------------------------------------------------------ */
 
 @media screen and (min-width: 760px){
-    /* Navigation */
-    /* Using inline to put nav links on one line */
+
+/* These are the Navigation styles */
+    
+/* Using inline to put nav links on one line */
 .nav .nav-link {
     display: inline; 
     padding: 3em;  
@@ -256,7 +261,7 @@ footer p{
     padding-top: 25px;
 }
 
-/* Home Section */
+/* /* These are the Home Section styles */ */
 
 /* increasing font-size for h1 to be more readable  */
 #home.home h1{
@@ -271,7 +276,7 @@ footer p{
     padding-right: 2em;
 }
 
-/* About Section */
+ /* These are the styles for the About Section  */ 
 
 /* increasing font-size for h2 to be more readable  */
 #about.about h2{
@@ -291,7 +296,7 @@ footer p{
     width: 300px;
 }
 
-/* Contact me Section */
+/* These are the styles for the Contact Me section */
 
 /* increasing font-size for h2 to be more readable  */
 #contact.contact h2{
@@ -322,7 +327,7 @@ textarea{
     width: 600px;  
 }
 
-/* Footer */
+/* This is a style for the Footer */
 
 /* increasing font-size for p to be more readable  */
 footer p{
