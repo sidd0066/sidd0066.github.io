@@ -53,9 +53,10 @@ table {
 }
 
 /* ---------------------------------------------------
-                Style for Mobile Screens
+            Style for Mobile Screens
 --------------------------------------------------- */
 
+/* Using margin-left: auto and margin-right: auto to have all elements centered */
 body{
     margin-left: auto;
     margin-right: auto;
@@ -70,20 +71,23 @@ body{
 
 }
 
-/* Navigation */
+/* These are the Navigation styles */
 #nav.nav{
     border: none;
     /* Chose #008891 to make Naviagtion stand out more */
     background-color:#008891;
     width: 100%;
+    /* Overidding paddings and margins on nav element */
     padding: 0;
     margin: 0;
     
 }
 
+/* Chose #e7e7de to make nav texts readable with background-color */
 .nav .nav-link{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #e7e7de;
+    /* Using display: block; to have nav texts on their own line  */
     display: block;
 	list-style-type: none;
     padding-top: 10px;
@@ -91,6 +95,7 @@ body{
     margin: 0;
 }
 
+/* Making nav links light to make it appealing */
 #nav .nav-link {
     margin: 0;
     font-weight: lighter;
@@ -99,13 +104,14 @@ body{
     text-decoration: underline;
 }
 
-/* Home */
+/* These are the styles for the Home Section*/
 #home.home h1{
     font-size: 68px;
     color: #e7e7de;
     line-height: 2;
 }
 
+/* paragraph styles to make it for readable  */
 #home.home p{
     color: #e7e7de;
     font-size: 16px;
@@ -119,16 +125,18 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* About */
+/* These are the styles for the About Section */
 #about.about{
     background-color: #00587a;
     
 }
 
+/* Adjusting width, padding to fit better on page */
 #about.about .about-image{
     width: 300px;
     padding-left: 120px;
     margin-top: 30px;
+    /* Removing float so that image is displayed on top of the paragraph */
     float: none;
     display: block;
     padding-bottom: 10px;
@@ -148,7 +156,7 @@ body{
 }
 
 
-/* Contact */
+/* These are the styles for the Contact Me Section*/
 
 #contact.contact{
     background-color: #0f3057;
@@ -158,6 +166,7 @@ body{
     
 }
 
+/* Adding styles for contact paragraph to make it more readable  */
 #contact.contact p{
     line-height: 2;
     padding: 1em;
@@ -175,18 +184,22 @@ body{
 .contact-form .contact-form-input{
     width: 250px;
 }
+
+/* Adjusting width and height of message-box to line up perfectly with Name and Email */
 textarea{
     width: 700px;
     height: 125px;
     resize: none;
 }
+
+/* Adding padding to forms for breathing room */
 .contact-form-section{
     padding: 1em;
 }
 
 
 
-
+/* Styling the Send Message button to show better on page */
 button{
     background-color: inherit;
     color: #e7e7de;
@@ -197,14 +210,21 @@ button{
     font-size: 16px;
 }
 
+/* Adding Hover and Focus on button to show better on page  */
 button:hover,
 button:focus{
    background-color: #008891;
    
 }
+
+/* Making button bold when clicked to look better */
 button:active{
     font-weight: bold;
 }
+
+/* Thses are the Footer styles */
+
+/* Using #008891 to end the website and match up with nav*/
 footer{
     background-color: #008891;
     padding:1em; 
@@ -215,6 +235,7 @@ footer p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 10px;
     font-size: 12px;
+    font-weight: lighter;
 }
 
 /* ---------------------------------------------------------------------------------
@@ -222,17 +243,22 @@ footer p{
 ------------------------------------------------------------------------------------ */
 
 @media screen and (min-width: 760px){
+    /* Navigation */
+    /* Using inline to put nav links on one line */
 .nav .nav-link {
     display: inline; 
     padding: 3em;  
 }
 
-/* Adding more paddings to have more space for nav texts */
+/* Adding more paddings to have more space for nav around texts */
 #nav.nav{
     padding-bottom: 25px;
     padding-top: 25px;
 }
 
+/* Home Section */
+
+/* increasing font-size for h1 to be more readable  */
 #home.home h1{
     font-size: 80px;
 }
@@ -245,6 +271,9 @@ footer p{
     padding-right: 2em;
 }
 
+/* About Section */
+
+/* increasing font-size for h2 to be more readable  */
 #about.about h2{
     font-size: 48px;
 }
@@ -256,17 +285,20 @@ footer p{
     padding-right: 5em;
 }
 
-/* Floating image to the left for better ... */
+/* Floating image to the left for better viewing (Left to Right) */
 #about.about .about-image{
     float: left;
     width: 300px;
 }
 
+/* Contact me Section */
 
+/* increasing font-size for h2 to be more readable  */
 #contact.contact h2{
     font-size: 48px;
 }
 
+/* Styles for paragraph to make it more readable  */
 #contact.contact p{
     font-size: 18px;
     text-align: left;
@@ -290,6 +322,9 @@ textarea{
     width: 600px;  
 }
 
+/* Footer */
+
+/* increasing font-size for p to be more readable  */
 footer p{
     font-size: 14px;
 }
