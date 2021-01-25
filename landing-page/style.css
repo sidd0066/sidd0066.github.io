@@ -1,14 +1,14 @@
-/* body{
-    background: url(./images/bg-image/scooter.svg);
-    height: 200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+body{
+    font-family:Monserrat;
 
-} */
+}
 
 .bg-img{
     max-width: 100%;
     
+}
+
+.logo-img{
+    max-width: 20%;
+    padding: 1em;
 }
