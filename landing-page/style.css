@@ -52,19 +52,25 @@ table {
 }
 
 
-/* These are the mobile styles */
+/* -------------------------------
+    These are the mobile styles
+--------------------------------- */
 
 body{
     font-family:'Montserrat', sans-serif;
-
-}
-
-.bg-img{
-    max-width: 80%;
     padding: 1em;
 }
 
 .logo-img{
     max-width: 20%;
-    padding: 1em;
+    
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.bg-img{
+    max-width: 80%;
+
 }
