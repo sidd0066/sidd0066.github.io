@@ -107,7 +107,8 @@ h1{
 
 .form input[type=submit]{
 	font-weight: bold;
-	font-size: 1rem;
+	padding: 0.5em;
+	font-size: 1.3rem;
 	text-transform: uppercase;
 	background-color: #57eeab;
 	width: 250px;
