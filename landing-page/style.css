@@ -58,7 +58,7 @@ table {
 
 body{
     font-family:'Montserrat', sans-serif;
-	padding: 2em;
+	/* padding: 2em; */
 	background-color: #f7f7ff;
 }
 
@@ -78,10 +78,17 @@ h1{
 }
 
 .apply-now{
-	/* background-color: #ffffff; */
+	background-color: #ffffff;
 	border: solid 0.5px black;
 	border-radius: 20px;
 	text-align: center;
+	padding: 2em;
+	margin: 2em;
+}
+.apply-now h2{
+	padding-right: 50px;
+	font-weight: bold;
+	font-size: 2em;
 }
 .form input{
 	padding: .5em;
@@ -92,5 +99,6 @@ h1{
 
 footer{
 	background-color: #fffd8c;
+	padding: 1em;
 	
 }
