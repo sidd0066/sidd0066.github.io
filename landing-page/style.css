@@ -73,11 +73,18 @@ header{
 }
 
 h1{
-    font-size: 4.5em;
+    font-size: 4em;
 	font-weight: bold;
 	line-height: 1;
 	padding-right: 120px;
 }
+
+header p{
+   font-size: 30px;
+   line-height: 1;
+   padding-bottom: 12px;
+}
+
 .bg-img{
 	max-width: 80%;
 	padding-left: 50px;
@@ -103,10 +110,10 @@ h1{
 	/* text-align: left; */
 }
 
- header p{
-	font-size: 36px;
+.form p{
 	line-height: 1.5;
 }
+
 .form input{
 	padding: 1em;
 	margin: .5em;
