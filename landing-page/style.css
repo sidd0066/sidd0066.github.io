@@ -133,3 +133,9 @@ footer{
 	padding: 2em;
 	
 }
+
+footer h3{
+	font-size: 2em;
+	font-weight: bold;
+	padding-bottom: 12px;
+}
