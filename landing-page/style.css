@@ -84,6 +84,7 @@ h1{
 	text-align: center;
 	padding: 2em;
 	margin: 2em;
+	box-shadow: 6px 18px 35px -24px rgba(0,0,0,0.86);
 }
 .apply-now h2{
 	padding-right: 50px;
