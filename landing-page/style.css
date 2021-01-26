@@ -83,9 +83,9 @@ h1{
 	border-radius: 20px;
 	/* text-align: center; */
 	/* 		top	 right bottom left   */
-	padding: 10px 30px 20px 20px;
+	padding: 10px 20px 20px 20px;
 	/* Figure out padding and margin */
-	margin: 1.5em 3.5em 1.5em 3.5em;
+	margin: 4em 5em 4em 5em;
 	box-shadow: 6px 18px 35px -24px rgba(0,0,0,0.86);
 }
 .apply-now h2{
@@ -104,6 +104,15 @@ h1{
 	/* width: 250px; */
 	
 }
+
+.form input[type=submit]{
+	font-weight: bold;
+	font-size: 1rem;
+	text-transform: uppercase;
+	background-color: #57eeab;
+	width: 250px;
+}
+
 
 .orange-text{
 	color: #ff8480;
