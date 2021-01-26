@@ -55,9 +55,11 @@ table {
 /* -------------------------------
     These are the mobile styles
 --------------------------------- */
+html{
+	font-family:'Montserrat', sans-serif;
+}
 
 body{
-    font-family:'Montserrat', sans-serif;
 	background-color: #f7f7ff;
 	color: #333131;
 }
