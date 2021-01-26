@@ -58,19 +58,36 @@ table {
 
 body{
     font-family:'Montserrat', sans-serif;
-    padding: 1em;
+	padding: 1em;
+	background-color: #f7f7ff;
 }
 
 .logo-img{
-    max-width: 20%;
+    max-width: 40%;
     
 }
 
 h1{
-    font-size: 3rem;
-    font-weight: bold;
+    font-size: 4em;
+	font-weight: bold;
+	line-height: 1.5;
 }
 .bg-img{
     max-width: 80%;
 
+}
+
+.apply-now{
+	background-color: #ffffff;
+}
+.form input{
+	padding: .5em;
+	margin: .5em;
+	background-color: #f4f4f5;
+	
+}
+
+footer{
+	background-color: #fffd8c;
+	
 }
