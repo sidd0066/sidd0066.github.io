@@ -181,3 +181,8 @@ footer .footer-icons .icon{
 	margin: 1em;
 	padding: 1em;
 }
+
+footer .footer-icons .fb{
+	border: solid 0.25px #fffd8c;
+	border-radius: 50px;
+}
