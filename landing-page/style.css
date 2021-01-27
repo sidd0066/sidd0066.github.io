@@ -174,10 +174,10 @@ footer h3{
 	text-transform: uppercase;
 	padding: .5em;
 	font-size: 1.4em;
-	width: 255px;
+	width: 355px;
 }
 
-footer .footer-icons .icon{
+.footer-icons .icon{
 	margin: 1em;
 	padding: 1em;
 }
