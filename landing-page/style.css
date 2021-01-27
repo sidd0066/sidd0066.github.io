@@ -160,6 +160,8 @@ footer h3{
 .footer-form input{
 	padding: .5em;
 	margin: .1em;
+	margin-bottom: .5em;
+	margin-top: .5em;
 	font-size: 1em;
 	/* margin-left: 100px; */
 	background-color: #f4f4f5;
@@ -178,11 +180,11 @@ footer h3{
 	text-transform: uppercase;
 	padding: .5em;
 	font-size: 1.4em;
-	width: 320px;
+	width: 325px;
 }
 
 .footer-form input#city{
-	width: 235px;
+	width: 240px;
 }
 
 .footer-icons .icon{
