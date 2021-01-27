@@ -123,7 +123,7 @@ header p{
 	font-size: 1em;
 }
 .form input[type=text]{
-	width: 250px;
+	width: 260px;
 }
 
 .form input[type=submit]{
@@ -185,11 +185,11 @@ footer p{
 	text-transform: uppercase;
 	padding: .5em;
 	font-size: 1.4em;
-	width: 330px;
+	width: 335px;
 }
 
 .footer-form input#city{
-	width: 245px;
+	width: 250px;
 }
 
 .footer-icons .icon{
