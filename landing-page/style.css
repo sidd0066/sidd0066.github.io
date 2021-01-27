@@ -207,7 +207,7 @@ footer .footer-icons .fb{
 		These are the Tablet Styles
 -----------------------------------------*/
 
-@media screen and (min-width: 600px) and (max-width: 768px){
+@media screen and (min-width: 600px) and (max-width: 800px){
 	
 
 
@@ -229,5 +229,5 @@ footer .footer-icons .fb{
 
 
 
-	
+
   }
