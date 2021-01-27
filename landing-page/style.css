@@ -176,3 +176,8 @@ footer h3{
 	font-size: 1.4em;
 	width: 255px;
 }
+
+footer .footer-icons .icon{
+	margin: 1em;
+	padding: 1em;
+}
