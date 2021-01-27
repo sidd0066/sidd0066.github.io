@@ -115,7 +115,7 @@ header p{
 }
 
 .form input{
-	padding: 1em;
+	padding: .5em;
 	margin: .5em;
 	background-color: #f4f4f5;
 	border: solid 0.5px #f4f4f5;
