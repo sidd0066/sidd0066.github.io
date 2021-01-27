@@ -72,6 +72,7 @@ header{
     padding-bottom: 20px;
 }
 
+/* Styling h1 to be more readable on mobile */
 h1{
     font-size: 4em;
 	font-weight: bold;
@@ -142,6 +143,8 @@ header p{
 	color: #ff8480;
 	text-decoration: none;
 }
+
+/* These are the Footer styles */
 footer{
 	background-color: #fffd8c;
 	padding: 2em;
@@ -157,7 +160,7 @@ footer h3{
 .footer-form input{
 	padding: .5em;
 	margin: .5em;
-	margin-left: 100px;
+	/* margin-left: 100px; */
 	background-color: #f4f4f5;
 	border: solid 0.5px #fffd8c;
 	border-radius: 10px;	
@@ -182,6 +185,7 @@ footer h3{
 	padding: .5em;
 }
 
+/* Adding border and border-radius to round facebook icon */
 footer .footer-icons .fb{
 	border: solid 0.25px #fffd8c;
 	border-radius: 50px;
