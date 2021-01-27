@@ -133,7 +133,8 @@ header p{
 	text-transform: uppercase;
 	background-color: #57eeab;
 	font-stretch: expanded;
-	width: 150px;
+	/* Increasing drive with us but to match with text forms  */
+	width: 275px;
 }
 
 /* Adding #ff8480 and text-decoration: none; to match with example */
@@ -154,7 +155,7 @@ footer h3{
 }
 
 footer input{
-	padding: 1em;
+	padding: .5em;
 	margin: .5em;
 	background-color: #f4f4f5;
 	border: solid 0.5px #f4f4f5;
@@ -162,5 +163,5 @@ footer input{
 }
 
 footer input#hours{
-	width: 25px;
+	width: 35px;
 }
