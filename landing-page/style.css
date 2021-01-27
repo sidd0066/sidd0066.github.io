@@ -123,6 +123,9 @@ header p{
 	/* width: 250px; */
 	
 }
+.form input[type=text]{
+	width: 350px;
+}
 
 .form input[type=submit]{
 	font-weight: bold;
@@ -132,7 +135,7 @@ header p{
 	text-transform: uppercase;
 	background-color: #57eeab;
 	font-stretch: expanded;
-	/* width: 250px; */
+	width: 350px;
 }
 
 
