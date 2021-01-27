@@ -154,14 +154,24 @@ footer h3{
 	padding-bottom: 12px;
 }
 
-footer input{
+.footer-form input{
 	padding: .5em;
 	margin: .5em;
 	background-color: #f4f4f5;
-	border: solid 0.5px #f4f4f5;
+	border: solid 0.5px #fffd8c;
 	border-radius: 10px;	
 }
 
-footer input#hours{
+.footer-form input#hours{
 	width: 35px;
+}
+
+.footer-form input[type=submit]{
+	background-color: #ff8480;
+	color: #f7f7ff;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: .5em;
+	font-size: 1em;
+	width: 255px;
 }
