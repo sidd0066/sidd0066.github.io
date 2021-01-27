@@ -107,7 +107,6 @@ header p{
 	font-weight: bold;
 	font-size: 3em;
 	line-height: 1.5;
-	/* text-align: left; */
 }
 
 .form p{
@@ -137,7 +136,7 @@ header p{
 	width: 150px;
 }
 
-
+/* Adding #ff8480 and text-decoration: none; to match with example */
 .orange-text{
 	color: #ff8480;
 	text-decoration: none;
@@ -152,4 +151,16 @@ footer h3{
 	font-size: 1.5em;
 	font-weight: bold;
 	padding-bottom: 12px;
+}
+
+footer input{
+	padding: 1em;
+	margin: .5em;
+	background-color: #f4f4f5;
+	border: solid 0.5px #f4f4f5;
+	border-radius: 10px;	
+}
+
+footer input#hours{
+	width: 25px;
 }
