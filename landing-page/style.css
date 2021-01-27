@@ -120,7 +120,7 @@ header p{
 	background-color: #f4f4f5;
 	border: solid 0.5px #f4f4f5;
 	border-radius: 10px;
-	
+	font-size: 1em;
 }
 .form input[type=text]{
 	width: 250px;
@@ -159,7 +159,8 @@ footer h3{
 
 .footer-form input{
 	padding: .5em;
-	margin: .5em;
+	margin: .1em;
+	font-size: 1em;
 	/* margin-left: 100px; */
 	background-color: #f4f4f5;
 	border: solid 0.5px #fffd8c;
@@ -167,7 +168,7 @@ footer h3{
 }
 
 .footer-form input#hours{
-	width: 35px;
+	width: 45px;
 }
 
 .footer-form input[type=submit]{
@@ -177,7 +178,11 @@ footer h3{
 	text-transform: uppercase;
 	padding: .5em;
 	font-size: 1.4em;
-	width: 315px;
+	width: 320px;
+}
+
+.footer-form input#city{
+	width: 235px;
 }
 
 .footer-icons .icon{
