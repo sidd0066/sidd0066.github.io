@@ -80,7 +80,7 @@ h1{
     font-size: 4em;
 	font-weight: bold;
 	line-height: 1.2;
-	padding-right: 160px;
+	padding-right: 140px;
 }
 
 header p{
@@ -296,4 +296,19 @@ footer h3{
 	max-width: 10%;
 }	
 
-  }
+
+
+
+
+.footer-flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-form input[type=submit]{
+	width: 25%;
+	padding: .3em;
+	font-size: 1em;
+}
+
+}
