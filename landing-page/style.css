@@ -123,6 +123,7 @@ header p{
 	margin: .5em;
 	background-color: #f4f4f5;
 	border: solid 0.5px #f4f4f5;
+	font-family:'Montserrat', sans-serif;
 	border-radius: 10px;
 	font-size: 1em;
 }
@@ -132,7 +133,7 @@ header p{
 
 .form input[type=submit]{
 	font-weight: bold;
-	padding: 0.5em;
+	padding: .7em;
 	color: #333131;
 	font-size: 1.3rem;
 	text-transform: uppercase;
@@ -173,7 +174,7 @@ footer p{
 	margin-bottom: .5em;
 	margin-top: .5em;
 	font-size: 1em;
-	/* margin-left: 100px; */
+	font-family:'Montserrat', sans-serif;
 	background-color: #f4f4f5;
 	border: solid 0.5px #fffd8c;
 	border-radius: 10px;	
@@ -257,7 +258,7 @@ h1{
 /* Footer */
 
 footer h3{
-	font-size: 1.5em;
+	font-size: 1em;
 }
 .footer-form input#hours{
 	width: 20%;
