@@ -197,10 +197,14 @@ footer p{
 	width: 75%;
 }
 
+.footer-icons{
+	padding-left: 4em;
+}
+
 .footer-icons .icon{
 	margin: .5em;
 	padding: .5em;
-	/* padding-left: 2em; */
+	
 }
 
 /* Adding border and border-radius to round facebook icon */
