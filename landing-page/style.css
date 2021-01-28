@@ -258,7 +258,7 @@ h1{
 /* Decreasing CALCULATE button to move on same line as forms */
 
 .footer-form input[type=submit]{
-	width: 65%;
+	width: 30%;
 	padding: .3em;
 	font-size: 1.2em;
 }
