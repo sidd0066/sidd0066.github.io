@@ -55,7 +55,7 @@ table {
 /* -------------------------------
     These are the mobile styles
 --------------------------------- */
-@media screen and (min-width: 300px) and (max-width: 600px){
+
 
 
 html{
@@ -127,7 +127,7 @@ header p{
 	font-size: 1em;
 }
 .form input[type=text]{
-	width: 250px;
+	width: 80%;
 }
 
 .form input[type=submit]{
@@ -139,7 +139,7 @@ header p{
 	background-color: #57eeab;
 	font-stretch: expanded;
 	/* Increasing DRIVE WITH US button width to match with text forms  */
-	width: 265px;
+	width: 87%;
 }
 
 /* Adding #ff8480 and text-decoration: none; to match with example */
@@ -179,7 +179,7 @@ footer p{
 }
 
 .footer-form input#hours{
-	width: 45px;
+	width: 13%;
 }
 
 .footer-form input[type=submit]{
@@ -189,11 +189,11 @@ footer p{
 	text-transform: uppercase;
 	padding: .5em;
 	font-size: 1.4em;
-	width: 340px;
+	width: 80%;
 }
 
 .footer-form input#city{
-	width: 255px;
+	width: 45%;
 }
 
 .footer-icons .icon{
@@ -207,7 +207,7 @@ footer .footer-icons .fb{
 	border-radius: 50px;
 }
 
-}
+
 
 /*------------------------------------------
 		These are the TABLET Styles
@@ -248,17 +248,17 @@ h1{
 
 
 .footer-form input#hours{
-	width: 85px;
+	width: 20%;
 }
 
 .footer-form input#city{
-	width: 235px;
+	width: 35%;
 }
 
 /* Decreasing CALCULATE button to move on same line as forms */
 
 .footer-form input[type=submit]{
-	width: 200px;
+	width: 65%;
 	padding: .3em;
 	font-size: 1.2em;
 }
