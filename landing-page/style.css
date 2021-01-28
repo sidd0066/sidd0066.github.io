@@ -194,7 +194,7 @@ footer p{
 }
 
 .footer-icons .icon{
-	margin: 1em;
+	margin: .5em;
 	padding: .5em;
 }
 
@@ -210,38 +210,49 @@ footer .footer-icons .fb{
 
 @media screen and (min-width: 600px) and (max-width: 800px){
 	
+h1{
+	padding-right: 180px;
+}
+
+	
+header p{
+	/* padding-bottom: 200px; */
+	/* margin-top: 200px; */
+	
+}	
+	
+.bg-img{
+	z-index: -1;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+/* Footer */
 
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	/* Footer */
+.footer-form input#hours{
+	width: 85px;
+}
 
+.footer-form input#city{
+	width: 245px;
+}
 
-	.footer-form input#hours{
-		width: 55px;
-	}
+/* Decreasing CALCULATE button to move on same line as forms */
 
-	.footer-form input#city{
-		width: 245px;
-	}
-	
-	/* Decreasing CALCULATE button to move on same line as forms */
-	
-	.footer-form input[type=submit]{
-		width: 300px;
-	
-	}
+.footer-form input[type=submit]{
+	width: 250px;
 
+}
+
+.footer-icons{
+	padding-left: 150px;
+}
 
 
 
