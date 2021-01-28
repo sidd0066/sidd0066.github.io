@@ -272,7 +272,7 @@ footer h3{
 
 .footer-form input[type=submit]{
 	width: 30%;
-	padding: .3em;
+	padding: .5em;
 	font-size: 1.2em;
 }
 
@@ -305,9 +305,13 @@ footer h3{
 	justify-content: space-between;
 }
 
+.footer-form input#city{
+	width: 50%;
+}
+
 .footer-form input[type=submit]{
 	width: 25%;
-	padding: .3em;
+	padding: .5em;
 	font-size: 1em;
 }
 
