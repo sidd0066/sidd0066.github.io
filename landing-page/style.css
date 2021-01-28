@@ -55,6 +55,9 @@ table {
 /* -------------------------------
     These are the mobile styles
 --------------------------------- */
+@media screen and (min-width: 300px) and (max-width: 600px){
+
+
 html{
 	font-family:'Montserrat', sans-serif;
 }
@@ -202,6 +205,8 @@ footer p{
 footer .footer-icons .fb{
 	border: solid 0.25px #fffd8c;
 	border-radius: 50px;
+}
+
 }
 
 /*------------------------------------------
