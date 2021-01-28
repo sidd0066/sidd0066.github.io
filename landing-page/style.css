@@ -254,8 +254,8 @@ h1{
 
 .footer-form input[type=submit]{
 	width: 200px;
-	padding: .2em;
-
+	padding: .3em;
+	font-size: 1.2em;
 }
 
 .footer-icons{
