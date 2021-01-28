@@ -198,7 +198,7 @@ footer p{
 }
 
 .footer-icons{
-	padding-left: 10%;
+	padding-left: 12%;
 }
 
 .footer-icons .icon{
@@ -222,7 +222,7 @@ footer .footer-icons .fb{
 @media screen and (min-width: 600px) and (max-width: 800px){
 	
 h1{
-	padding-right: 190px;
+	font-size: 3.5em;
 }
 
 	/* Figure out z-index: issue; */
