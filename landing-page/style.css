@@ -225,11 +225,20 @@ footer .footer-icons .fb{
 	
 	
 	/* Footer */
+
+
+	.footer-form input#hours{
+		width: 55px;
+	}
+
+	.footer-form input#city{
+		width: 245px;
+	}
 	
 	/* Decreasing CALCULATE button to move on same line as forms */
 	
 	.footer-form input[type=submit]{
-		width: 320px;
+		width: 300px;
 	
 	}
 
