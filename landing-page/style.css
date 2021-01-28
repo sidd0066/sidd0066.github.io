@@ -297,7 +297,9 @@ footer h3{
 }	
 
 
-
+.footer-icons{
+	padding-left: 0;
+}
 
 
 .footer-flex{
