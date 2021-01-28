@@ -215,18 +215,25 @@ h1{
 }
 
 	
-header p{
+/* header p{
 	/* padding-bottom: 200px; */
-	/* margin-top: 200px; */
+	/* margin-top: 200px; 
 	
-}	
+}	 */
 	
 .bg-img{
 	z-index: -1;
 }
+
+/* Decreasing font-size of h3 to match with mockup example */
+
+.apply-now h2{
+	font-size: 2em;
+}
 	
-	
-	
+.form-head p{
+	font-size: 1.5em;
+}
 	
 	
 	
