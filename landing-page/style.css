@@ -142,6 +142,7 @@ header p{
 	width: 87%;
 }
 
+
 /* Adding #ff8480 and text-decoration: none; to match with example */
 .orange-text{
 	color: #ff8480;
@@ -220,7 +221,7 @@ h1{
 	padding-right: 190px;
 }
 
-	
+	/* Figure out z-index: issue; */
 /* header p{
 	/* padding-bottom: 200px; */
 	/* margin-top: 200px; 
