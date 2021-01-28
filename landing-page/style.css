@@ -127,7 +127,7 @@ header p{
 	font-size: 1em;
 }
 .form input[type=text]{
-	width: 270px;
+	width: 250px;
 }
 
 .form input[type=submit]{
@@ -139,7 +139,7 @@ header p{
 	background-color: #57eeab;
 	font-stretch: expanded;
 	/* Increasing DRIVE WITH US button width to match with text forms  */
-	width: 285px;
+	width: 265px;
 }
 
 /* Adding #ff8480 and text-decoration: none; to match with example */
