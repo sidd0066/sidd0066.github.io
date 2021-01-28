@@ -199,6 +199,7 @@ footer p{
 .footer-icons .icon{
 	margin: .5em;
 	padding: .5em;
+	/* padding-left: 2em; */
 }
 
 /* Adding border and border-radius to round facebook icon */
@@ -240,13 +241,19 @@ h1{
 	font-size: 1.5em;
 }
 	
-	
-	
-	
+.form input[type=text]{
+	width: 90%;
+}
+
+.form input[type=submit]{
+	width: 94%;
+}
 	
 /* Footer */
 
-
+footer h3{
+	font-size: 1.5em;
+}
 .footer-form input#hours{
 	width: 20%;
 }
