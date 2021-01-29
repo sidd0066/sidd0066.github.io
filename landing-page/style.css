@@ -296,7 +296,30 @@ footer h3{
 	max-width: 10%;
 }	
 
+header{
+	display: flex;
+	flex-direction: column;
+}
 
+.apply-now{
+	/* 		top	 right bottom left   */
+	margin: 2em 4em 6em 4em;
+	position: relative;
+	z-index: 1;
+}
+
+.bg-img{
+	max-width: 100%;
+	margin: 2em;
+	
+	
+}
+
+.form-flex{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	
+}
 .footer-icons{
 	padding-left: 0;
 }
