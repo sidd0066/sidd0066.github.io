@@ -227,15 +227,15 @@ h1{
 }
 
 	/* Figure out z-index: issue; */
-/* header p{
-	/* padding-bottom: 200px; */
-	/* margin-top: 200px; 
+ header p{
+	z-index: 1;
 	
-}	 */
+}	 
 	
-.bg-img{
+/* .bg-img{
 	z-index: -1;
-}
+	position: relative;
+} */
 
 /* Decreasing font-size of h3 to match with mockup example */
 
@@ -310,9 +310,9 @@ header{
 
 .bg-img{
 	max-width: 100%;
-	margin: 2em;
-	
-	
+	margin: 2em;	
+	z-index: -1;
+	position: relative;
 }
 
 .form-flex{
