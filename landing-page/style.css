@@ -344,8 +344,14 @@ h1{
 
 header{
 	align-self: center;
-	margin-bottom:15% ;
+	margin-bottom:17% ;
 	padding-left: 4em;
+}
+.form input{
+	padding: .8em;
+}
+.form input[type=submit]{
+	font-size: 1.5em;
 }
 
 
@@ -372,6 +378,7 @@ footer h3{
 .footer-form input#city{
 	width: 45%;
 }
+
 
 .footer-form input[type=submit]{
 	width: 25%;
