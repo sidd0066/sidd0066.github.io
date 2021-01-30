@@ -73,7 +73,8 @@ header{
 }
 .logo-img{
     max-width: 30%;
-    padding-bottom: 20px;
+	padding-bottom: 20px;
+	padding-left: 2em;
 }
 
 /* Styling h1 to be more readable on mobile */
@@ -230,7 +231,7 @@ h1{
 	/* Figure out z-index: issue; */
  header p{
 	z-index: 1;
-	
+	position: absolute;
 }	 
 	
 /* .bg-img{
@@ -293,13 +294,24 @@ footer h3{
 
   @media screen and (min-width: 800px){
 
+/* body{
+	background-image: url("./images/bg-image/scooter.svg");
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position: center;
+} */
 .logo-img{
 	max-width: 10%;
 }	
 
-header{
+/* header{
 	display: flex;
 	flex-direction: column;
+} */
+
+h1{
+	font-size: 3.5em;
+	padding-right: 55%;
 }
 
 .apply-now{
@@ -310,15 +322,16 @@ header{
 }
 
 .bg-img{
-	max-width: 100%;
+	max-width: 40%;
 	margin: 2em;	
-	z-index: -1;
-	position: relative;
+	z-index: -11;
+	position: absolute;
+	padding-left: 25%;
 }
 
-.form-flex{
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+.main-flex{
+	display: flex;
+	align-items: flex-start;
 	
 }
 .footer-icons{
