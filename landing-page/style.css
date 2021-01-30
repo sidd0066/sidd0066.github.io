@@ -233,6 +233,7 @@ h1{
 	z-index: 1;
 	position: absolute;
 	padding-right: 2em;
+	/* margin-bottom: 100%; */
 }	 
 	
 /* .bg-img{
@@ -307,6 +308,7 @@ footer h3{
 
 
 
+
 h1{
 	font-size: 3.5em;
 	padding-right: 55%;
@@ -318,8 +320,12 @@ h1{
 	position: relative;
 }
 
+.form p{
+	font-size: .9em;
+}
+
 .bg-img{
-	max-width: 40%;
+	max-width: 45%;
 	margin: 2em;	
 	z-index: -1;
 	position: absolute;
@@ -330,6 +336,18 @@ h1{
 	display: flex;
 	align-items: flex-start;
 	
+}
+
+header{
+	align-self: center;
+	margin-bottom:15% ;
+}
+
+
+/* Footer */
+
+footer h3{
+	font-size: 1.2em;
 }
 .footer-icons{
 	padding-left: 0;
