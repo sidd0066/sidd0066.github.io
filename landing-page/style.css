@@ -296,9 +296,6 @@ footer h3{
 
   @media screen and (min-width: 800px){
 
-body{
-
-}
 
 .logo-img{
 	max-width: 10%;
@@ -323,6 +320,12 @@ h1{
 	padding-right: 4em;
 }
 
+.form-head h2{
+	font-size: 1.8em;
+}
+.form-head p{
+	font-size: 1.5em;
+}
 .form p{
 	font-size: .9em;
 }
