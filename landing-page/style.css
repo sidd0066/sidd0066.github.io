@@ -232,6 +232,7 @@ h1{
  header p{
 	z-index: 1;
 	position: absolute;
+	padding-right: 2em;
 }	 
 	
 /* .bg-img{
@@ -304,10 +305,7 @@ footer h3{
 	max-width: 10%;
 }	
 
-/* header{
-	display: flex;
-	flex-direction: column;
-} */
+
 
 h1{
 	font-size: 3.5em;
@@ -318,13 +316,12 @@ h1{
 	/* 		top	 right bottom left   */
 	margin: 2em 4em 6em 4em;
 	position: relative;
-	z-index: 1;
 }
 
 .bg-img{
 	max-width: 40%;
 	margin: 2em;	
-	z-index: -11;
+	z-index: -1;
 	position: absolute;
 	padding-left: 25%;
 }
