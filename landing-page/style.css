@@ -224,7 +224,7 @@ footer .footer-icons .fb{
 		These are the TABLET Styles
 -----------------------------------------*/
 
-@media screen and (min-width: 600px) and (max-width: 800px){
+@media screen and (min-width: 600px) and (max-width: 768px){
 	
 h1{
 	font-size: 3.5em;
@@ -295,7 +295,7 @@ footer h3{
   		These are the DESKTOP Styles 
   -------------------------------------*/
 
-  @media screen and (min-width: 800px){
+  @media screen and (min-width: 768px){
 
 /* body{
 	background-image: url("./images/bg-image/scooter.svg");
