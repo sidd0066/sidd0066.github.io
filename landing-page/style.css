@@ -343,8 +343,9 @@ h1{
 }
 
 header{
-	align-self: center;
-	margin-bottom:17% ;
+	/* align-self: center; */
+	margin-top: 3%;
+	position: relative;
 	padding-left: 4em;
 }
 .form input{
