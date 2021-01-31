@@ -65,7 +65,9 @@ html{
 body{
 	background-color: #f7f7ff;
 	color: #333131;
+	
 }
+
 
 header{
 	padding-left: 2em;
@@ -295,9 +297,14 @@ footer h3{
 
   @media screen and (min-width: 800px){
 
-
+/* body{
+	background-image: url("./images/bg-image/scooter.svg");
+	background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: center;
+} */
 .logo-img{
-	max-width: 10%;
+	max-width: 7%;
 	padding-left: 4em;
 }	
 
@@ -305,12 +312,13 @@ footer h3{
 
 
 h1{
-	font-size: 3.5em;
-	padding-right: 55%;
+	font-size: 3.7em;
+	padding-right: 50%;
+	/* margin-bottom: 5%; */
 }
  header p{
 	 font-size: 1.1em;
-	 padding-right: 50%;
+	 padding-right: 55%;
  }
 .apply-now{
 	/* 		top	 right bottom left   */
@@ -334,6 +342,7 @@ h1{
 	z-index: -1;
 	position: absolute;
 	padding-left: 25%;
+	/* display: none; */
 }
 
 .main-flex{
@@ -343,7 +352,7 @@ h1{
 
 header{
 	/* align-self: center; */
-	margin-top: 3%;
+	margin-top: 2%;
 	position: relative;
 	padding-left: 4em;
 }
