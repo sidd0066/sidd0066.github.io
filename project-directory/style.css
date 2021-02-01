@@ -201,8 +201,9 @@ footer p{
 	width: 70%;
 }
 
+/* Adding padding-left to push icons to center */
 .footer-icons{
-	padding-left: 5rem;
+	padding-left: 4.5rem;
 }
 
 .footer-icons .icon{
