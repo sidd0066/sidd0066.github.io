@@ -184,7 +184,7 @@ footer p{
 }
 
 .footer-form input#hours{
-	width: 17%;
+	width: 15%;
 }
 
 .footer-form input[type=submit]{
@@ -198,7 +198,7 @@ footer p{
 }
 
 .footer-form input#city{
-	width: 65%;
+	width: 70%;
 }
 
 /* Adding padding-left to push icons to center */
