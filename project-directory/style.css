@@ -297,12 +297,7 @@ footer h3{
 
   @media screen and (min-width: 1024px){
 
-/* body{
-	background-image: url("./images/bg-image/scooter.svg");
-	background-repeat: no-repeat;
-  background-size: 45%;
-  background-position: center;
-} */
+
 .logo-img{
 	max-width: 7%;
 	padding-left: 4em;
