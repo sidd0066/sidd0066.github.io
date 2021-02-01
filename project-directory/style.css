@@ -381,37 +381,44 @@ footer p{
 	font-size: 1em;
 	/* line-height: 1; */
 }
-.footer-icons{
-	padding-left: 0;
-	padding-right: 1.5em;	
-}
 
-.footer-icons .icon:first-child{
-	order: 1;
-}
 
-.footer-flex{
-	display: flex;
-	justify-content: space-between;
-}
-footer .footer-icons .fb{
-	border: 0;
-	border-radius: 0;
-}
-
-.footer-icons:first-child{
-	order: 1;
-}
 .footer-form input#city{
 	width: 45%;
 }
-
 
 .footer-form input[type=submit]{
 	width: 25%;
 	padding: .5em;
 	font-size: 1em;
 }
+
+.footer-icons{
+	padding-left: 0;
+	padding-right: 1.5em;	
+}
+
+.footer-flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-icons{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+footer .footer-icons .fb{
+	border: 0;
+	border-radius: 0;
+	order: 1;
+}
+
+footer .footer-icons .ln{
+	order: 2;
+}
+
 
 
 }
