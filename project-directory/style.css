@@ -65,7 +65,6 @@ html{
 body{
 	background-color: #f7f7ff;
 	color: #333131;
-	
 }
 
 
@@ -203,12 +202,11 @@ footer p{
 }
 
 .footer-icons{
-	padding-left: 12%;
+	padding-left: 5rem;
 }
 
 .footer-icons .icon{
-	margin: .5em;
-	padding: .5em;
+	padding: 1rem;
 	
 }
 
@@ -218,6 +216,10 @@ footer .footer-icons .fb{
 	border-radius: 50px;
 }
 
+footer .footer-icons .tw{
+	background-color: #fffd8c;
+	fill: #333131;
+}
 
 
 /*------------------------------------------
@@ -310,7 +312,6 @@ footer h3{
 
 
 
-
 h1{
 	font-size: 3.7em;
 	padding-right: 50%;
@@ -397,6 +398,9 @@ footer .footer-icons .fb{
 	border-radius: 0;
 }
 
+.footer-icons:first-child{
+	order: 1;
+}
 .footer-form input#city{
 	width: 45%;
 }
