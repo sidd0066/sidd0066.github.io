@@ -203,7 +203,7 @@ footer p{
 
 /* Adding padding-left to push icons to center */
 .footer-icons{
-	padding-left: 10%;
+	text-align:center ;
 }
 
 .footer-icons .icon{
@@ -284,9 +284,6 @@ footer h3{
 	font-size: 1.2em;
 }
 
-.footer-icons{
-	padding-left: 25%;
-}
 
 
 
@@ -394,7 +391,6 @@ footer p{
 }
 
 .footer-icons{
-	/* padding-left: 0; */
 	padding-right: 1em;	
 }
 
@@ -408,7 +404,7 @@ footer p{
 	justify-content: space-between;
 }
 
-
+/* Removing border and border-radius to match with mockup */
 footer .footer-icons .fb{
 	border: 0;
 	border-radius: 0;
