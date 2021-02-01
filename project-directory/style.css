@@ -203,7 +203,7 @@ footer p{
 
 /* Adding padding-left to push icons to center */
 .footer-icons{
-	padding-left: 4rem;
+	padding-left: 3.5rem;
 }
 
 .footer-icons .icon{
@@ -269,11 +269,11 @@ footer h3{
 	font-size: 1.3em;
 }
 .footer-form input#hours{
-	width: 20%;
+	width: 15%;
 }
 
 .footer-form input#city{
-	width: 25%;
+	width: 45%;
 }
 
 /* Decreasing CALCULATE button to move on the same line as forms */
