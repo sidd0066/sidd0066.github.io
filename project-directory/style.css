@@ -415,6 +415,7 @@ footer .footer-icons .fb{
 	order: 1;
 }
 
+/* Adding order: 2; to linked-in icon to push to the end */
 footer .footer-icons .ln{
 	order: 2;
 }
