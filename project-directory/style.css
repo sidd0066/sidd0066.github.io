@@ -116,6 +116,9 @@ header p{
 	line-height: 1.5;
 }
 
+.desktop-p{
+	display: none;
+}
 .form p{
 	line-height: 1.5;
 	font-size: 1.2em;
@@ -217,10 +220,14 @@ footer .footer-icons .fb{
 	border-radius: 50px;
 }
 
-footer .footer-icons .tw{
+/* Figure out!!! */
+/* footer .footer-icons .tw{
+	border: solid #fffd8c 0.25px;
+	border-radius: 1000px;
+	position: relative;
+	padding: auto;
 	background-color: #fffd8c;
-	fill: #333131;
-}
+} */
 
 
 /*------------------------------------------
@@ -250,11 +257,20 @@ h1{
 .apply-now h2{
 	font-size: 2em;
 }
-	
+
+
 .form-head p{
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
-	
+
+.desktop-p{
+	display: none;
+}
+
+.form p{
+	font-size: 1em;
+}
+
 .form input[type=text]{
 	width: 90%;
 }
@@ -325,8 +341,17 @@ h1{
 	font-size: 1.8em;
 }
 .form-head p{
-	font-size: 1.5em;
+	font-size: 1em;
 }
+
+.mobile-tablet-p{
+	display: none;
+}
+.desktop-p{
+	display: block;
+}
+
+
 .form p{
 	font-size: .8em;
 }
