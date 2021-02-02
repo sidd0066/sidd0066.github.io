@@ -116,12 +116,18 @@ header p{
 	line-height: 1.5;
 }
 
-.desktop-p{
-	display: none;
-}
+
 .form p{
 	line-height: 1.5;
 	font-size: 1.2em;
+}
+
+.mobile-tablet-p{
+	display: block;
+}
+
+.desktop-p{
+	display: none;
 }
 
 .form input{
@@ -266,6 +272,10 @@ h1{
 
 .form p{
 	font-size: 1em;
+}
+
+.mobile-tablet-p{
+	display: block;
 }
 
 .desktop-p{
