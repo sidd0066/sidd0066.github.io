@@ -263,12 +263,13 @@ h1{
 	font-size: 1.3em;
 }
 
-.desktop-p{
-	display: none;
-}
 
 .form p{
 	font-size: 1em;
+}
+
+.desktop-p{
+	display: none;
 }
 
 .form input[type=text]{
@@ -347,6 +348,7 @@ h1{
 .mobile-tablet-p{
 	display: none;
 }
+
 .desktop-p{
 	display: block;
 }
