@@ -122,9 +122,9 @@ header p{
 	font-size: 1.2em;
 }
 
-.mobile-tablet-p{
+/* .mobile-tablet-p{
 	display: block;
-}
+} */
 
 .desktop-p{
 	display: none;
@@ -274,9 +274,9 @@ h1{
 	font-size: 1em;
 }
 
-.mobile-tablet-p{
+/* .mobile-tablet-p{
 	display: block;
-}
+} */
 
 .desktop-p{
 	display: none;
