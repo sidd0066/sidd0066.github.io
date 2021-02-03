@@ -56,22 +56,41 @@ table {
     These are the mobile styles
 --------------------------------- */
 
+body{
+	line-height: 1.5;
+	font-family: 'Raleway', sans-serif;;
+}
 .container{
-    max-width: 1800px;
+	max-width: 1800px;
+	margin: 0 auto;
 }
 
-nav ul li{
+.nav-list ul li{
     text-align: center;
     background-color: #3C3B3A;
     padding: .5em;
     padding-bottom: 20px;
-    color: #F2F2F2;
-    font-size: 16px;
 }
 
-nav ul{
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited{
+	display: block;
+	text-decoration: none;
+	color: #F2F2F2;
+	font-size: 18px;    
+}
+
+.nav-list ul{
     text-decoration: none;
 }
+
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current{
+ font-weight: bold;
+}
+
 
 .img-logo{
     max-width: 20%;
