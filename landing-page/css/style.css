@@ -189,10 +189,7 @@ footer p{
 	border-radius: 10px;	
 }
 
-.footer-form input#hours{
-	width: 15%;
-}
-
+/* Adding styles for the CALCULATE button to match with mockup */
 .footer-form input[type=submit]{
 	background-color: #ff8480;
 	color: #f7f7ff;
@@ -203,6 +200,12 @@ footer p{
 	width: 98%;
 }
 
+/* Adjusting width for Hours form to match with mockup */
+.footer-form input#hours{
+	width: 15%;
+}
+
+/* Adjusting width for City form to lineup with CALCULATE button */
 .footer-form input#city{
 	width: 70%;
 }
@@ -218,7 +221,7 @@ footer p{
 	
 }
 
-/* Adding border and border-radius to round facebook icon */
+/* Adding border and border-radius to round corners of facebook icon */
 footer .footer-icons .fb{
 	border: solid 0.25px #fffd8c;
 	border-radius: 50px;
@@ -300,7 +303,7 @@ footer h3{
 
 
 
-  }
+}
 
 
 
