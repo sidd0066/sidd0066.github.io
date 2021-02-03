@@ -67,11 +67,12 @@ body{
 	color: #333131;
 }
 
-
+/* Adding padding-left and right to move all elements from the edge in header */
 header{
 	padding-left: 2em;
-	padding-right: 2em ;
+	padding-right: 2em;
 }
+
 .logo-img{
     max-width: 30%;
 	padding-bottom: 20px;
@@ -83,7 +84,6 @@ h1{
     font-size: 4em;
 	font-weight: bold;
 	line-height: 1.2;
-	/* padding-right: 140px; */
 }
 
 header p{
@@ -95,22 +95,18 @@ header p{
 .bg-img{
 	max-width: 80%;
 	padding-left: 50px;
-
 }
 
 .apply-now{
 	background-color: #ffffff;
 	border: solid 0.25px #f7f7ff;
 	border-radius: 20px;
-	/* text-align: center; */
-	/* 		top	 right bottom left   */
 	padding: 10px 20px 20px 20px;
-	/* Figure out padding and margin */
 	margin: 2em 2em 4em 2em;
 	box-shadow: 0px 4px 8px 0.5px rgba(0, 0, 0, 0.507);
 }
+
 .apply-now h2{
-	
 	font-weight: bold;
 	font-size: 3em;
 	line-height: 1.5;
@@ -154,7 +150,7 @@ header p{
 }
 
 
-/* Adding #ff8480 and text-decoration: none; to match with example */
+/* Adding #ff8480 and text-decoration: none; to match with mockup */
 .orange-text{
 	color: #ff8480;
 	text-decoration: none;
@@ -167,9 +163,12 @@ footer{
 	
 }
 
+
+/* Adding styles footer h3 to match with mockup */
 footer h3{
 	font-size: 1.5em;
 	font-weight: bold;
+	/* Adding padding-bottom:; to push paragraph down */
 	padding-bottom: 12px;
 }
 
@@ -208,11 +207,12 @@ footer p{
 	width: 70%;
 }
 
-/* Adding padding-left to push icons to center */
+/* Adding text-align:center; to push icons to center */
 .footer-icons{
 	text-align:center ;
 }
 
+/* Adding padding to have give icons space */
 .footer-icons .icon{
 	padding: 1.2rem;
 	
@@ -263,9 +263,6 @@ h1{
 	font-size: 1em;
 }
 
-/* .mobile-tablet-p{
-	display: block;
-} */
 
 .desktop-p{
 	display: none;
