@@ -250,7 +250,7 @@ h1{
 	padding-right: 2em;
 }	 
 
-/* Decreasing font-size of h3 to match with mockup example */
+/* Decreasing font-size of Apply Now h2 to match with mockup example */
 
 .apply-now h2{
 	font-size: 2em;
@@ -426,7 +426,7 @@ footer .footer-icons .fb{
 	order: 1;
 }
 
-/* Adding order: 2; to linked-in icon to push to the end */
+/* Adding order: 2; to linked-in icon to push to the right end */
 footer .footer-icons .ln{
 	order: 2;
 }
