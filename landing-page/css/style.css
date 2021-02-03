@@ -300,9 +300,6 @@ footer h3{
 	font-size: 1.2em;
 }
 
-
-
-
 }
 
 
@@ -324,14 +321,12 @@ footer h3{
 h1{
 	font-size: 3.7em;
 	padding-right: 50%;
-	/* margin-bottom: 5%; */
 }
  header p{
 	 font-size: 1.1em;
 	 padding-right: 55%;
  }
 .apply-now{
-	/* 		top	 right bottom left   */
 	margin: 2em 4em 6em 4em;
 	padding-left: 3em;
 	padding-right: 3em;
@@ -362,7 +357,6 @@ h1{
 	z-index: -1;
 	position: absolute;
 	padding-left: 25%;
-	/* display: none; */
 }
 
 .main-flex{
@@ -371,7 +365,6 @@ h1{
 }
 
 header{
-	/* align-self: center; */
 	margin-top: 2%;
 	position: relative;
 	padding-left: 4em;
@@ -385,7 +378,7 @@ header{
 }
 
 
-/* This is the Footer styles */
+/* These are the Footer styles */
 
 footer{
 	padding-left: 4em;
@@ -437,7 +430,5 @@ footer .footer-icons .fb{
 footer .footer-icons .ln{
 	order: 2;
 }
-
-
 
 }
