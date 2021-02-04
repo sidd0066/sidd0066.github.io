@@ -75,7 +75,9 @@ body{
 .nav-list ul li{
 	padding: .3em;
 }
-
+svg{
+	fill: #3C3B3A;
+}
 
 .nav-list a,
 .nav-list a:link,
