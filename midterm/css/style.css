@@ -68,9 +68,11 @@ body{
 .nav-list ul li{
     text-align: center;
     background-color: #3C3B3A;
-    padding: .5em;
-    padding-bottom: 20px;
+    padding: .1em .5em 1.5em .5em;
+    /* padding-bottom: 20px; */
 }
+
+
 
 .nav-list a,
 .nav-list a:link,
@@ -79,6 +81,7 @@ body{
 	text-decoration: none;
 	color: #F2F2F2;
 	font-size: 18px;    
+	/* padding-top: 1em; */
 }
 
 .nav-list ul{
