@@ -112,8 +112,9 @@ footer{
 
 footer h3{
 	color: #F2F2F2;
+	font-size: 24px;
 }
 
-footer .footer-icons{
-	padding: 1em;
+footer .footer-icons .icon{
+	padding: .5em;
 }
