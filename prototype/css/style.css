@@ -118,3 +118,10 @@ footer h3{
 footer .footer-icons .icon{
 	padding: .5em;
 }
+
+.top-button{
+	text-align: right;
+	color: #F2F2F2;
+	padding: 2em;
+}
+
