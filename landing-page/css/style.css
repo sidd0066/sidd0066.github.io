@@ -215,9 +215,9 @@ footer p{
 	width: 70%;
 }
 
-/* Adding text-align:center; to push icons to center */
+/* Adding text-align:center; to align icons to center */
 .footer-icons{
-	text-align:center ;
+	text-align: center;
 }
 
 /* Adding padding to have give icons space */
@@ -255,7 +255,7 @@ h1{
 	padding-right: 2em;
 }	 
 
-/* Decreasing font-size of Apply Now h2 to match with mockup example */
+/* Decreasing font-size of Apply Now h2 and p to match with mockup example */
 
 .apply-now h2{
 	font-size: 2em;
@@ -271,7 +271,7 @@ h1{
 	font-size: 1em;
 }
 
-
+/* Hiding the Enter your info below to get started to match with mockup */
 .desktop-p{
 	display: none;
 }
@@ -315,13 +315,10 @@ footer h3{
 
   @media screen and (min-width: 1024px){
 
-
 .logo-img{
 	max-width: 7%;
 	padding-left: 4em;
 }	
-
-
 
 h1{
 	font-size: 3.7em;
@@ -351,7 +348,6 @@ h1{
 .desktop-p{
 	display: block;
 }
-
 
 .form p{
 	font-size: .8em;
@@ -398,7 +394,6 @@ footer p{
 	font-size: 1em;
 }
 
-
 .footer-form input#city{
 	width: 45%;
 }
@@ -413,13 +408,13 @@ footer p{
 	padding-right: 1em;	
 }
 
-/* Adding flexbox to move icons on right side */
+/* Adding Flexbox to move icons on right side */
 .footer-flex{
 	display: flex;
 	justify-content: space-between;
 }
 
-/* Adding flexbox to change icons order */
+/* Adding Flexbox to change icons order */
 .footer-icons{
 	display: flex;
 	justify-content: space-between;
