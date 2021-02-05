@@ -67,12 +67,13 @@ body{
 	color: #333131;
 }
 
-/* Adding padding-left and right to move all elements from the edge in header */
+/* Adding padding-left and right to move header elements from the edge */
 header{
 	padding-left: 2em;
 	padding-right: 2em;
 }
 
+/* Decreasing size of logo to fit on screen */
 .logo-img{
     max-width: 30%;
 	padding-bottom: 20px;
@@ -86,12 +87,14 @@ h1{
 	line-height: 1.2;
 }
 
+/* Adjusting size and spacing for header p to be readable */
 header p{
    font-size: 25px;
    line-height: 1.2;
    padding-top: 30px;
 }
 
+/* Adjusting size and spacing of Scooter Image to fir on screen */
 .bg-img{
 	max-width: 80%;
 	padding-left: 50px;
@@ -133,6 +136,8 @@ header p{
 	border-radius: 10px;
 	font-size: 1em;
 }
+
+/* Adjusting width for forms to line up with Drive With Us button */
 .form input[type=text]{
 	width: 90%;
 }
