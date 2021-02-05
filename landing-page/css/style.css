@@ -382,6 +382,7 @@ header{
 
 /* These are the Footer styles */
 
+/* increasing padding-left and right to match with mockup */
 footer{
 	padding-left: 4em;
 	padding-right: 4em;
