@@ -103,3 +103,17 @@ svg{
 .img-logo{
     max-width: 20%;
 }
+
+footer{
+	background-color: #3C3B3A;
+	text-align: center;
+	padding: 1em;
+}
+
+footer h3{
+	color: #F2F2F2;
+}
+
+footer .footer-icons{
+	padding: 1em;
+}
