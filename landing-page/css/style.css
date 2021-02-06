@@ -94,12 +94,13 @@ header p{
    padding-top: 30px;
 }
 
-/* Adjusting size and spacing of Scooter Image to fir on screen */
+/* Adjusting size and spacing of Scooter Image to fit on screen */
 .bg-img{
 	max-width: 80%;
 	padding-left: 50px;
 }
 
+/* Styling the Apply Now form to match with mockup  */
 .apply-now{
 	background-color: #ffffff;
 	border: solid 0.25px #f7f7ff;
@@ -127,6 +128,7 @@ header p{
 	display: none;
 }
 
+/* Adjusting styles of form inputs to match with mockup */
 .form input{
 	padding: .5em;
 	margin: .5em;
@@ -141,6 +143,7 @@ header p{
 .form input[type=text]{
 	width: 90%;
 }
+
 
 .form input[type=submit]{
 	font-weight: bold;
@@ -182,6 +185,7 @@ footer p{
 	line-height: 1;
 }
 
+/* Adding styles for Footer Form Inputs to match with mockup */
 .footer-form input{
 	padding: .5em;
 	margin: .1em;
@@ -284,7 +288,7 @@ h1{
 	width: 94%;
 }
 	
-/* Footer */
+/* These are the Footer styles */
 
 footer h3{
 	font-size: 1.3em;
@@ -315,19 +319,25 @@ footer h3{
 
   @media screen and (min-width: 1024px){
 
+/* Decreasing Logo size to fit on Desktop screens  */
 .logo-img{
 	max-width: 7%;
 	padding-left: 4em;
 }	
 
+/* Adjusting padding and size of h1 to fit on screen  */
 h1{
 	font-size: 3.7em;
 	padding-right: 50%;
 }
+
+/* Adjusting padding and size of header p to fit on screen  */
  header p{
 	 font-size: 1.1em;
 	 padding-right: 55%;
  }
+
+ /* Increasing paddings and margins of all apply now element to fit on screen */
 .apply-now{
 	margin: 2em 4em 6em 4em;
 	padding-left: 3em;
@@ -387,6 +397,8 @@ footer{
 	padding-left: 4em;
 	padding-right: 4em;
 }
+
+/* Decreasing font-size to fit on desktop screens*/
 footer h3{
 	font-size: 1em;
 }
