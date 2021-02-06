@@ -56,8 +56,6 @@ table {
     These are the mobile styles
 --------------------------------- */
 
-
-
 html{
 	font-family:'Montserrat', sans-serif;
 }
@@ -249,18 +247,19 @@ h1{
 	font-size: 3.5em;
 }
 
+/* Decreasing logo to fit on screen */
 .logo-img{
 	max-width: 20%;
 }
 
-	
+/* Adding z-index to to p to match with mockup */
  header p{
 	z-index: 1;
 	position: absolute;
 	padding-right: 2em;
 }	 
 
-/* Decreasing font-size of Apply Now h2 and p to match with mockup example */
+/* Decreasing font-size of Apply Now h2 and p's to be readable */
 
 .apply-now h2{
 	font-size: 2em;
@@ -412,11 +411,13 @@ footer p{
 	width: 45%;
 }
 
+/* Adjusting size for CALCULATE Button to match with mockup  */
 .footer-form input[type=submit]{
 	width: 25%;
 	padding: .5em;
 	font-size: 1em;
 }
+
 
 .footer-icons{
 	padding-right: 1em;	
@@ -434,7 +435,7 @@ footer p{
 	justify-content: space-between;
 }
 
-/* Removing border and border-radius to match with mockup */
+/* Removing border, border-radius and changing order to match with mockup */
 footer .footer-icons .fb{
 	border: 0;
 	border-radius: 0;
