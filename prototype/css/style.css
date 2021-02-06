@@ -61,7 +61,7 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 .container{
-	max-width: 1800px;
+	max-width: 400px;
 	margin: 0 auto;
 }
 
@@ -108,6 +108,10 @@ svg{
 	max-width: 50%;
 }
 
+i{
+	width: 60px;
+	margin: auto;
+}
 footer{
 	background-color: #3C3B3A;
 	text-align: center;
