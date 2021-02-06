@@ -62,6 +62,7 @@ html{
 	font-family:'Montserrat', sans-serif;
 }
 
+/* Adding BG colour and Text font color to match with mockup */
 body{
 	background-color: #f7f7ff;
 	color: #333131;
@@ -144,7 +145,7 @@ header p{
 	width: 90%;
 }
 
-
+/* Styling DRIVE WITH US button to match with mockup */
 .form input[type=submit]{
 	font-weight: bold;
 	padding: .7em;
