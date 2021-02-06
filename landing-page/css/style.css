@@ -171,7 +171,7 @@ footer{
 }
 
 
-/* Adding styles footer h3 to match with mockup */
+/* Adding styles footer h3 and p to match with mockup */
 footer h3{
 	font-size: 1.5em;
 	font-weight: bold;
@@ -280,6 +280,7 @@ h1{
 	display: none;
 }
 
+/* Adjusting width for Drive with us Button and form inputs to fit on screen */
 .form input[type=text]{
 	width: 90%;
 }
@@ -344,6 +345,7 @@ h1{
 	padding-right: 3em;
 }
 
+/* Adjusting font-size for form h2 and p to be readable */
 .form-head h2{
 	font-size: 1.8em;
 }
