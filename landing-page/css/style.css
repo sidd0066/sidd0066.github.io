@@ -157,7 +157,7 @@ header p{
 }
 
 
-/* Adding #ff8480 and text-decoration: none; to match with mockup */
+/* Adding #ff8480 and text-decoration: none; to the Check your application status here to match with mockup */
 .orange-text{
 	color: #ff8480;
 	text-decoration: none;
@@ -338,6 +338,8 @@ h1{
 	 padding-right: 55%;
  }
 
+ /* These are the styles for the apply now form */
+
  /* Increasing paddings and margins of all apply now element to fit on screen */
 .apply-now{
 	margin: 2em 4em 6em 4em;
@@ -409,6 +411,7 @@ footer p{
 	font-size: 1em;
 }
 
+/* Adjusting width for city input to fit on screen */
 .footer-form input#city{
 	width: 45%;
 }
