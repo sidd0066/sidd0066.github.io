@@ -104,15 +104,50 @@ svg{
     max-width: 20%;
 }
 
+.discover-img{
+	max-width: 50%;
+}
+
 footer{
 	background-color: #3C3B3A;
 	text-align: center;
 	padding: 1em;
+	
 }
 
+footer .social-media{
+	display: inline;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.footer-icons{
+	margin: 0 auto;
+}
+
+footer .social-media .top-button{
+	align-self: flex-end;
+}
+.icon-div{
+	display: flex;
+	position: relative;
+}
 footer h3{
 	color: #F2F2F2;
 	font-size: 24px;
+	text-align: center;
+}
+
+.top-img{
+	max-width: 30%;
+	margin-right: 30px;
+	
+}
+
+button{
+	background-color: #26A682;
+	color: #F2F2F2;
 }
 
 footer .footer-icons .icon{
@@ -122,6 +157,9 @@ footer .footer-icons .icon{
 .top-button{
 	text-align: right;
 	color: #F2F2F2;
-	padding: 2em;
+	margin-left: auto;
+	position: absolute;
+	right: 10px;
+	top: 10px;
 }
 
