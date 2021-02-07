@@ -341,7 +341,7 @@ h1{
 	padding-right: 50%;
 }
 
-/* Adjusting padding and size of header p to fit on screen  */
+/* Adjusting padding and size of header p to fit on screen and be easy on the eyes  */
  header p{
 	 font-size: 1.1em;
 	 padding-right: 55%;
@@ -383,7 +383,7 @@ h1{
 	padding-left: 25%;
 }
 
-/* Using Flexbox to put h1, BG image and Drive with us Form on one column  */
+/* Using Flexbox to put h1, BG image, and Apply Now Form in one column  */
 .main-flex{
 	display: flex;
 	align-items: flex-start;
