@@ -260,6 +260,7 @@ h1{
 	padding-right: 2em;
 }
 
+/* Using margin-top to push BG image down slightly*/
 .bg-img{
 	margin-top: 65px;
 }
