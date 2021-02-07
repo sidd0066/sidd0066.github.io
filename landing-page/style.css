@@ -304,7 +304,7 @@ footer h3{
 	font-size: 1.3em;
 }
 .footer-form input#hours{
-	width: 15%;
+	width: 14%;
 }
 
 .footer-form input#city{
@@ -314,7 +314,7 @@ footer h3{
 /* Decreasing CALCULATE button to move on the same line as forms */
 
 .footer-form input[type=submit]{
-	width: 30%;
+	width: 35%;
 	padding: .5em;
 	font-size: 1.2em;
 }
