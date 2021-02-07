@@ -99,6 +99,8 @@ header p{
 	padding-left: 50px;
 }
 
+/* These are the Apply Now form styles */
+
 /* Styling the Apply Now form to match with mockup  */
 .apply-now{
 	background-color: #ffffff;
@@ -260,7 +262,7 @@ h1{
 	padding-right: 2em;
 }
 
-/* Using margin-top to push BG image down slightly*/
+/* Using margin-top to push BG image down slightly from p*/
 .bg-img{
 	margin-top: 65px;
 }
