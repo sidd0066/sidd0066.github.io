@@ -123,7 +123,7 @@ header p{
 }
 
 
-
+/* Adding display:none to hide the Enter your info below to get started */
 .desktop-p{
 	display: none;
 }
