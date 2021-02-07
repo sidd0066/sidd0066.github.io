@@ -314,7 +314,7 @@ footer h3{
 /* Decreasing CALCULATE button to move on the same line as forms */
 
 .footer-form input[type=submit]{
-	width: 35%;
+	width: 30%;
 	padding: .5em;
 	font-size: 1.2em;
 }
