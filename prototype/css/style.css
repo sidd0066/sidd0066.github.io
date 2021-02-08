@@ -79,9 +79,7 @@ body{
 .nav-list ul li{
 	padding: .3em;
 }
-svg{
-	fill: #3C3B3A;
-}
+
 img{
 	max-width: 100%;
 	height: auto;
@@ -113,6 +111,15 @@ img{
 
 .discover-img{
 	max-width: 50%;
+}
+
+
+.discover-icons{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1em;
+	text-align: center;
+	grid-template-areas: "" ;
 }
 
 /* Adding styles for icon headings */
