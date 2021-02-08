@@ -109,6 +109,10 @@ img{
     max-width: 20%;
 }
 
+h1{
+	font-size: 40px;
+	font-weight: bold;
+}
 .discover-img{
 	max-width: 50%;
 }
