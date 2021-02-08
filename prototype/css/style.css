@@ -117,6 +117,9 @@ h1{
 	max-width: 50%;
 }
 
+.bottom{
+	transform: rotate(180deg);
+}
 
 .discover-icons{
 	display: grid;
