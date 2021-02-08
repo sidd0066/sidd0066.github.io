@@ -117,9 +117,15 @@ h1{
 	max-width: 50%;
 }
 
-.bottom{
+.bottom-img{
 	transform: rotate(180deg);
+	
 }
+
+.bottom-button{
+	display: none;
+}
+
 
 .discover-icons{
 	display: grid;
