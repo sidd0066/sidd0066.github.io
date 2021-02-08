@@ -55,6 +55,8 @@ table {
 /* -------------------------------
     These are the mobile styles
 --------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 html{
 	scroll-behavior: smooth;
 }
@@ -114,8 +116,15 @@ img{
 	max-width: 50%;
 }
 
+/* Adding styles for icon headings */
+
+.discover-icons h3{
+	font-size: 17px;
+	color: #26A682;
+}
+
 i{
-	width: 60px;
+	width: 100px;
 	margin: 0 auto;
 }
 footer{
