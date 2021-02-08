@@ -55,6 +55,9 @@ table {
 /* -------------------------------
     These are the mobile styles
 --------------------------------- */
+html{
+	scroll-behavior: smooth;
+}
 
 body{
 	line-height: 1.5;
@@ -78,7 +81,10 @@ body{
 svg{
 	fill: #3C3B3A;
 }
-
+img{
+	max-width: 100%;
+	height: auto;
+}
 .nav-list a,
 .nav-list a:link,
 .nav-list a:visited{
@@ -120,9 +126,9 @@ footer{
 }
 
 footer .social-media{
-	display: inline;
+	/* display: inline;
 	justify-content: space-around;
-	align-items: center;
+	align-items: center; */
 	
 }
 
@@ -165,5 +171,14 @@ footer .footer-icons .icon{
 	position: absolute;
 	right: 10px;
 	top: 10px;
+}
+
+h4{
+	text-decoration: none;
+	color: #F2F2F2;
+}
+
+footer a{
+	text-decoration: none;
 }
 
