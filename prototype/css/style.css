@@ -142,9 +142,10 @@ h1{
 	color: #26A682;
 }
 
-i{
-	padding: 1.5em;
-	margin: 0 auto;
+.fas{
+	padding: 1em;
+	/* margin: 0 auto; */
+	max-width: 100%;
 }
 footer{
 	background-color: #3C3B3A;
