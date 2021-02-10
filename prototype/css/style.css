@@ -132,7 +132,6 @@ h1{
 	grid-template-columns: repeat(2, 1fr);
 	gap: 1em;
 	text-align: center;
-	grid-template-areas: "" ;
 }
 
 /* Adding styles for icon headings */
