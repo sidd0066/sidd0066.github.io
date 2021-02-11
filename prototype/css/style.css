@@ -126,12 +126,24 @@ h1{
 	display: none;
 }
 
+.container a{
+	background-color: #26A682;
+	text-decoration: none;
+	padding: .5em;
+	color: #F2F2F2;
+	margin: 0 auto;
+	border-radius: 20px;
+}
 
 .discover-icons{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 1em;
 	text-align: center;
+}
+
+.discover-img{
+	margin: 0 auto;
 }
 
 /* Adding styles for icon headings */
