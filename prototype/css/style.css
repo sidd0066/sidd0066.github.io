@@ -223,6 +223,9 @@ textarea{
 	box-shadow: 0px 4px 8px 0.5px rgba(0, 0, 0, 0.507);
 }
 
+iframe{
+	width: 100%;
+}
 /* Adding styles for icon headings */
 
 .discover-icons h3{
