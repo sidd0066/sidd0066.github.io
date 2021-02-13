@@ -154,6 +154,12 @@ h1{
   margin-right: auto;
 }
 
+/* Contact styles */
+
+.contact-h1{
+	font-size: 50px;
+}
+
 /* These are the form contact styles */
 
 .form{
