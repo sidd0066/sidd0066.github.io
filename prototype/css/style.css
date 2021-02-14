@@ -259,6 +259,10 @@ h1{
 	background-color: #3C3B3A;
 	text-align: center;
 }
+
+.services-img{
+	background-color: #26A682;
+}
 .service-sects img{
 	display: none;
 }	
