@@ -195,7 +195,7 @@ h1{
 .container a{
 	background-color: #26A682;
 	text-decoration: none;
-	padding: .5em;
+	/* padding: .5em; */
 	color: #F2F2F2;
 	/* display: block; */
 	text-align: center;
@@ -285,6 +285,17 @@ h1{
 .subscribe-div h2{
 	color: #F2F2F2;
 	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 1em;
+}
+
+.subscribe-div a{
+	font-size: 20px;
+	font-weight: bold;
+	padding: .2em;
+	padding-left: 1em;
+	padding-right: 1em;
+	
 }
 /* Contact styles */
 
