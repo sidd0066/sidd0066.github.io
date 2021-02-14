@@ -246,6 +246,10 @@ h1{
 .about-sect{
 	background-color: #F2F2F2;
 }
+
+.about-w{
+	margin-top: 1em;
+}
 .about-sect h3{
 	font-size: 32px;
 	font-weight: 600;
