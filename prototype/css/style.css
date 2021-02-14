@@ -242,6 +242,14 @@ h1{
 
 /* About Styles */
 
+.about-sect{
+	background-color: #F2F2F2;
+}
+.about-sect h3{
+	font-size: 32px;
+	font-weight: 600;
+	font-style: italic;
+}
 .subscribe-div{
 	background-color: #3C3B3A;
 }
