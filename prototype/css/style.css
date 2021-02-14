@@ -64,6 +64,10 @@ body{
 	line-height: 1.5;
 	font-family: 'Raleway', sans-serif;
 }
+
+body p{
+	line-height: 2.5;
+}
 .container{
 	padding: 2em;
 	/* margin: 0 auto; */
@@ -233,6 +237,24 @@ iframe{
 	color: #26A682;
 }
 
+.service-sects img{
+	display: none;
+}
+
+.service-sects h2{
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.service-sects h3{
+	font-size: 24px;
+	color: #26A682;
+}
+
+.service-sect2,
+.service-sect4{
+	background-color: #F2F2F2;
+}
 .fas{
 	padding: .5em;
 	/* margin: 0 auto; */
@@ -257,36 +279,6 @@ footer .social-media .top-button{
 	display: flex;
 	position: relative;
 }
-footer h3{
-	color: #F2F2F2;
-	font-size: 24px;
-	text-align: center;
-}
-
-.top-img{
-	max-width: 30%;
-	margin-right: 15px;
-	
-}
-
-.service-sects img{
-	display: none;
-}
-
-.service-sects h2{
-	font-size: 32px;
-	font-weight: bold;
-}
-
-.service-sects h3{
-	font-size: 24px;
-	color: #26A682;
-}
-
-.service-sect2,
-.service-sect4{
-	background-color: #F2F2F2;
-}
 
 footer .footer-icons .icon{
 	padding: .5em;
@@ -301,7 +293,20 @@ footer .footer-icons .icon{
 	top: 10px;
 }
 
-h4{
+footer h3{
+	color: #F2F2F2;
+	font-size: 24px;
+	text-align: center;
+}
+
+.top-img{
+	max-width: 30%;
+	margin-right: 15px;
+	
+}
+
+
+footer h4{
 	text-decoration: none;
 	color: #F2F2F2;
 }
