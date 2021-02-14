@@ -56,6 +56,7 @@ table {
     These are the mobile styles
 --------------------------------- */
 
+/* These are the custom styles for all pages */
 html{
 	scroll-behavior: smooth;
 }
@@ -252,12 +253,31 @@ h1{
 }
 .subscribe-div{
 	background-color: #3C3B3A;
+	text-align: center;
 }
+.service-sects img{
+	display: none;
+}	
+
+.service-sects h2{
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 1em;
+}	
+
+.service-sects h3{
+	font-size: 24px;
+	color: #26A682;
+}	
+
+.service-sect2,
+.service-sect4{
+	background-color: #F2F2F2;
+}	
 
 .subscribe-div h2{
 	color: #F2F2F2;
-	font-weight: 100;
-	font-size: 18px;
+	font-weight: 600;
 }
 /* Contact styles */
 
@@ -338,24 +358,6 @@ iframe{
 	color: #26A682;
 }	
 
-.service-sects img{
-	display: none;
-}	
-
-.service-sects h2{
-	font-size: 32px;
-	font-weight: bold;
-}	
-
-.service-sects h3{
-	font-size: 24px;
-	color: #26A682;
-}	
-
-.service-sect2,
-.service-sect4{
-	background-color: #F2F2F2;
-}	
 .fas{
 	padding: .5em;
 	/* margin: 0 auto; */
