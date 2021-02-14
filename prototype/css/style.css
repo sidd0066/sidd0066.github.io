@@ -134,7 +134,7 @@ h1{
 	text-decoration: none;
 	padding: .5em;
 	color: #F2F2F2;
-	display: block;
+	/* display: block; */
 	text-align: center;
 	margin-bottom: 1em;
 	border-radius: 20px;
@@ -269,6 +269,24 @@ footer h3{
 	
 }
 
+.service-sects img{
+	display: none;
+}
+
+.service-sects h2{
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.service-sects h3{
+	font-size: 24px;
+	color: #26A682;
+}
+
+.service-sect2,
+.service-sect4{
+	background-color: #F2F2F2;
+}
 
 footer .footer-icons .icon{
 	padding: .5em;
