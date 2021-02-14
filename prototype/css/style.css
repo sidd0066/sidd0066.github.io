@@ -289,12 +289,14 @@ h1{
 	margin-bottom: 1em;
 }
 
+/* Adding styles for Subscribe button to be readable and match up with mockup */
 .subscribe-div a{
 	font-size: 20px;
 	font-weight: bold;
 	padding: .2em;
 	padding-left: 1em;
 	padding-right: 1em;
+	box-shadow: none;
 	
 }
 /* Contact styles */
