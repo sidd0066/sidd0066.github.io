@@ -158,6 +158,30 @@ h1{
   margin-right: auto;
 }
 
+.qoute-sect{
+	background-color: #3C3B3A;
+}
+
+.qoute-sect h4{
+	font-size: 24px;
+	text-align: center;
+	color: #F2F2F2;
+	font-weight: bold;
+}
+
+.qoute-sect p{
+	color: #F2F2F2;
+}
+.simon-img{
+	border: solid 5px #F2F2F2;
+	border-radius: 100%;
+	max-width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1.5em;
+}
+
 /* Contact styles */
 
 .contact-h1{
