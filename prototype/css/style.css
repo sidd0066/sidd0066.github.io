@@ -299,6 +299,21 @@ h1{
 	box-shadow: none;
 	
 }
+
+.thanks-logos{
+	text-align: center;
+}
+
+.thanks-logos h2{
+	font-size: 56px;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+.cibc,
+.pcl{
+	width: 50%;
+}
 /* Contact styles */
 
 .contact-h1{
