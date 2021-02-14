@@ -355,9 +355,9 @@ textarea{
 
 .form input[type=submit]{
 	font-weight: bold;
-	padding: .7em;
+	padding: .2em;
 	color: #f2f2f2;
-	font-size: 1.3rem;
+	font-size: 32px;
 	background-color: #3c3b3a;
 	font-stretch: expanded;
 	/* Increasing DRIVE WITH US button width to match with text forms  */
@@ -368,6 +368,7 @@ textarea{
 
 iframe{
 	width: 100%;
+	margin-bottom: 0;
 }	
 /* Adding styles for icon headings */
 
