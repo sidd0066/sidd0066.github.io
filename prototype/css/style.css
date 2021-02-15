@@ -76,7 +76,7 @@ body p{
 
 /* This is the Navigation styles */
 
-.nav-list ul{
+.nav-list{
     text-align: center;
     background-color: #3C3B3A;
     padding: 1em;
@@ -403,3 +403,35 @@ iframe{
 	/* margin: 0 auto; */
 	max-width: 100%;
 }	
+
+
+/* -----------------------------------------------
+				These are the tablet styles 
+----------------------------------------------------*/
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+
+	.nav-list{
+		display: flex;
+  justify-content: space-between;
+  align-items: center;
+		/* display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		 */
+	}
+
+	.img-logo{
+		max-width: 10%;
+		padding-left: 2em;
+	}
+
+	.nav-list ul{
+		display: flex;
+		justify-content: space-around;
+		padding-right: 2em;
+	}
+	.nav-list ul li{
+		padding: 1em;
+	}
+}
