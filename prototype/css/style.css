@@ -415,10 +415,7 @@ iframe{
 		display: flex;
   justify-content: space-between;
   align-items: center;
-		/* display: flex;
-		align-items: center;
-		justify-content: flex-end;
-		 */
+		padding: .1em;
 	}
 
 	.img-logo{
