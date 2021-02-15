@@ -310,6 +310,11 @@ h1{
 	margin-bottom: 1em;
 }
 
+/* Adding margin to give image logos spacing */
+.thanks-img{
+	margin: 1em;
+}
+
 .cibc,
 .pcl{
 	width: 50%;
