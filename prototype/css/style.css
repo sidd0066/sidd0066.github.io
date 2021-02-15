@@ -148,8 +148,7 @@ footer h3{
 
 .top-img{
 	max-width: 30%;
-	margin-right: 15px;
-	
+	margin-right: 15px;	
 }
 
 
@@ -310,7 +309,7 @@ h1{
 	margin-bottom: 1em;
 }
 
-/* Adding margin to give image logos spacing */
+/* Adding margin to give image logos spacing and match with mockup */
 .thanks-img{
 	margin: 1em;
 }
