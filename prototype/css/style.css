@@ -205,12 +205,8 @@ h1{
 	display: block;
 }
 
-.discover-sect2 a{
-	padding: .5em;
-	
-}
 
-
+.discover-sect2 a,
 .discover-sect3 a{
 	padding: .5em;
 	font-size: 20px;
