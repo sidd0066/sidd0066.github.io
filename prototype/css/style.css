@@ -198,6 +198,25 @@ h1{
 	font-weight: 300;
 }
 
+.discover-sect1 a{
+	padding: .1em;
+	font-size: 32px;
+	font-weight: bold;
+	display: block;
+}
+
+.discover-sect2 a{
+	padding: .5em;
+	
+}
+
+
+.discover-sect3 a{
+	padding: .5em;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 0 auto;
+}
 .discover-img{
 	max-width: 50%;
 }	
@@ -220,13 +239,19 @@ h1{
 	text-align: center;
 	margin-bottom: 1em;
 	border-radius: 20px;
-	box-shadow: 0px 9px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 9px 20px 0px rgba(0, 0, 0, 0.356);
 }	
 
+.fas{
+	padding: .5em;
+	/* margin: 0 auto; */
+	max-width: 100%;
+}	
 .discover-icons{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 1em;
+	
 	text-align: center;
 }	
 
@@ -432,11 +457,6 @@ iframe{
 	color: #26A682;
 }	
 
-.fas{
-	padding: .5em;
-	/* margin: 0 auto; */
-	max-width: 100%;
-}	
 
 
 /* -----------------------------------------------
