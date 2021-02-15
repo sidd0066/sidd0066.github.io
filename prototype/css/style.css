@@ -177,7 +177,27 @@ img{
 h1{
 	font-size: 40px;
 	font-weight: bold;
-}	
+}
+
+
+.discover-sect2 h2,
+.discover-sect3 h2{
+	font-size: 32px;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.discover-sect2 h3,
+.discover-sect3 h3{
+	font-size: 24px;
+	color: #26A682;
+}
+
+.discover-sect2 p,
+.discover-sect3 p{
+	font-weight: 300;
+}
+
 .discover-img{
 	max-width: 50%;
 }	
