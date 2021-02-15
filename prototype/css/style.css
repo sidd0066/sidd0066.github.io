@@ -240,6 +240,19 @@ h1{
 	margin-bottom: 1.5em;
 }	
 
+.school-div,
+.entertainment-div{
+	display: none;
+}
+
+/* Adding max-height and object-fit to crop image */
+.bar-img{
+	position: relative;
+    max-height: 140px;
+    width: 100%;
+    object-fit: cover;
+
+}
 /* About Styles */
 
 .about-sect{
