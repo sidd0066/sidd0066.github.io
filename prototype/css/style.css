@@ -482,3 +482,31 @@ iframe{
 		padding: 1em;
 	}
 }
+
+/*-------------------------------------
+ 		These are the desktop styles 
+ -----------------------------------*/
+
+ @media screen and (min-width: 1024px){
+	.nav-list{
+		display: flex;
+  		justify-content: space-between;
+  		align-items: center;
+		padding: .6em;
+	}
+
+	.img-logo{
+		max-width: 5%;
+		padding-left: 2em;
+	}
+
+	.nav-list ul{
+		display: flex;
+		justify-content: space-around;
+		padding-right: 2em;
+	}
+	.nav-list ul li{
+		padding: 1em;
+	}
+
+ }
