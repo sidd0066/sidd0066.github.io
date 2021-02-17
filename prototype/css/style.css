@@ -447,6 +447,16 @@ iframe{
 	width: 100%;
 	margin-bottom: 0;
 }	
+
+
+.location-text h2{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.location-text h3{
+	font-size: 24px;
+}
 /* Adding styles for icon headings */
 
 .discover-icons h3{
