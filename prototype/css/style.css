@@ -370,7 +370,8 @@ h1{
 }
 
 .cibc,
-.pcl{
+.pcl,
+.ac{
 	width: 50%;
 }
 /* Contact styles */
