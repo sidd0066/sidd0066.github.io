@@ -198,21 +198,21 @@ h1{
 	font-weight: 300;
 }
 
-.discover-arc a{
-	padding: .1em;
+.started{
+	padding: .2em;
 	font-size: 32px;
 	font-weight: bold;
-	/* display: block; */
-	width: 100%;
+	display: block;
+	
 }
 
-
-.discover-sect2 a,
-.discover-sect3 a{
+.learn{
 	padding: .5em;
 	font-size: 20px;
 	font-weight: bold;
-	margin-right: 0 auto;
+}
+.discover-head div{
+	text-align: right;
 }
 .discover-img{
 	max-width: 50%;
@@ -235,7 +235,7 @@ h1{
 	/* display: block; */
 	text-align: center;
 	margin-bottom: 1em;
-	border-radius: 20px;
+	border-radius: 50px;
 	box-shadow: 0px 9px 20px 0px rgba(0, 0, 0, 0.356);
 }	
 
