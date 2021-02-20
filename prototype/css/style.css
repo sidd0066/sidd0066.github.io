@@ -198,11 +198,12 @@ h1{
 	font-weight: 300;
 }
 
-.discover-sect1 a{
+.discover-arc a{
 	padding: .1em;
 	font-size: 32px;
 	font-weight: bold;
-	display: block;
+	/* display: block; */
+	width: 100%;
 }
 
 
@@ -492,6 +493,13 @@ iframe{
 	.nav-list ul li{
 		padding: 1em;
 	}
+
+	/* Adding Flexbox to home icons to put on same line */
+
+	.discover-icons{
+		display: flex;
+		justify-content: space-between;
+	}
 }
 
 /*-------------------------------------
@@ -499,6 +507,11 @@ iframe{
  -----------------------------------*/
 
  @media screen and (min-width: 1024px){
+
+
+	/* These are the custom styles */
+
+	/* Adding flexbox to put logo on same line  */
 	.nav-list{
 		display: flex;
   		justify-content: space-between;
@@ -511,6 +524,8 @@ iframe{
 		padding-left: 2em;
 	}
 
+
+	/* Adding flexbox to put nav texts on same line with logo */
 	.nav-list ul{
 		display: flex;
 		justify-content: space-around;
@@ -518,6 +533,16 @@ iframe{
 	}
 	.nav-list ul li{
 		padding: 1em;
+	}
+
+
+
+	/* These are the Home styles */
+
+	/* Adding Flexbox to home icons to put on same line */
+
+	.discover-icons{
+		display: flex;
 	}
 
  }
