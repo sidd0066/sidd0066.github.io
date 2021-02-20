@@ -164,21 +164,21 @@ footer a{
 
 /* These are the Home Styles */
 
-/* These are the images styles */
-img{
-	max-width: 100%;
-	height: auto;
-}	
 
-.img-logo{
-    max-width: 20%;
-}	
 
 h1{
 	font-size: 40px;
 	font-weight: bold;
 }
 
+img{
+	max-width: 100%;
+	height: auto;
+}	
+
+.img-logo{
+	max-width: 20%;
+}	
 
 .discover-sect2 h2,
 .discover-sect3 h2{
@@ -213,6 +213,7 @@ h1{
 }
 .discover-head div{
 	text-align: right;
+	margin-top: 20px;
 }
 .discover-img{
 	max-width: 50%;
