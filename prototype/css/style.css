@@ -74,7 +74,9 @@ body p{
 	/* margin: 0 auto; */
 }
 
-/* This is the Navigation styles */
+*{
+	box-sizing: border-box;
+}
 
 .nav-list{
     text-align: center;
@@ -472,7 +474,7 @@ iframe{
 				These are the tablet styles 
 ----------------------------------------------------*/
 
-@media screen and (min-width: 600px) and (max-width: 1024px){
+@media screen and (min-width: 600px) and (max-width: 960px){
 
 	.nav-list{
 		display: flex;
@@ -507,7 +509,7 @@ iframe{
  		These are the desktop styles 
  -----------------------------------*/
 
- @media screen and (min-width: 1024px){
+ @media screen and (min-width: 960px){
 
 
 	/* These are the custom styles */
