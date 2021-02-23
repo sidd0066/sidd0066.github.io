@@ -570,17 +570,21 @@ iframe{
 
 	/* These are the custom styles */
 
+	.container{
+		padding: 4em;
+	}
+
 	/* Adding flexbox to put logo on same line  */
 	.nav-list{
 		display: flex;
   		justify-content: space-between;
   		align-items: center;
-		padding: .6em;
+		padding: .2em;
 	}
 
 	.img-logo{
-		max-width: 5%;
-		padding-left: 2em;
+		max-width: 10%;
+		padding-left: 4em;
 	}
 
 
@@ -588,7 +592,7 @@ iframe{
 	.nav-list ul{
 		display: flex;
 		justify-content: space-around;
-		padding-right: 2em;
+		padding-right: 4em;
 	}
 	.nav-list ul li{
 		padding: 1em;
@@ -603,5 +607,42 @@ iframe{
 	.discover-icons{
 		display: flex;
 	}
+
+
+	/* These are the About styles */
+
+	.construction-grid{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1em;
+	}
+
+	.about-grid{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 5em;
+	}
+
+	.service-sects img{
+		display: block;
+	}	
+
+	.service-sect1,
+	.service-sect2,
+	.service-sect3,
+	.service-sect4{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1em;
+		
+	}
+
+	.logo-flex{
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		justify-content: space-between;
+		align-items: center;
+	}
+
 
  }
