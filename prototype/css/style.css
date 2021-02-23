@@ -578,6 +578,7 @@ iframe{
 
 	.container{
 		padding: 4em;
+		margin-top: 4em;
 	}
 
 	/* Adding flexbox to put logo on same line  */
@@ -653,6 +654,11 @@ iframe{
 	.contact-grid{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
+		gap: 1em;
+	}
+
+	.contact-grid img{
+		max-width: 80%;
 	}
 	.location-grid{
 		display: grid;
@@ -660,7 +666,7 @@ iframe{
 	}
 
 	iframe{
-		margin-bottom: 5em;
+		margin-bottom: 2em;
 	}
 
 	.map-div{
