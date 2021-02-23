@@ -474,6 +474,8 @@ textarea{
 
 iframe{
 	width: 100%;
+	height: 500px;
+	vertical-align: bottom;
 	
 }	
 
@@ -642,6 +644,20 @@ iframe{
 		grid-template-columns: repeat(4, 1fr);
 		justify-content: space-between;
 		align-items: center;
+	}
+
+	.contact-grid{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.location-grid{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	iframe{
+		padding-right: 4em;
+		margin-bottom: 5em;
 	}
 
 
