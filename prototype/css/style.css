@@ -479,6 +479,10 @@ iframe{
 	
 }	
 
+.map-div{
+	display: none;
+}
+
 
 .location-text h2{
 	font-size: 40px;
@@ -658,6 +662,14 @@ iframe{
 	iframe{
 		padding-right: 4em;
 		margin-bottom: 5em;
+	}
+
+	.map-div{
+		display: block;
+	}
+
+	.location-map{
+		display: none;
 	}
 
 
