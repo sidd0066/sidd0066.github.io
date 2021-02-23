@@ -200,12 +200,14 @@ img{
 	font-weight: 300;
 }
 
+.started-div{
+	text-align: center;
+}
 .started{
 	padding: .2em;
 	font-size: 32px;
 	font-weight: bold;
-	display: block;
-	
+	display: block;		
 }
 
 .learn{
@@ -291,14 +293,7 @@ img{
 }
 
 /* Adding max-height and object-fit to crop discover images */
-.discover-mobile .school-img,	
-.discover-mobile .bar-img{
-	position: relative;
-    max-height: 150px;
-    width: 100%;
-    object-fit: cover;
 
-}
 /* About Styles */
 
 .about-sect{
@@ -502,6 +497,15 @@ iframe{
 	.discover-icons{
 		display: flex;
 		justify-content: space-between;
+	}
+
+	.discover-mobile .school-img,	
+	.discover-mobile .bar-img{
+	position: relative;
+    max-height: 240px;
+    width: 100%;
+    object-fit: cover;
+
 	}
 }
 
