@@ -316,16 +316,19 @@ img{
 
 .service-img-div{
 	background: 
-    /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(5, 255, 68, 0.45), 
-      rgba(5, 255, 68, 0.45)
-    ),
+    /* top, transparent red, faked with gradient  */
+    /* linear-gradient(
+		rgba(38,166,130, 0.651), 
+      rgba(38, 166, 130, 0.651)
+    ), */
     /* bottom, image */
     url("../images/services.jpg");
-	height: 600px;
-	background-size: auto;
+	height: 200px;
+	background-size: 80%;
+	background-color: #26A682;
+	mix-blend-mode: darken;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 .service-sects img{
 	/* display: none; */
@@ -335,6 +338,12 @@ img{
 	font-size: 32px;
 	font-weight: bold;
 }	
+
+.services-img,
+.about-img{
+	background-color: #26A682;
+	mix-blend-mode: darken;
+}
 
 .service-sects h3{
 	font-size: 24px;
