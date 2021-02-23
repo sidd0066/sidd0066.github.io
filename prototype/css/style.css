@@ -317,7 +317,7 @@ img{
 	background-color: #26A682;
 }
 .service-sects img{
-	display: none;
+	/* display: none; */
 }	
 
 .service-sects h2{
