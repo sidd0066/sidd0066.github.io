@@ -341,7 +341,7 @@ img{
 	background-repeat: no-repeat;
 }
 .service-sects img{
-	/* display: none; */
+	display: none;
 }	
 
 .service-sects h2{
@@ -544,27 +544,20 @@ iframe{
 
 	/* About Styles */
 
-	.service-sect1{
+	.service-sects img{
+		display: block;
+	}	
+	.service-sect1,
+	.service-sect2,
+	.service-sect3,
+	.service-sect4{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 1em;
 		
 	}
 
-	.service-sect4{
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		gap: 1em;
-		grid-template-areas: "text img";
-	}
 
-	.climbing-img{
-		grid-area: img;
-	}
-
-	.climbing-head{
-		grid-area: text;
-	}
 
 }
 
