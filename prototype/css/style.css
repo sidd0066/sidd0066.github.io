@@ -614,6 +614,10 @@ iframe{
 		padding: 1em;
 	}
 
+	h1{
+		font-size: 72px;
+	}
+
 
 
 	/* These are the Home styles */
@@ -624,8 +628,16 @@ iframe{
 	.discover-grid{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		gap: 1em;
+		gap: 2em;
 	}
+
+	.discover-grid p{
+		font-size: 24px;
+	}
+
+	.discover-img{
+		max-width: 100%;
+	}	
 
 	.discover-icons{
 		display: flex;
