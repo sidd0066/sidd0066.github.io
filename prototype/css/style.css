@@ -539,6 +539,10 @@ iframe{
 		justify-content: space-between;
 	}
 
+	/* .started{
+		width: auto;
+	} */
+
 	.discover-mobile .school-img,	
 	.discover-mobile .bar-img{
 	position: relative;
@@ -616,9 +620,18 @@ iframe{
 
 	/* Adding Flexbox to home icons to put on same line */
 
+	.discover-grid{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
 	.discover-icons{
 		display: flex;
 	}
+
+	.bottom-button{
+		display: block;
+	}	
 
 
 	/* These are the About styles */
