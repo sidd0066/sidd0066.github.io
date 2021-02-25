@@ -470,6 +470,7 @@ textarea{
 	width: 109%;
 	border: solid 0.5px #3C3B3A;
 	box-shadow: 0px 4px 8px 0.5px rgba(0, 0, 0, 0.507);
+	box-sizing: border-box;
 }	
 
 iframe{
@@ -563,6 +564,7 @@ iframe{
 		
 	}
 
+	
 
 
 }
