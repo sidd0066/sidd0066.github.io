@@ -540,7 +540,7 @@ iframe{
 	}
 
 	/* .started{
-		width: auto;
+		max-width: 50px;
 	} */
 
 	.discover-mobile .school-img,	
@@ -620,9 +620,11 @@ iframe{
 
 	/* Adding Flexbox to home icons to put on same line */
 
+
 	.discover-grid{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
+		gap: 1em;
 	}
 
 	.discover-icons{
