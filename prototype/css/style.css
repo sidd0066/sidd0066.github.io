@@ -552,6 +552,26 @@ iframe{
 
 	}
 
+	.qoute-sect{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		/* grid-template-rows: 1fr; */
+		grid-template-areas: "img p"		
+							"h4 p";
+	}
+
+	.qoute-sect img{
+		grid-area: img;
+	}
+
+	.qoute-sect div{
+		grid-area: h4;
+	}
+
+	.qoute-sect p{
+		grid-area: p;
+	}
+
 	.bottom-button{
 		display: block;
 	}	
@@ -625,6 +645,14 @@ iframe{
 	/* Adding Flexbox to home icons to put on same line */
 
 
+	.discover-mobile{
+		display: none;
+	}
+	.school-div,
+	.entertainment-div{
+	display: block;
+	}
+
 	.discover-grid{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -635,6 +663,13 @@ iframe{
 		font-size: 24px;
 	}
 
+	.discover-sect2,
+	.discover-sect3{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2em;
+	}
+
 	.discover-img{
 		max-width: 100%;
 	}	
@@ -642,6 +677,8 @@ iframe{
 	.discover-icons{
 		display: flex;
 	}
+
+
 
 	.bottom-button{
 		display: block;
