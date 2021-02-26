@@ -670,6 +670,12 @@ iframe{
 		gap: 2em;
 	}
 
+	.qoute-sect{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		align-items: center;
+	}
+	
 	.discover-img{
 		max-width: 100%;
 	}	
