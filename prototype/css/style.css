@@ -543,6 +543,9 @@ iframe{
 		max-width: 50px;
 	} */
 
+	.discover-sect2{
+		background-color: #F2F2F2;
+	}
 	.discover-mobile .school-img,	
 	.discover-mobile .bar-img{
 	position: relative;
@@ -663,6 +666,9 @@ iframe{
 		font-size: 24px;
 	}
 
+	.discover-sect2{
+		background-color: #F2F2F2;
+	}
 	.discover-sect2,
 	.discover-sect3{
 		display: grid;
@@ -674,6 +680,7 @@ iframe{
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		align-items: center;
+		justify-content: space-around;
 	}
 	
 	.discover-img{
