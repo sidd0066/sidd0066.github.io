@@ -664,6 +664,7 @@ iframe{
 		display: none;
 	}
 
+
 	.started-div{
 		text-align: left;
 	}
@@ -709,6 +710,8 @@ iframe{
 
 	.discover-icons{
 		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
 	}
 
 
