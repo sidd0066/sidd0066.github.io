@@ -558,6 +558,10 @@ iframe{
 
 	}
 
+	.started{
+		padding: .2em 1em .2em 1em;
+	}
+
 	.qoute-sect{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -658,6 +662,14 @@ iframe{
 
 	.discover-mobile{
 		display: none;
+	}
+
+	.started-div{
+		text-align: left;
+	}
+
+	.started{
+		padding: .2em .5em .2em .5em;
 	}
 	.school-div,
 	.entertainment-div{
