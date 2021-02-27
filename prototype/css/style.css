@@ -421,7 +421,7 @@ img{
 	background-color: #26A682;
 	border: solid 0.25px #26A682;
 	border-radius: 20px;
-	padding: 20px 55px 20px 1px;
+	padding: 20px 55px 20px 20px;
 	margin: 1em .5em 1em .5em;
 	box-shadow: 0px 4px 8px 0.5px rgba(0, 0, 0, 0.507);
 }	
