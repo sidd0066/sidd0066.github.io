@@ -213,11 +213,13 @@ img{
 	text-align: center;
 }
 .started{
-	padding: .2em;
+	padding: .2em 3em .2em 3em;
+	margin-top: 1em;
 	font-size: 32px;
 	font-weight: bold;
-	display: block;		
+	
 }
+
 
 .learn{
 	padding: .5em;
@@ -229,7 +231,8 @@ img{
 	margin-top: 20px;
 }
 .discover-img{
-	max-width: 60%;
+	max-width: 80%;
+	margin-top: 2em;
 }	
 
 .bottom-img{
@@ -532,6 +535,8 @@ iframe{
 		padding: 1em;
 	}
 
+	
+
 	/* Adding Flexbox to home icons to put on same line */
 
 	.discover-icons{
@@ -539,9 +544,7 @@ iframe{
 		justify-content: space-between;
 	}
 
-	/* .started{
-		max-width: 50px;
-	} */
+
 
 	.discover-sect2{
 		background-color: #F2F2F2;
@@ -637,11 +640,16 @@ iframe{
 		padding: 1em;
 	}
 
+
+
 	h1{
 		font-size: 72px;
 	}
 
-
+	.top-img{
+			max-width: 50%;
+			margin-right: 15px;	
+		}
 
 	/* These are the Home styles */
 
