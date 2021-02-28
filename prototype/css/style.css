@@ -516,7 +516,7 @@ iframe{
 				These are the tablet styles 
 ----------------------------------------------------*/
 
-@media screen and (min-width: 600px) and (max-width: 960px){
+@media screen and (min-width: 600px) and (max-width: 1024px){
 
 	.nav-list{
 		display: flex;
@@ -616,7 +616,7 @@ iframe{
  		These are the desktop styles 
  -----------------------------------*/
 
- @media screen and (min-width: 960px){
+ @media screen and (min-width: 1024px){
 
 
 	/* These are the custom styles */
@@ -755,7 +755,7 @@ iframe{
 	.service-sect4{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		gap: .5em;
+		gap: 1em;
 		
 	}
 
