@@ -309,7 +309,7 @@ img{
 }
 
 .about-w{
-	margin-top: 1em;
+	/* margin-top: 1em; */
 }
 .about-sect h3{
 	font-size: 32px;
@@ -592,6 +592,8 @@ iframe{
 
 	/* About Styles */
 
+	
+
 	.service-sects img{
 		display: block;
 	}	
@@ -732,7 +734,11 @@ iframe{
 		grid-template-columns: repeat(2, 1fr);
 		gap: 1em;
 	}
+	
 
+	.about-sect{
+		margin-top: 1em;
+	}
 	.about-grid{
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
