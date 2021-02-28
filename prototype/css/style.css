@@ -755,7 +755,7 @@ iframe{
 	.service-sect4{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		gap: 2em;
+		gap: .5em;
 		
 	}
 
