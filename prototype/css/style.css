@@ -330,20 +330,30 @@ img{
 }
 
 
+.about-banner{
+	background: url("../images/about.jpg");
+	background-size: cover;
+	height: 170px;
+	mix-blend-mode: darken;
+	background-color: #26A682;
+	background-position: center;
+	background-repeat: no-repeat;
+}
 .service-banner{
 	background: url("../images/services.jpg");
 	background-size: cover;
-	height: 150px;
+	height: 170px;
 	mix-blend-mode: darken;
 	background-color: #26A682;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
+.about-banner h2,
 .service-banner h2{
 	text-align: center;
 	color: #F2F2F2;
-	padding-top: 25px;
+	padding-top: 45px;
 	font-size: 56px;
 	font-weight: bold;
 }
