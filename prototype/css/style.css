@@ -329,8 +329,8 @@ img{
 	background: url("../images/about.jpg");
 	background-size: cover;
 	height: 170px;
-	mix-blend-mode: darken;
 	background-color: #26A682;
+  	background-blend-mode: multiply;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -338,8 +338,8 @@ img{
 	background: url("../images/services.jpg");
 	background-size: cover;
 	height: 170px;
-	mix-blend-mode: darken;
 	background-color: #26A682;
+  	background-blend-mode: multiply;
 	background-position: center;
 	background-repeat: no-repeat;
 }
