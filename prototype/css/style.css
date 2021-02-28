@@ -325,7 +325,7 @@ img{
 .about-banner{
 	background: url("../images/about.jpg");
 	background-size: cover;
-	height: 170px;
+	height: 250px;
 	background-color: #26A682;
   	background-blend-mode: multiply;
 	background-position: center;
@@ -334,7 +334,7 @@ img{
 .service-banner{
 	background: url("../images/services.jpg");
 	background-size: cover;
-	height: 170px;
+	height: 250px;
 	background-color: #26A682;
   	background-blend-mode: multiply;
 	background-position: center;
@@ -345,10 +345,11 @@ img{
 .service-banner h2{
 	text-align: center;
 	color: #F2F2F2;
-	padding-top: 45px;
-	font-size: 56px;
+	padding-top: 95px;
+	font-size: 50px;
 	font-weight: bold;
 }
+
 .service-sects img{
 	display: none;
 }	
