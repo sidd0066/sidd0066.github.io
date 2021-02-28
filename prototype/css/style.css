@@ -256,15 +256,12 @@ img{
 }	
 
 .fas{
-	padding: .5em;
-	/* margin: 0 auto; */
-	max-width: 100%;
+	padding-top: 1em;
 }	
 .discover-icons{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 1em;
-	
 	text-align: center;
 }	
 
