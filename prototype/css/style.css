@@ -607,7 +607,11 @@ iframe{
 		
 	}
 
-	
+	.cibc,
+	.pcl,
+	.ac{
+		width: 40%;
+	}
 
 
 }
