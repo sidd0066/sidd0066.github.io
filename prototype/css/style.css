@@ -616,6 +616,10 @@ iframe{
 		max-width: 65%;
 	}
 
+	.form input[type=submit]{
+		width: 30%;
+		margin-right: 0 auto;
+	}
 }
 
 /*-------------------------------------
@@ -788,11 +792,13 @@ iframe{
 	.contact-grid{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		gap: 1em;
+		gap: 2em;
 	}
 
-	.contact-grid img{
-		max-width: 80%;
+
+
+	textarea{
+		height: 115px;
 	}
 	.location-grid{
 		display: grid;
