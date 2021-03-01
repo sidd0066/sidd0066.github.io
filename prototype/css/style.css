@@ -723,10 +723,22 @@ iframe{
 	}
 
 	.qoute-sect{
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		align-items: center;
+		display: flex;
 		justify-content: space-around;
+		align-items: center;
+	}
+
+	.qoute-sect img{
+		max-width: 15%;
+	}
+
+	.qoute-sect div{
+		font-size: 24px;
+		padding-left: 3em;
+	}
+
+	.qoute-sect p{
+		padding-left: 5em;
 	}
 	
 	.discover-img{
