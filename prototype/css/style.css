@@ -703,6 +703,13 @@ iframe{
 		gap: 2em;
 	}
 
+	.subscribe-div h2{
+		font-size: 40px;
+	}
+	.subscribe-div a{
+		font-size: 27px;
+	}
+
 	.qoute-sect{
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
