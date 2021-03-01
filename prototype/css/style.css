@@ -411,7 +411,7 @@ img{
 .cibc,
 .pcl,
 .ac{
-	width: 60%;
+	width: 50%;
 }
 /* Contact styles */
 
@@ -612,7 +612,9 @@ iframe{
 	.ac{
 		width: 40%;
 	}
-
+	.sa{
+		max-width: 65%;
+	}
 
 }
 
