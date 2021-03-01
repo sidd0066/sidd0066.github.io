@@ -769,8 +769,14 @@ iframe{
 	.logo-flex{
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
-		justify-content: space-between;
 		align-items: center;
+		gap: 1em;
+	}
+
+	.cibc,
+	.pcl,
+	.ac{
+		width: 60%;
 	}
 
 	.contact-grid{
