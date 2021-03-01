@@ -590,6 +590,7 @@ iframe{
 
 	.bottom-button{
 		display: block;
+		margin-bottom: 1em;
 	}	
 
 	/* About Styles */
@@ -763,6 +764,7 @@ iframe{
 
 	.bottom-button{
 		display: block;
+		margin-bottom: 1.5em;
 	}	
 
 
