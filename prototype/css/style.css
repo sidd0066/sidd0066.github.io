@@ -789,16 +789,27 @@ iframe{
 		width: 60%;
 	}
 
+	.form{
+		margin: 1em 1em 1em 10em;
+		/* padding: 20px 10px 10px 20px; */
+	}
+
+
 	.contact-grid{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		gap: 2em;
+		gap: 1em;
 	}
 
 
 
 	textarea{
 		height: 115px;
+	}
+
+	.form input[type=submit]{
+		width: 40%;
+		margin-right: 0 auto;	
 	}
 	.location-grid{
 		display: grid;
