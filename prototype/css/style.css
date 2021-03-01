@@ -228,7 +228,9 @@ img{
 .discover-img{
 	max-width: 80%;
 	margin-top: 2em;
+	 
 }	
+
 
 .bottom-img{
 	transform: rotate(180deg);
@@ -756,8 +758,21 @@ iframe{
 		width: 90%;
 	}
 
+
 	.started-div{
 		margin-top: 4em;
+
+		animation-name: get-started;
+		animation-duration: 0.8s;
+		 animation-delay: 0.5s;
+		 animation-iteration-count: infinite;
+		 animation-timing-function: ease-in;
+   }
+
+		@keyframes get-started{
+	50% { 
+		transform: translate(0, -15px);
+		}  
 	}
 
 
