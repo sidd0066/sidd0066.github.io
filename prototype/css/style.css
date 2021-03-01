@@ -66,6 +66,12 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+  }
+
 body p{
 	line-height: 2.5;
 }
@@ -395,6 +401,10 @@ img{
 	
 }
 
+.subscribe-desktop{
+	display: none;
+}
+
 .thanks-logos{
 	text-align: center;
 }
@@ -612,6 +622,10 @@ iframe{
 		
 	}
 
+	.subscribe-desktop{
+		display: none;
+	}
+
 	.cibc,
 	.pcl,
 	.ac{
@@ -623,7 +637,9 @@ iframe{
 
 	.form input[type=submit]{
 		width: 30%;
-		margin-right: 0 auto;
+	}
+	.submit-div{
+		text-align: right;
 	}
 }
 
@@ -717,6 +733,8 @@ iframe{
 		grid-template-columns: repeat(2, 1fr);
 		gap: 2em;
 	}
+	
+	
 
 	.subscribe-div h2{
 		font-size: 40px;
@@ -724,6 +742,13 @@ iframe{
 	.subscribe-div a{
 		font-size: 27px;
 	}
+
+	/* .subscribe-mobile{
+		display: none;
+	} */
+
+	
+
 
 	.qoute-sect{
 		display: flex;
@@ -848,7 +873,9 @@ iframe{
 	.form input[type=submit]{
 		width: 40%;	
 	}
-
+	.submit-div{
+		text-align: right;
+	}
 	
 
 	.location-grid{
