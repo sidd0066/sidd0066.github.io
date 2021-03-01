@@ -635,7 +635,7 @@ iframe{
 
 	.container{
 		padding: 4em;
-		margin-top: 4em;
+		/* margin-top: 4em; */
 	}
 
 	/* Adding flexbox to put logo on same line  */
@@ -730,6 +730,7 @@ iframe{
 
 	.qoute-sect img{
 		max-width: 15%;
+		margin: 0;
 	}
 
 	.qoute-sect div{
@@ -739,6 +740,7 @@ iframe{
 
 	.qoute-sect p{
 		padding-left: 5em;
+		width: 60%;
 	}
 	
 	.discover-img{
@@ -747,8 +749,14 @@ iframe{
 
 	.discover-icons{
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 		align-items: flex-start;
+		padding: 2em 0;
+		width: 90%;
+	}
+
+	.started-div{
+		margin-top: 4em;
 	}
 
 
@@ -767,9 +775,9 @@ iframe{
 	}
 	
 
-	.about-sect{
+	/* .about-sect{
 		margin-top: 1em;
-	}
+	} */
 	.about-grid{
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
