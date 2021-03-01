@@ -481,7 +481,8 @@ textarea{
 	border: solid 0.5px #3C3B3A;
 	box-shadow: 0px 4px 8px 0.5px rgba(0, 0, 0, 0.507);
 	box-sizing: border-box;
-}	
+}
+
 
 iframe{
 	width: 100%;
@@ -509,6 +510,7 @@ iframe{
 	font-size: 17px;
 	color: #26A682;
 }	
+
 
 
 
@@ -808,9 +810,11 @@ iframe{
 	}
 
 	.form input[type=submit]{
-		width: 40%;
-		margin-right: 0 auto;	
+		width: 40%;	
 	}
+
+	
+
 	.location-grid{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
