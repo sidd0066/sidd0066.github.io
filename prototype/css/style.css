@@ -387,6 +387,7 @@ img{
 	color: #F2F2F2;
 	font-weight: 600;
 	font-size: 18px;
+	margin-bottom: 1em;
 }
 
 /* Adding styles for Subscribe button to be readable and match up with mockup */
@@ -400,9 +401,6 @@ img{
 	
 }
 
-.subscribe-desktop{
-	display: none;
-}
 
 .thanks-logos{
 	text-align: center;
@@ -621,13 +619,15 @@ iframe{
 		
 	}
 
-	.subscribe-desktop{
-		display: none;
-	}
+
 
 	.subscribe-div{
 		display: flex;
 		justify-content: space-evenly;
+	}
+
+	.subscribe-div h2{
+		margin: 0;
 	}
 
 	.cibc,
@@ -741,12 +741,13 @@ iframe{
 	
 
 	.subscribe-div h2{
-		font-size: 40px;
+		font-size: 36px;
 		padding-right: 1em;
+		margin: 0;
 	}
 	.subscribe-div a{
 		font-size: 27px;
-		padding: .3em 1em .3em 1em;
+		padding: .2em 1.5em .2em 1.5em;
 		
 	}
 
