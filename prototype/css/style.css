@@ -742,14 +742,17 @@ iframe{
 
 	.subscribe-div h2{
 		font-size: 40px;
+		padding-right: 1em;
 	}
 	.subscribe-div a{
 		font-size: 27px;
+		padding: .3em 1em .3em 1em;
+		
 	}
 
 	.subscribe-div{
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: center;
 		align-items: center;
 		
 	}
