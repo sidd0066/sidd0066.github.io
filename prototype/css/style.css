@@ -527,7 +527,7 @@ iframe{
 				These are the tablet styles 
 ----------------------------------------------------*/
 
-@media screen and (min-width: 600px) and (max-width: 1024px){
+@media screen and (min-width: 680px) and (max-width: 1024px){
 
 	.nav-list{
 		display: flex;
