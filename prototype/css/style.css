@@ -826,6 +826,7 @@ iframe{
 		grid-template-columns: repeat(2, 1fr);
 		gap: 1em;
 	}
+
 	
 
 	/* .about-sect{
@@ -835,7 +836,8 @@ iframe{
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		gap: 5em;
-		margin: 5em;
+		margin-top: 5em;
+		margin-bottom: 5em;
 	}
 
 	.service-sects img{
