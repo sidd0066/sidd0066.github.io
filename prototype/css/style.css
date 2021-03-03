@@ -265,9 +265,7 @@ img{
 	box-shadow: 0px 9px 20px 0px rgba(0, 0, 0, 0.356);
 }	
 
-.fas{
-	padding-top: 1em;
-}	
+
 .discover-icons{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -562,7 +560,9 @@ iframe{
 	}
 
 
-
+	.fas{
+		padding-top: 1em;
+	}	
 	.discover-sect2{
 		background-color: #F2F2F2;
 	}
@@ -706,7 +706,9 @@ iframe{
 	.discover-mobile{
 		display: none;
 	}
-
+	.fas{
+		padding-top: 1em;
+	}	
 
 	.started-div{
 		text-align: left;
