@@ -56,30 +56,27 @@ table {
     These are the mobile styles
 --------------------------------- */
 
-/* These are the custom styles for all pages */
+/* Adding scroll-behavior: smooth to smooth the back to top and scroll down buttons */
 html{
 	scroll-behavior: smooth;
 }
 
+/* Adding line-height: 1.5 to match with mockup */
 body{
 	line-height: 1.5;
 	font-family: 'Raleway', sans-serif;
 }
 
-.clearfix::after {
-	content: '';
-	display: table;
-	clear: both;
-  }
 
+/* Adding line-height: 2.5; to make texts more readable */
 body p{
 	line-height: 2.5;
 }
 .container{
 	padding: 2em;
-	/* margin: 0 auto; */
 }
 
+/* Adding box-sizing: border-box; to adjusts widths o borders   */
 *{
 	box-sizing: border-box;
 }
@@ -88,7 +85,6 @@ body p{
     text-align: center;
     background-color: #3C3B3A;
     padding: 1em;
-    /* padding-bottom: 20px; */
 }
 
 .nav-list ul li{
@@ -124,6 +120,7 @@ footer{
 	
 }
 
+/* Adding margin: 0 auto; to center social media icons */
 
 .footer-icons{
 	margin: 0 auto;
@@ -185,6 +182,7 @@ h1{
 	font-weight: bold;
 }
 
+/* Adding max-width: 100%; and height: auto; to fit images on screen */
 img{
 	max-width: 100%;
 	height: auto;
@@ -214,7 +212,19 @@ img{
 
 .started-div{
 	text-align: center;
+	animation-name: get-started;
+	animation-duration: 1s;
+	 animation-delay: 0.3s;
+	 animation-iteration-count: infinite;
+	 animation-timing-function: ease-in-out;
 }
+
+	@keyframes get-started{
+50% { 
+	transform: translate(0, -10px);
+	}  
+}
+
 .started{
 	padding: .2em 2.5em .2em 2.5em;
 	margin-top: 1em;
@@ -641,6 +651,11 @@ iframe{
 		max-width: 65%;
 	}
 
+	textarea{
+		height: 155px;
+	}
+
+
 	.form input[type=submit]{
 		width: 30%;
 	}
@@ -800,17 +815,6 @@ iframe{
 
 	.started-div{
 		margin-top: 4em;
-		animation-name: get-started;
-		animation-duration: 0.8s;
-		 animation-delay: 0.5s;
-		 animation-iteration-count: infinite;
-		 animation-timing-function: ease-in;
-   }
-
-		@keyframes get-started{
-	50% { 
-		transform: translate(0, -15px);
-		}  
 	}
 
 
@@ -869,9 +873,9 @@ iframe{
 		width: 60%;
 	}
 
+	/* Adjusting margin on form section to match with mockup */
 	.form{
 		margin: 1em 1em 1em 10em;
-		/* padding: 20px 10px 10px 20px; */
 	}
 
 
@@ -884,7 +888,7 @@ iframe{
 
 
 	textarea{
-		height: 115px;
+		height: 125px;
 	}
 
 	.form input[type=submit]{
