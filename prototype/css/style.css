@@ -109,9 +109,14 @@ body p{
 .nav-list a:focus,
 .nav-list a.current{
 	font-weight: bold;
-	transform: scale(1.2);
-	transition: 0.4s;
+	transform: skew(-15deg);
+	transition: 0.2s;
+	/* width: 95%; */
 }
+
+/* .nav-list a{
+	width: 90%;
+} */
 
 footer{
 	background-color: #3C3B3A;
@@ -545,6 +550,11 @@ iframe{
   		align-items: center;
 		padding: .1em;
 	}
+
+	/* .nav-list a{
+		width: 90%;
+	} */
+	
 
 	.img-logo{
 		max-width: 10%;
