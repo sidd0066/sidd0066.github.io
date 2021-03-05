@@ -105,18 +105,16 @@ body p{
 	text-decoration: none;
 }
 
+/* Adding hover and skew animation to navigation for better user interaction */
 .nav-list a:hover,
 .nav-list a:focus,
 .nav-list a.current{
 	font-weight: bold;
 	transform: skew(-15deg);
-	transition: 0.2s;
-	/* width: 95%; */
+	transition: 0.3s;
 }
 
-/* .nav-list a{
-	width: 90%;
-} */
+
 
 footer{
 	background-color: #3C3B3A;
@@ -294,18 +292,18 @@ img{
   margin-right: auto;
 }  
 
-.qoute-sect{
+.quote-sect{
 	background-color: #3C3B3A;
 }	
 
-.qoute-sect h4{
+.quote-sect h4{
 	font-size: 24px;
 	text-align: center;
 	color: #F2F2F2;
 	font-weight: bold;
 }	
 
-.qoute-sect p{
+.quote-sect p{
 	color: #F2F2F2;
 }	
 .simon-img{
@@ -599,7 +597,7 @@ iframe{
 		padding: .2em 1em .2em 1em;
 	}
 
-	.qoute-sect{
+	.quote-sect{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		/* grid-template-rows: 1fr; */
@@ -607,15 +605,15 @@ iframe{
 							"h4 p";
 	}
 
-	.qoute-sect img{
+	.quote-sect img{
 		grid-area: img;
 	}
 
-	.qoute-sect div{
+	.quote-sect div{
 		grid-area: h4;
 	}
 
-	.qoute-sect p{
+	.quote-sect p{
 		grid-area: p;
 	}
 
@@ -789,23 +787,23 @@ iframe{
 	
 
 
-	.qoute-sect{
+	.quote-sect{
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
 	}
 
-	.qoute-sect img{
+	.quote-sect img{
 		max-width: 15%;
 		margin: 0;
 	}
 
-	.qoute-sect div{
+	.quote-sect div{
 		font-size: 24px;
 		padding-left: 3em;
 	}
 
-	.qoute-sect p{
+	.quote-sect p{
 		padding-left: 5em;
 		width: 60%;
 	}
