@@ -428,7 +428,7 @@ img{
 }
 
 .thanks-logos h2{
-	font-size: 56px;
+	font-size: 48px;
 	font-weight: bold;
 	margin-bottom: 1em;
 }
@@ -660,6 +660,10 @@ iframe{
 		margin: 0;
 	}
 
+	.thanks-logos h2{
+		font-size: 56px;
+	}
+
 	.cibc,
 	.pcl,
 	.ac{
@@ -884,6 +888,11 @@ iframe{
 		align-items: center;
 		gap: 1em;
 	}
+
+	.thanks-logos h2{
+		font-size: 56px;
+	}
+
 
 	.cibc,
 	.pcl,
