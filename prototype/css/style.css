@@ -81,12 +81,14 @@ body p{
 	box-sizing: border-box;
 }
 
+/* Adding styles to navigation to match with mobile mockup  */
 .nav-list{
     text-align: center;
     background-color: #3C3B3A;
     padding: 1em;
 }
 
+/* Adding padding to Nav to give more spacing */
 .nav-list ul li{
 	padding: .3em;
 }
@@ -98,7 +100,6 @@ body p{
 	text-decoration: none;
 	color: #F2F2F2;
 	font-size: 18px;    
-	/* padding-top: 1em; */
 }
 
 .nav-list ul{
@@ -110,10 +111,17 @@ body p{
 .nav-list a:focus,
 .nav-list a.current{
 	font-weight: bold;
-	transform: skew(-15deg);
-	transition: 0.3s;
+	
 }
 
+
+.subscribe-btn:hover,
+.submit-div:hover,
+.about-logo:hover,
+.learn-div:hover{
+	transform: translate(0, -7px);
+	transition: 0.5s;
+}
 
 
 footer{
@@ -268,7 +276,7 @@ img{
 	text-decoration: none;
 }
 
-.container a{
+.btn{
 	background-color: #26A682;
 	text-decoration: none;
 	color: #F2F2F2;
