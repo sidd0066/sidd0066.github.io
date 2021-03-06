@@ -115,7 +115,7 @@ body p{
 }
 
 
-/* Adding translate transition on hover buttons to make it interactive */
+/* Adding translate transition on hover buttons and logos to make it interactive */
 .subscribe-btn:hover,
 .submit-div:hover,
 .about-logo:hover,
@@ -125,6 +125,7 @@ body p{
 }
 
 
+/* Adding footer styles to match with mockup */
 footer{
 	background-color: #3C3B3A;
 	text-align: center;
@@ -138,14 +139,18 @@ footer{
 	margin: 0 auto;
 }
 
-footer .social-media .top-button{
-	align-self: flex-end;
-}
+/* Adding flexbox to social media icons and back to top button to button on same line  */
 .icon-div{
 	display: flex;
 	position: relative;
 }
 
+/* Adding align-self: flex-end to back to top button to push to the right side  */
+footer .social-media .top-button{
+	align-self: flex-end;
+}
+
+/* Adding padding to give more spacing between social media icons */
 footer .footer-icons .icon{
 	padding: .5em;
 }
@@ -230,6 +235,8 @@ img{
 	 animation-iteration-count: infinite;
 	 animation-timing-function: ease-in-out;
 }
+
+/* Adding animation to get started button to make it more interactive */
 
 	@keyframes get-started{
 50% { 
