@@ -115,6 +115,7 @@ body p{
 }
 
 
+/* Adding translate transition on hover buttons to make it interactive */
 .subscribe-btn:hover,
 .submit-div:hover,
 .about-logo:hover,
