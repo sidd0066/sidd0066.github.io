@@ -118,7 +118,6 @@ body p{
 /* Adding translate transition on hover buttons and logos to make it interactive */
 .subscribe-btn:hover,
 .submit-div:hover,
-.learn-div:hover,
 .about-logo:hover{
 	transform: translate(0, -7px);
 	transition: 0.5s;
@@ -128,7 +127,7 @@ body p{
 .started:hover,
 .learn:hover{
 	background-color: #3C3B3A;
-	transition: 0.6s;
+	transition: 0.7s;
 }
 
 
