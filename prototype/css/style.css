@@ -434,10 +434,8 @@ img{
 	padding: .2em;
 	padding-left: 1em;
 	padding-right: 1em;
-	box-shadow: none;
-	
+	box-shadow: none;	
 }
-
 
 .thanks-logos{
 	text-align: center;
@@ -459,7 +457,7 @@ img{
 .ac{
 	width: 50%;
 }
-/* Contact styles */
+/* ---Contact Styles--- */
 
 .contact-h1{
 	font-size: 50px;
@@ -561,7 +559,7 @@ iframe{
 
 
 /* -----------------------------------------------
-				These are the tablet styles 
+			These are the tablet styles 
 ----------------------------------------------------*/
 
 @media screen and (min-width: 680px) and (max-width: 1024px){
@@ -572,11 +570,6 @@ iframe{
   		align-items: center;
 		padding: .1em;
 	}
-
-	/* .nav-list a{
-		width: 90%;
-	} */
-	
 
 	.img-logo{
 		max-width: 10%;
@@ -592,8 +585,6 @@ iframe{
 		padding: 1em;
 	}
 
-	
-
 	/* Adding Flexbox to home icons to put on same line */
 
 	.discover-icons{
@@ -604,10 +595,12 @@ iframe{
 
 	.fas{
 		padding-top: 1em;
-	}	
+	}
+
 	.discover-sect2{
 		background-color: #F2F2F2;
 	}
+
 	.discover-mobile .school-img,	
 	.discover-mobile .bar-img{
 	position: relative;
@@ -624,7 +617,6 @@ iframe{
 	.quote-sect{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		/* grid-template-rows: 1fr; */
 		grid-template-areas: "img p"		
 							"h4 p";
 	}
@@ -646,9 +638,7 @@ iframe{
 		margin-bottom: 1em;
 	}	
 
-	/* About Styles */
-
-	
+	/* ---About Styles--- */
 
 	.service-sects img{
 		display: block;
@@ -662,10 +652,6 @@ iframe{
 		gap: 1em;
 		
 	}
-
-	
-
-
 
 	.subscribe-div{
 		display: flex;
@@ -693,7 +679,6 @@ iframe{
 		height: 155px;
 	}
 
-
 	.form input[type=submit]{
 		width: 30%;
 	}
@@ -707,7 +692,6 @@ iframe{
  -----------------------------------*/
 
  @media screen and (min-width: 1024px){
-
 
 	/* These are the custom styles */
 
@@ -729,7 +713,6 @@ iframe{
 		padding-left: 4em;
 	}
 
-
 	/* Adding flexbox to put nav texts on same line with logo */
 	.nav-list ul{
 		display: flex;
@@ -740,8 +723,6 @@ iframe{
 		padding: 1.5em;
 	}
 
-
-
 	h1{
 		font-size: 60px;
 	}
@@ -751,14 +732,13 @@ iframe{
 			margin-right: 15px;	
 		}
 
-	/* These are the Home styles */
+	/* ---Home styles ---*/
 
 	/* Adding Flexbox to home icons to put on same line */
-
-
 	.discover-mobile{
 		display: none;
 	}
+
 	.fas{
 		padding-top: 1em;
 	}	
@@ -770,6 +750,7 @@ iframe{
 	.started{
 		padding: .2em 1em .2em 1em;
 	}
+
 	.school-div,
 	.entertainment-div{
 	display: block;
@@ -795,8 +776,6 @@ iframe{
 		gap: 2em;
 	}
 	
-	
-
 	.subscribe-div h2{
 		font-size: 36px;
 		padding-right: 1em;
@@ -811,11 +790,8 @@ iframe{
 	.subscribe-div{
 		display: flex;
 		justify-content: center;
-		align-items: center;
-		
+		align-items: center;	
 	}
-	
-
 
 	.quote-sect{
 		display: flex;
@@ -855,13 +831,10 @@ iframe{
 		margin-top: 4em;
 	}
 
-
-
 	.bottom-button{
 		display: block;
 		margin-bottom: 1.5em;
 	}	
-
 
 	/* These are the About styles */
 
@@ -871,11 +844,6 @@ iframe{
 		gap: 1em;
 	}
 
-	
-
-	/* .about-sect{
-		margin-top: 1em;
-	} */
 	.about-grid{
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -894,8 +862,7 @@ iframe{
 	.service-sect4{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		gap: 1em;
-		
+		gap: 1em;	
 	}
 
 	.logo-grid{
@@ -909,26 +876,23 @@ iframe{
 		font-size: 56px;
 	}
 
-
+	/* Adjusting width for logo images for better legibility */
 	.cibc,
 	.pcl,
 	.ac{
 		width: 60%;
 	}
 
-	/* Adjusting margin on form section to match with mockup */
+	/* Adjusting margin on form section to for better spacing for desktop */
 	.form{
 		margin: 1em 1em 1em 10em;
 	}
-
 
 	.contact-grid{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 1em;
 	}
-
-
 
 	textarea{
 		height: 125px;
@@ -941,7 +905,6 @@ iframe{
 		text-align: right;
 	}
 	
-
 	.location-grid{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -959,6 +922,4 @@ iframe{
 	.location-map{
 		display: none;
 	}
-
-
  }
