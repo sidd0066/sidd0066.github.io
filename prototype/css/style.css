@@ -93,6 +93,7 @@ body p{
 	padding: .3em;
 }
 
+/* add nav styles to make it more readable */
 .nav-list a,
 .nav-list a:link,
 .nav-list a:visited{
@@ -585,7 +586,6 @@ iframe{
 		justify-content: space-between;
 	}
 
-
 	.fas{
 		padding-top: 1em;
 	}
@@ -600,7 +600,6 @@ iframe{
     max-height: 240px;
     width: 100%;
     object-fit: cover;
-
 	}
 
 	.started{
@@ -636,6 +635,7 @@ iframe{
 	.service-sects img{
 		display: block;
 	}	
+
 	.service-sect1,
 	.service-sect2,
 	.service-sect3,
@@ -818,7 +818,6 @@ iframe{
 		padding: 2em 0;
 		width: 90%;
 	}
-
 
 	.started-div{
 		margin-top: 4em;
