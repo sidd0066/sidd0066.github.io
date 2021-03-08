@@ -161,6 +161,7 @@ footer .footer-icons .icon{
 	padding: .5em;
 }
 
+/* fixing alignment for back to top button to match with mockup */
 .top-button{
 	text-align: right;
 	color: #F2F2F2;
@@ -170,16 +171,16 @@ footer .footer-icons .icon{
 	top: 10px;
 }
 
+.top-img{
+	max-width: 30%;
+	margin-right: 15px;	
+}
 footer h3{
 	color: #F2F2F2;
 	font-size: 24px;
 	text-align: center;
 }
 
-.top-img{
-	max-width: 30%;
-	margin-right: 15px;	
-}
 
 .bottom-button h4{
 	text-decoration: none;
