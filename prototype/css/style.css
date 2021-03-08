@@ -117,7 +117,6 @@ body p{
 
 /* Adding translate transition on hover buttons and logos to make it interactive */
 .subscribe-btn:hover,
-.submit-div:hover,
 .about-logo:hover{
 	transform: translate(0, -7px);
 	transition: 0.5s;
@@ -571,6 +570,7 @@ iframe{
 		padding: .1em;
 	}
 
+	/* Adjusting max-width and padding-left on logo for better spacing */
 	.img-logo{
 		max-width: 10%;
 		padding-left: 2em;
