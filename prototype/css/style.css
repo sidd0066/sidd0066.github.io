@@ -111,9 +111,7 @@ body p{
 .nav-list a:focus,
 .nav-list a.current{
 	font-weight: bold;
-	
 }
-
 
 /* Adding translate transition on hover buttons and logos to make it interactive */
 .subscribe-btn:hover,
