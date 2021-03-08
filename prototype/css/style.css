@@ -238,9 +238,9 @@ img{
 	text-align: center;
 	animation-name: get-started;
 	animation-duration: 1s;
-	 animation-delay: 0.4s;
-	 animation-iteration-count: infinite;
-	 animation-timing-function: ease-in-out;
+	animation-delay: 0.4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
 }
 
 /* Adding animation to get started button to make it more interactive */
@@ -255,10 +255,8 @@ img{
 	padding: .2em 2.5em .2em 2.5em;
 	margin-top: 1em;
 	font-size: 32px;
-	font-weight: bold;
-	
+	font-weight: bold;	
 }
-
 
 .learn{
 	padding: .5em;
