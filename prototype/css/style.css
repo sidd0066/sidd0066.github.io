@@ -894,6 +894,7 @@ iframe{
 		gap: 1em;
 	}
 
+	/* Increasing Message box for better legibility for desktop */
 	textarea{
 		height: 125px;
 	}
