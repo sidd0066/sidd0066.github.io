@@ -238,7 +238,7 @@ img{
 	text-align: center;
 	animation-name: get-started;
 	animation-duration: 1s;
-	 animation-delay: 0.3s;
+	 animation-delay: 0.4s;
 	 animation-iteration-count: infinite;
 	 animation-timing-function: ease-in-out;
 }
@@ -247,7 +247,7 @@ img{
 
 	@keyframes get-started{
 50% { 
-	transform: translate(0, -10px);
+	transform: translate(0, -8px);
 	}  
 }
 
@@ -554,9 +554,6 @@ iframe{
 	color: #26A682;
 }	
 
-
-
-
 /* -----------------------------------------------
 			These are the tablet styles 
 ----------------------------------------------------*/
@@ -728,8 +725,8 @@ iframe{
 	}
 
 	.top-img{
-			max-width: 50%;
-			margin-right: 15px;	
+		max-width: 50%;
+		margin-right: 15px;	
 		}
 
 	/* ---Home styles ---*/
@@ -753,7 +750,7 @@ iframe{
 
 	.school-div,
 	.entertainment-div{
-	display: block;
+		display: block;
 	}
 
 	.discover-grid{
