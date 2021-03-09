@@ -6,11 +6,15 @@ body{
 :root{
     --black: #0F0D0D;
     --white: #F7F7F7;
+    --grey: #505050;
 }
 
-.footer-icons{
-    border-radius: 50%;
+.footer-icons .icon{
+    border-radius: 25%;
+    background-color: var(--grey);
+    padding: .5em;
+    max-width: 5%;
 }
-.footer-icons:hover{
-    background-color: var(--black);
+.footer-icons .icon:hover{
+   background-color: var(--black);
 }
