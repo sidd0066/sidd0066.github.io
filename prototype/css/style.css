@@ -889,6 +889,7 @@ iframe{
 		gap: 1em;
 	}
 
+	/* Adding padding left and right to push part of thanks heading on another and for better legibility */
 	.thanks-logos h2{
 		font-size: 65px;
 		padding-left: 3.5em;
