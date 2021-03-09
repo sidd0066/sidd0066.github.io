@@ -63,4 +63,9 @@ footer{
 
 .home-sect{
     text-align: center;
+    margin-top: 3em;
+}
+
+.home-sect img{
+    max-width: 50%;
 }
