@@ -56,6 +56,8 @@ table {
     These are the mobile styles
 --------------------------------- */
 
+/* ---Custom Styles--- */
+
 /* Adding scroll-behavior: smooth to smooth the back to top and scroll down buttons */
 html{
 	scroll-behavior: smooth;
@@ -67,11 +69,12 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
-
-/* Adding line-height: 2.5; to make texts more readable */
+/* Adding line-height: 2.5 to body texts to make texts more readable  */
 body p{
 	line-height: 2.5;
 }
+
+/* Adding padding for better alignment */
 .container{
 	padding: 2em;
 }
@@ -80,6 +83,17 @@ body p{
 *{
 	box-sizing: border-box;
 }
+
+/* Adding max-width: 100%; and height: auto; to fit images on screen */
+img{
+	max-width: 100%;
+	height: auto;
+}	
+
+/* Adjusting max-width for ARC logo for better spacing */
+.img-logo{
+	max-width: 20%;
+}	
 
 /* Adding styles to navigation to match with mobile mockup  */
 .nav-list{
@@ -114,6 +128,17 @@ body p{
 	font-weight: bold;
 }
 
+/* Adding styles to all green buttons to match with mockup */
+.btn{
+	background-color: #26A682;
+	text-decoration: none;
+	color: #F2F2F2;
+	text-align: center;
+	margin-bottom: 1em;
+	border-radius: 50px;
+	box-shadow: 0px 9px 20px 0px rgba(0, 0, 0, 0.356);
+}	
+
 /* Adding translate transition on hover buttons and logos to make it interactive */
 .subscribe-btn:hover,
 .about-logo:hover{
@@ -121,24 +146,23 @@ body p{
 	transition: 0.5s;
 }
 
-
+/* Adding background-color hover transition to enhance user experience */
 .started:hover,
 .learn:hover{
 	background-color: #3C3B3A;
 	transition: 0.7s;
 }
 
+/* ---Footer--- */
 
 /* Adding footer styles to match with mockup */
 footer{
 	background-color: #3C3B3A;
 	text-align: center;
-	padding: 1em;
-	
+	padding: 1em;	
 }
 
 /* Adding margin: 0 auto; to center social media icons */
-
 .footer-icons{
 	margin: 0 auto;
 }
@@ -159,7 +183,7 @@ footer .footer-icons .icon{
 	padding: .5em;
 }
 
-/* fixing alignment for back to top button to match with mockup */
+/* Fixing alignment for back to top button to match with mockup */
 .top-button{
 	text-align: right;
 	color: #F2F2F2;
@@ -169,16 +193,18 @@ footer .footer-icons .icon{
 	top: 10px;
 }
 
+/* Adjusting max-width and margin of back to top icon to match with mockup */
 .top-img{
 	max-width: 30%;
 	margin-right: 15px;	
 }
+
+/* Adding in styles for h3 and h4 footer to match with mockup */
 footer h3{
 	color: #F2F2F2;
 	font-size: 24px;
 	text-align: center;
 }
-
 
 .bottom-button h4{
 	text-decoration: none;
@@ -195,7 +221,7 @@ footer a{
 	font-size: 11px;
 }
 
-/* These are the Home Styles */
+/* ----These are the Home Styles---- */
 
 
 /* Adding styles to all h1 to match with mockup */
@@ -205,16 +231,81 @@ h1{
 	font-weight: bold;
 }
 
-/* Adding max-width: 100%; and height: auto; to fit images on screen */
-img{
-	max-width: 100%;
-	height: auto;
+
+
+/* Adding animation to get started button to make it more interactive */
+.started-div{
+	text-align: center;
+	animation-name: get-started;
+	animation-duration: 1s;
+	animation-delay: 0.4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes get-started{
+	50% { 
+		transform: translate(0, -8px);
+	}  
+}
+
+/* Adding Styles to get started and learn more buttons to match with mobile mockup  */
+.started{
+	/* Adjusting paddings to for better legibility */
+	padding: .2em 2.5em .2em 2.5em;
+	margin-top: 1em;
+	font-size: 32px;
+	font-weight: bold;	
+}
+
+.learn{
+	padding: .5em;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* Adding alignments for learn more buttons to make it more readable */
+.discover-head div{
+	text-align: right;
+	margin-top: 20px;
+}
+
+/*  */
+.discover-img{
+	max-width: 80%;
+	margin-top: 2em;	 
 }	
 
-.img-logo{
-	max-width: 20%;
+/* Adding alignment for scroll bottom button for legibility */
+.bottom-img{
+	transform: rotate(180deg);
 }	
 
+.bottom-button{
+	display: none;
+	text-align: center;
+	text-decoration: none;
+}	
+
+.bottom-button a{
+	text-decoration: none;
+}
+
+/* Creating a 2 column grid for icons to match with mobile mockup */
+.discover-icons{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1em;
+	text-align: center;
+}	
+
+.discover-img{
+	display: block;
+ 	margin-left: auto;  
+ 	margin-right: auto;
+}  
+
+/* styling headers and paragraphs for discover sections to match with mockup */
 .discover-sect2 h2,
 .discover-sect3 h2{
 	font-size: 32px;
@@ -233,85 +324,13 @@ img{
 	font-weight: 300;
 }
 
-.started-div{
-	text-align: center;
-	animation-name: get-started;
-	animation-duration: 1s;
-	animation-delay: 0.4s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-}
-
-/* Adding animation to get started button to make it more interactive */
-
-	@keyframes get-started{
-50% { 
-	transform: translate(0, -8px);
-	}  
-}
-
-.started{
-	padding: .2em 2.5em .2em 2.5em;
-	margin-top: 1em;
-	font-size: 32px;
-	font-weight: bold;	
-}
-
-.learn{
-	padding: .5em;
-	font-size: 20px;
-	font-weight: bold;
-}
-.discover-head div{
-	text-align: right;
-	margin-top: 20px;
-}
-.discover-img{
-	max-width: 80%;
-	margin-top: 2em;
-	 
-}	
-
-
-.bottom-img{
-	transform: rotate(180deg);
-	
-}	
-
-.bottom-button{
+/* Removing desktop and tablet version of discover images so it's not visible  */
+.school-div,
+.entertainment-div{
 	display: none;
-	text-align: center;
-	text-decoration: none;
-}	
-
-.bottom-button a{
-	text-decoration: none;
 }
 
-.btn{
-	background-color: #26A682;
-	text-decoration: none;
-	color: #F2F2F2;
-	text-align: center;
-	margin-bottom: 1em;
-	border-radius: 50px;
-	box-shadow: 0px 9px 20px 0px rgba(0, 0, 0, 0.356);
-}	
-
-
-.discover-icons{
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 1em;
-	text-align: center;
-}	
-
-.discover-img{
-	display: block;
-  margin-left: auto;  
-  margin-right: auto;
-}  
-
+/* Adding background to quote section to make elements easy to read  */
 .quote-sect{
 	background-color: #3C3B3A;
 }	
@@ -335,13 +354,6 @@ img{
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }	
-
-.school-div,
-.entertainment-div{
-	display: none;
-}
-
-/* Adding max-height and object-fit to crop discover images */
 
 /* About Styles */
 
@@ -594,6 +606,7 @@ iframe{
 		background-color: #F2F2F2;
 	}
 
+	/* Adding max-height and object-fit to crop discover images */
 	.discover-mobile .school-img,	
 	.discover-mobile .bar-img{
 	position: relative;
@@ -866,6 +879,7 @@ iframe{
 
 	.thanks-logos h2{
 		font-size: 56px;
+		/* padding-right: 15em; */
 	}
 
 	/* Adjusting width for logo images for better legibility */
@@ -894,6 +908,7 @@ iframe{
 	.form input[type=submit]{
 		width: 40%;	
 	}
+
 	.submit-div{
 		text-align: right;
 	}
