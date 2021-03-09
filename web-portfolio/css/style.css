@@ -42,7 +42,12 @@ body{
 	text-decoration: none;
 }
 
-.home-sect,
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current{
+	background-color: var(--grey);
+}
+
 footer{
     text-align: center;
 }
@@ -54,4 +59,8 @@ footer{
 }
 .footer-icons .icon:hover{
    background-color: var(--black);
+}
+
+.home-sect{
+    text-align: center;
 }
