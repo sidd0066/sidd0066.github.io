@@ -614,6 +614,8 @@ iframe{
 		padding: 1em;
 	}
 
+	/* ---Home Page--- */
+
 	/* Adding Flexbox to home icons to put on same line */
 
 	.discover-icons{
@@ -671,13 +673,14 @@ iframe{
 		margin-bottom: 1em;
 	}	
 
-	/* ---About Styles--- */
+	/* ---About Page--- */
 
 	/* Making images in service section visible on tablet version to match with mockup */
 	.service-sects img{
 		display: block;
 	}	
 
+	/* Adding a 2 column grid to put images and texts beside each other */
 	.service-sect1,
 	.service-sect2,
 	.service-sect3,
@@ -685,14 +688,15 @@ iframe{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 1em;
-		
 	}
 
+	/* Using flexbox to put elements beside each other for tablet */
 	.subscribe-div{
 		display: flex;
 		justify-content: space-evenly;
 	}
 
+	/* Removing margin from the h2 subscribe section for better legibility  */
 	.subscribe-div h2{
 		margin: 0;
 	}
@@ -701,6 +705,7 @@ iframe{
 		font-size: 56px;
 	}
 
+	/* Adjusting width for thanks logos for better spacing */
 	.cibc,
 	.pcl,
 	.ac{
@@ -710,6 +715,9 @@ iframe{
 		max-width: 65%;
 	}
 
+	/* ---Contact Page--- */
+
+	/* Increasing height for message box for a better balance */
 	textarea{
 		height: 155px;
 	}
