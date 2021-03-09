@@ -890,8 +890,9 @@ iframe{
 	}
 
 	.thanks-logos h2{
-		font-size: 56px;
-		/* padding-right: 15em; */
+		font-size: 65px;
+		padding-left: 3.5em;
+		padding-right: 3.5em;
 	}
 
 	/* Adjusting width for logo images for better legibility */
