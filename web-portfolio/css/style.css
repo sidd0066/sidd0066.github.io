@@ -65,8 +65,26 @@ footer{
 .home-sect{
     text-align: center;
     margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+/* .home-sect h1{
+    border: solid 2px var(--black);
+    padding-right: 0;
+} */
+
+.home-sect p{
+    margin-bottom:1em ;
 }
 
 .home-sect img{
     max-width: 50%;
+}
+
+.view-portfolio{
+    color: var(--white);
+    background-color: var(--grey);
+    padding: 1em;
+    text-decoration: none;
+    font-weight: 600;
 }

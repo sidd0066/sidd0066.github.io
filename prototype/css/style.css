@@ -722,6 +722,7 @@ iframe{
 		height: 155px;
 	}
 
+	/* Adding a margin-right and text-align to align submit button to right */
 	.form input[type=submit]{
 		width: 30%;
 		margin-right: -15px;
