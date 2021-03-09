@@ -12,8 +12,7 @@ body{
 .footer-icons .icon{
     border-radius: 25%;
     background-color: var(--grey);
-    padding: .5em;
-    max-width: 5%;
+    padding: .7em;
 }
 .footer-icons .icon:hover{
    background-color: var(--black);
