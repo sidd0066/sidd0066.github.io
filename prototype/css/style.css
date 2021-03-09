@@ -299,6 +299,12 @@ h1{
 	text-align: center;
 }	
 
+/* increasing font-size and changing colour for icon headings to make it more readable */
+.discover-icons h3{
+	font-size: 17px;
+	color: #26A682;
+}	
+
 .discover-img{
 	display: block;
  	margin-left: auto;  
@@ -330,7 +336,7 @@ h1{
 	display: none;
 }
 
-/* Adding background to quote section to make elements easy to read  */
+/* Adding background colour to quote section to make elements easy to read  */
 .quote-sect{
 	background-color: #3C3B3A;
 }	
@@ -345,6 +351,7 @@ h1{
 .quote-sect p{
 	color: #F2F2F2;
 }	
+
 .simon-img{
 	border: solid 5px #F2F2F2;
 	border-radius: 100%;
@@ -357,13 +364,16 @@ h1{
 
 /* About Styles */
 
+/* Adding background colour to quote section to make elements easy to read */
 .about-sect{
 	background-color: #F2F2F2;
 }
 
+/* Adding a margin-top to about elements to give more spacing for mobile version  */
 .about-w{
 	margin-top: 1em;
 }
+
 .about-sect h3{
 	font-size: 32px;
 	font-weight: 600;
@@ -374,18 +384,9 @@ h1{
 	text-align: center;
 }
 
-
+/* Chose background-image to Services and About headings because is it is more semantic and to help the blending-mode work */
 .about-banner{
-	background: url("../images/about.jpg");
-	background-size: cover;
-	height: 250px;
-	background-color: #26A682;
-  	background-blend-mode: multiply;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-.service-banner{
-	background: url("../images/services.jpg");
+	background-image: url("../images/about.jpg");
 	background-size: cover;
 	height: 250px;
 	background-color: #26A682;
@@ -394,6 +395,17 @@ h1{
 	background-repeat: no-repeat;
 }
 
+.service-banner{
+	background-image: url("../images/services.jpg");
+	background-size: cover;
+	height: 250px;
+	background-color: #26A682;
+  	background-blend-mode: multiply;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* Adjusting styles Services and About for headers to make it more readable with the background-image*/
 .about-banner h2,
 .service-banner h2{
 	text-align: center;
@@ -403,6 +415,7 @@ h1{
 	font-weight: bold;
 }
 
+/* Using display: none to hide all images in service section for mobile version */
 .service-sects img{
 	display: none;
 }	
@@ -455,7 +468,7 @@ h1{
 	margin-bottom: 1em;
 }
 
-/* Adding margin to give image logos spacing and match with mockup */
+/* Adding margin to give image logos spacing for mobile version */
 .thanks-img{
 	margin: 1em;
 }
@@ -465,13 +478,14 @@ h1{
 .ac{
 	width: 50%;
 }
-/* ---Contact Styles--- */
+
+/* ---Contact Page--- */
 
 .contact-h1{
 	font-size: 50px;
 }	
 
-/* These are the form contact styles */
+/* ----Form Section---- */
 
 .form{
 	background-color: #26A682;
@@ -556,19 +570,14 @@ iframe{
 .location-text h3{
 	font-size: 24px;
 }
-/* Adding styles for icon headings */
-
-.discover-icons h3{
-	font-size: 17px;
-	color: #26A682;
-}	
 
 /* -----------------------------------------------
-			These are the tablet styles 
+			These are the Tablet Styles 
 ----------------------------------------------------*/
 
 @media screen and (min-width: 680px) and (max-width: 1024px){
 
+	/* Using flexbox to put nav texts on the same line */
 	.nav-list{
 		display: flex;
   		justify-content: space-between;
