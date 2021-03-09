@@ -631,7 +631,7 @@ iframe{
 		background-color: #F2F2F2;
 	}
 
-	/* Adding max-height and object-fit to crop discover images */
+	/* Adding max-height and object-fit to crop and not stretch discover images */
 	.discover-mobile .school-img,	
 	.discover-mobile .bar-img{
 	position: relative;
@@ -640,10 +640,12 @@ iframe{
     object-fit: cover;
 	}
 
+	/* Adjusting padding of get started button to match with tablet mockup */
 	.started{
 		padding: .2em 1em .2em 1em;
 	}
 
+	/* Using a 2 column grid and grid-area for quote section on tablet to match with tablet mockup */
 	.quote-sect{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -663,6 +665,7 @@ iframe{
 		grid-area: p;
 	}
 
+	/* Making scroll button visible for tablet and giving margin for better alignment */
 	.bottom-button{
 		display: block;
 		margin-bottom: 1em;
@@ -670,6 +673,7 @@ iframe{
 
 	/* ---About Styles--- */
 
+	/* Making images in service section visible on tablet version to match with mockup */
 	.service-sects img{
 		display: block;
 	}	
