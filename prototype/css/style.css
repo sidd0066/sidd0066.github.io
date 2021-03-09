@@ -586,7 +586,9 @@ iframe{
 
 @media screen and (min-width: 680px) and (max-width: 1024px){
 
-	/* Using flexbox to put nav texts on the same line */
+	/* ---Custom Styles--- */
+
+	/* Using flexbox to push nav texts to right and logo to the left */
 	.nav-list{
 		display: flex;
   		justify-content: space-between;
@@ -600,11 +602,14 @@ iframe{
 		padding-left: 2em;
 	}
 
+	/* Adding flexbox to nav texts to put on same line */
 	.nav-list ul{
 		display: flex;
 		justify-content: space-around;
 		padding-right: 2em;
 	}
+
+	/* Increasing padding for better spacing */
 	.nav-list ul li{
 		padding: 1em;
 	}
@@ -616,10 +621,12 @@ iframe{
 		justify-content: space-between;
 	}
 
+	/* Adding padding-top to icons for better alignment on tablet */
 	.fas{
 		padding-top: 1em;
 	}
 
+	/* Adding a background-color of #F2F2F2 to make elements more readable on tablet */
 	.discover-sect2{
 		background-color: #F2F2F2;
 	}
@@ -775,6 +782,10 @@ iframe{
 
 	.started{
 		padding: .2em 1em .2em 1em;
+	}
+
+	.learn{
+		padding: .3em 1em .3em 1em;
 	}
 
 	.school-div,
