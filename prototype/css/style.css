@@ -458,12 +458,13 @@ h1{
 	box-shadow: none;	
 }
 
+/* Chose text-align to center logos because it was easy to use */
 .thanks-logos{
 	text-align: center;
 }
 
 .thanks-logos h2{
-	font-size: 48px;
+	font-size: 54px;
 	font-weight: bold;
 	margin-bottom: 1em;
 }
@@ -473,6 +474,7 @@ h1{
 	margin: 1em;
 }
 
+/* Adjusting size of logos for better legibility */
 .cibc,
 .pcl,
 .ac{
@@ -481,6 +483,7 @@ h1{
 
 /* ---Contact Page--- */
 
+/* Adjusting font-size for contact h1 to make it more readable for mobile */
 .contact-h1{
 	font-size: 50px;
 }	
