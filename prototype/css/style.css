@@ -362,7 +362,7 @@ h1{
 	margin-bottom: 1.5em;
 }	
 
-/* About Styles */
+/* ---About Page--- */
 
 /* Adding background colour to quote section to make elements easy to read */
 .about-sect{
@@ -448,7 +448,7 @@ h1{
 	margin-bottom: 1em;
 }
 
-/* Adding styles for Subscribe button to be readable and match up with mockup */
+/* Adding styles for Subscribe button section to be readable and match up with mockup */
 .subscribe-div a{
 	font-size: 20px;
 	font-weight: bold;
@@ -490,6 +490,7 @@ h1{
 
 /* ----Form Section---- */
 
+/* Using paddings and margins to adjust space and alignment of form */
 .form{
 	background-color: #26A682;
 	border: solid 0.25px #26A682;
@@ -506,6 +507,7 @@ h1{
 	padding-left: .4em;
 }	
 
+/* Adjusting size for inputs for better legibility */
 .form input{
 	padding: 1em;
 	margin: .5em;
@@ -516,6 +518,7 @@ h1{
 	font-size: 1em;
 }	
 
+/* Styling label and input texts to be readable in form */
 .form label{
 	color: #F2F2F2;
 	padding-left: 1em;
@@ -527,6 +530,7 @@ h1{
 	margin-left: 1em;
 }	
 
+/* Adding styles for message box for better alignment */
 textarea{
 	padding: 1em;
 	margin: 1em;
@@ -552,7 +556,7 @@ textarea{
 	box-sizing: border-box;
 }
 
-
+/* Adjusting map size to fit on mobile */
 iframe{
 	width: 100%;
 	height: 500px;
@@ -560,6 +564,7 @@ iframe{
 	
 }	
 
+/* Hiding desktop version of map to help with alignments */
 .map-div{
 	display: none;
 }
@@ -699,9 +704,11 @@ iframe{
 
 	.form input[type=submit]{
 		width: 30%;
+		margin-right: -15px;
 	}
 	.submit-div{
 		text-align: right;
+		
 	}
 }
 
@@ -919,8 +926,10 @@ iframe{
 		height: 125px;
 	}
 
+
 	.form input[type=submit]{
-		width: 40%;	
+		width: 40%;
+		margin-right: -15px;
 	}
 
 	.submit-div{
