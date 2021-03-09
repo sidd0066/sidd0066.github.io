@@ -1,7 +1,16 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: var(--white);
 }
 
 :root{
     --black: #0F0D0D;
+    --white: #F7F7F7;
+}
+
+.footer-icons{
+    border-radius: 50%;
+}
+.footer-icons:hover{
+    background-color: var(--black);
 }
