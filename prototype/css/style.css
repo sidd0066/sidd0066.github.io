@@ -754,6 +754,7 @@ iframe{
 		padding: .2em;
 	}
 
+	/* Adjusting max-width and padding-left for better spacing for logo */
 	.img-logo{
 		max-width: 10%;
 		padding-left: 4em;
@@ -765,6 +766,8 @@ iframe{
 		justify-content: space-around;
 		padding-right: 4em;
 	}
+
+	/* Increasing padding for more spacing and better legibility */
 	.nav-list ul li{
 		padding: 1.5em;
 	}
@@ -785,6 +788,7 @@ iframe{
 		display: none;
 	}
 
+	/* Using padding-top to push icons down on desktop */
 	.fas{
 		padding-top: 1em;
 	}	
