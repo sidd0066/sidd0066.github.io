@@ -78,7 +78,7 @@ footer{
 }
 
 .home-sect img{
-    max-width: 50%;
+    max-width: 55%;
 }
 
 .view-portfolio{
@@ -87,4 +87,8 @@ footer{
     padding: 1em;
     text-decoration: none;
     font-weight: 600;
+}
+
+.view-portfolio:hover{
+    background-color: var(--black);
 }
