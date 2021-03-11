@@ -268,7 +268,7 @@ h1{
 	margin-top: 20px;
 }
 
-/*  */
+/* Adjusting max-width and margin-top on discover image for better legibility */
 .discover-img{
 	max-width: 80%;
 	margin-top: 2em;	 
