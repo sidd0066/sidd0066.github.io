@@ -221,7 +221,7 @@ footer a{
 	font-size: 11px;
 }
 
-/* ----These are the Home Styles---- */
+/* ----Home Page---- */
 
 
 /* Adding styles to all h1 to match with mockup */
@@ -420,22 +420,18 @@ h1{
 	display: none;
 }	
 
+/* Adjusting styles for service headers to match with mockups */
 .service-sects h2{
 	font-size: 32px;
 	font-weight: bold;
 }	
-
-.services-img,
-.about-img{
-	background-color: #26A682;
-	mix-blend-mode: darken;
-}
 
 .service-sects h3{
 	font-size: 24px;
 	color: #26A682;
 }	
 
+/* Adding background-color of #F2F2F2 to service sections 2 and 4 to match with mockup  */
 .service-sect2,
 .service-sect4{
 	background-color: #F2F2F2;
@@ -727,15 +723,15 @@ iframe{
 		width: 30%;
 		margin-right: -15px;
 	}
+
 	.submit-div{
 		text-align: right;
-		
 	}
 }
 
 /*-------------------------------------
  		These are the desktop styles 
- -----------------------------------*/
+ ---------------------------------------*/
 
  @media screen and (min-width: 1024px){
 
@@ -788,80 +784,7 @@ iframe{
 		display: none;
 	}
 
-	/* Using padding-top to push icons down on desktop */
-	.fas{
-		padding-top: 1em;
-	}	
-
-	/* Using text-align to push get started button to left */
-	.started-div{
-		text-align: left;
-	}
-
-	/* Adjusting padding for get started and learn more buttons to match with mockup  */
-
-	.started{
-		padding: .2em 1em .2em 1em;
-	}
-
-	.learn{
-		padding: .3em 1em .3em 1em;
-	}
-
-	/* Using display block to make desktop images visible */
-	.school-div,
-	.entertainment-div{
-		display: block;
-	}
-
-	/* Using a 2 column grid to put image and texts/icons beside each other */
-	.discover-grid{
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		gap: 2em;
-	}
-
-	/* Increasing font-size to make it more readable */
-	.discover-grid p{
-		font-size: 24px;
-	}
-
-	.discover-sect2{
-		background-color: #F2F2F2;
-	}
-
-	/* Using a 2 column grid to put images and text beside each other */
-	.discover-sect2,
-	.discover-sect3{
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		gap: 2em;
-	}
-
-	/* Using flexbox to put elements beside each other */
-	.quote-sect{
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-	}
-
-	/* Decreasing max-width of image for better legibility on desktop */
-	.quote-sect img{
-		max-width: 15%;
-		margin: 0;
-	}
-
-	.quote-sect div{
-		font-size: 24px;
-		padding-left: 3em;
-	}
-
-	/* Adjusting padding-left and width of paragraph to match with mockup */
-	.quote-sect p{
-		padding-left: 5em;
-		width: 60%;
-	}
-	
+	/* Increasing image to 100% to match with desktop mockup */
 	.discover-img{
 		max-width: 100%;
 	}	
@@ -883,14 +806,91 @@ iframe{
 		margin-bottom: 1.5em;
 	}	
 
+	/* Using padding-top to push icons down on desktop */
+	.fas{
+		padding-top: 1em;
+	}	
+
+	/* Using text-align to push get started button to left */
+	.started-div{
+		text-align: left;
+	}
+
+	/* Adjusting padding for get started and learn more buttons to match with mockup  */
+
+	.started{
+		padding: .2em 1em .2em 1em;
+	}
+
+	.learn{
+		padding: .3em 1em .3em 1em;
+	}
+
+	/* Using a 2 column grid to put image and texts/icons beside each other */
+	.discover-grid{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2em;
+	}
+
+	/* Increasing font-size to make it more readable */
+	.discover-grid p{
+		font-size: 24px;
+	}
+
+	.discover-sect2{
+		background-color: #F2F2F2;
+	}
+
+	/* Using display block to make desktop images visible */
+	.school-div,
+	.entertainment-div{
+		display: block;
+	}
+
+	/* Using a 2 column grid to put images and text beside each other */
+	.discover-sect2,
+	.discover-sect3{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2em;
+	}
+
+	/* Using flexbox in quote section to put elements beside each other */
+	.quote-sect{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	/* Decreasing max-width of image for better legibility on desktop */
+	.quote-sect img{
+		max-width: 15%;
+		margin: 0;
+	}
+
+	/* Adjusting font-size and padding-left for better spacing */
+	.quote-sect div{
+		font-size: 24px;
+		padding-left: 3em;
+	}
+
+	/* Adjusting padding-left and width of paragraph to match with mockup */
+	.quote-sect p{
+		padding-left: 5em;
+		width: 60%;
+	}
+
 	/* ---About Pages--- */
 
+	/* Adding a 2 column grid to Construction section for better legibility on desktop */
 	.construction-grid{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 1em;
 	}
 
+	/* Adding a 3 column grid to About section for better legibility on desktop */
 	.about-grid{
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -899,10 +899,12 @@ iframe{
 		margin-bottom: 5em;
 	}
 
+	/* Using display block to make images in service sections visible */
 	.service-sects img{
 		display: block;
 	}	
 
+	/* Adding a 2 column grid to put images and texts beside each other */
 	.service-sect1,
 	.service-sect2,
 	.service-sect3,
@@ -912,6 +914,7 @@ iframe{
 		gap: 1em;	
 	}
 
+	/* Using flexbox to put elements beside each other for desktop */
 	.subscribe-div{
 		display: flex;
 		justify-content: center;
@@ -928,6 +931,7 @@ iframe{
 		padding: .2em 1.5em .2em 1.5em;	
 	}
 
+	/* Using a 4 column grid to put logos in on same line for better legibility */
 	.logo-grid{
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
@@ -981,16 +985,19 @@ iframe{
 		grid-template-columns: repeat(2, 1fr);
 	}
 
+	/* Adding margin-bottom to push footer down on desktop */
 	iframe{
 		margin-bottom: 2em;
 	}
 
+	/* Using display none to hide mobile and tablet version of map */
+	.location-map{
+		display: none;
+	}
+
+	/* Adjusting width of map for better legibility on desktop */
 	.map-div{
 		display: block;
 		width: 800px;
-	}
-
-	.location-map{
-		display: none;
 	}
  }
