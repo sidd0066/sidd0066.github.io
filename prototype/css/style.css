@@ -475,6 +475,10 @@ h1{
 	width: 50%;
 }
 
+.sa{
+	max-width: 80%;
+}
+
 /* ---Contact Page--- */
 
 /* Adjusting font-size for contact h1 to make it more readable for mobile */
@@ -703,10 +707,10 @@ iframe{
 	.cibc,
 	.pcl,
 	.ac{
-		width: 40%;
+		width: 35%;
 	}
 	.sa{
-		max-width: 65%;
+		max-width: 60%;
 	}
 
 	/* ---Contact Page--- */
@@ -878,7 +882,7 @@ iframe{
 		width: 60%;
 	}
 
-	/* ---About Pages--- */
+	/* ---About Page--- */
 
 	/* Adding a 2 column grid to Construction section for better legibility on desktop */
 	.construction-grid{
@@ -948,6 +952,10 @@ iframe{
 	.pcl,
 	.ac{
 		width: 60%;
+	}
+
+	.sa{
+		max-width: 100%;
 	}
 
 	/* Adjusting margin on form section to for better spacing for desktop */
