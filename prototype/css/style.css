@@ -231,8 +231,6 @@ h1{
 	font-weight: bold;
 }
 
-
-
 /* Adding animation to get started button to make it more interactive */
 .started-div{
 	text-align: center;
@@ -739,7 +737,6 @@ iframe{
 
 	.container{
 		padding: 4em;
-		/* margin-top: 4em; */
 	}
 
 	/* Adding flexbox to put logo on same line  */
