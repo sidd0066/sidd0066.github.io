@@ -781,9 +781,9 @@ iframe{
 		margin-right: 15px;	
 		}
 
-	/* ---Home styles ---*/
+	/* ---Home Page ---*/
 
-	/* Adding Flexbox to home icons to put on same line */
+	/* Using display none to hide images from mobile */
 	.discover-mobile{
 		display: none;
 	}
@@ -793,9 +793,12 @@ iframe{
 		padding-top: 1em;
 	}	
 
+	/* Using text-align to push get started button to left */
 	.started-div{
 		text-align: left;
 	}
+
+	/* Adjusting padding for get started and learn more buttons to match with mockup  */
 
 	.started{
 		padding: .2em 1em .2em 1em;
@@ -805,17 +808,20 @@ iframe{
 		padding: .3em 1em .3em 1em;
 	}
 
+	/* Using display block to make desktop images visible */
 	.school-div,
 	.entertainment-div{
 		display: block;
 	}
 
+	/* Using a 2 column grid to put image and texts/icons beside each other */
 	.discover-grid{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 2em;
 	}
 
+	/* Increasing font-size to make it more readable */
 	.discover-grid p{
 		font-size: 24px;
 	}
@@ -823,36 +829,23 @@ iframe{
 	.discover-sect2{
 		background-color: #F2F2F2;
 	}
+
+	/* Using a 2 column grid to put images and text beside each other */
 	.discover-sect2,
 	.discover-sect3{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 2em;
 	}
-	
-	.subscribe-div h2{
-		font-size: 36px;
-		padding-right: 1em;
-		margin: 0;
-	}
-	.subscribe-div a{
-		font-size: 27px;
-		padding: .2em 1.5em .2em 1.5em;
-		
-	}
 
-	.subscribe-div{
-		display: flex;
-		justify-content: center;
-		align-items: center;	
-	}
-
+	/* Using flexbox to put elements beside each other */
 	.quote-sect{
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
 	}
 
+	/* Decreasing max-width of image for better legibility on desktop */
 	.quote-sect img{
 		max-width: 15%;
 		margin: 0;
@@ -863,6 +856,7 @@ iframe{
 		padding-left: 3em;
 	}
 
+	/* Adjusting padding-left and width of paragraph to match with mockup */
 	.quote-sect p{
 		padding-left: 5em;
 		width: 60%;
@@ -889,7 +883,7 @@ iframe{
 		margin-bottom: 1.5em;
 	}	
 
-	/* These are the About styles */
+	/* ---About Pages--- */
 
 	.construction-grid{
 		display: grid;
@@ -918,6 +912,22 @@ iframe{
 		gap: 1em;	
 	}
 
+	.subscribe-div{
+		display: flex;
+		justify-content: center;
+		align-items: center;	
+	}
+
+	.subscribe-div h2{
+		font-size: 36px;
+		padding-right: 1em;
+		margin: 0;
+	}
+	.subscribe-div a{
+		font-size: 27px;
+		padding: .2em 1.5em .2em 1.5em;	
+	}
+
 	.logo-grid{
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
@@ -944,6 +954,7 @@ iframe{
 		margin: 1em 1em 1em 10em;
 	}
 
+	/* Using grid to put form and text section in a 2 column */
 	.contact-grid{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -955,7 +966,7 @@ iframe{
 		height: 125px;
 	}
 
-
+	/* Adding a margin-right and text-align to align submit button to right */
 	.form input[type=submit]{
 		width: 40%;
 		margin-right: -15px;
