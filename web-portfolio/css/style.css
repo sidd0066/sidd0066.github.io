@@ -13,7 +13,7 @@ body{
     --black: #0F0D0D;
     --white: #F7F7F7;
     --grey: #505050;
-    --border-radius: 10px;
+    --border-radius: 12px;
 }
 
 p,
@@ -125,4 +125,17 @@ footer{
 
 .portfolio-sect{
     text-align: center;
+}
+
+.portfolio-sect img{
+    border-radius: var(--border-radius);
+    box-shadow: 0px 12px 19px -2px rgba(0,0,0,0.38);
+}
+
+.portfolio{
+    padding-top: 3em;
+}
+
+.web-dev{
+    margin-bottom: 5em;
 }
