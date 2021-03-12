@@ -834,9 +834,11 @@ iframe{
 		gap: 2em;
 	}
 
-	/* Increasing font-size to make it more readable */
+	/* Adjusting font-size, margin-top and padding-right on paragraph for better legibility */
 	.discover-grid p{
-		font-size: 24px;
+		font-size: 18px;
+		margin-top: 2em;
+		padding-right: 2em;
 	}
 
 	.discover-sect2{
