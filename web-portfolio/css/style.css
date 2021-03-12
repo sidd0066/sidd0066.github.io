@@ -54,6 +54,7 @@ h1{
 
 .nav-list ul{
 	text-decoration: none;
+    padding-left: 0;
 }
 
 .nav-list a:hover,
@@ -82,9 +83,10 @@ footer{
    background-color: var(--black);
 }
 
-/* .footer-icons .tw{
-    width: 1.2%;
-} */
+.footer-icons .tw{
+    height: 15px;
+    width: 15px;
+}
 
 /* ---Home Page---- */
 .home-sect{
