@@ -1,3 +1,4 @@
+/* ---Custom Styles--- */
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: var(--white);
@@ -20,6 +21,10 @@ h1,
 h3,
 h4{
     color: var(--black);
+}
+
+h1{
+    text-align: center;
 }
 
 .nav-list{
@@ -57,6 +62,11 @@ h4{
     border-radius: var(--border-radius);
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 footer{
     text-align: center;
 }
@@ -75,6 +85,7 @@ footer{
     width: 1.2%;
 } */
 
+/* ---Home Page---- */
 .home-sect{
     text-align: center;
     margin-top: 3em;
@@ -108,4 +119,10 @@ footer{
 
 .view-portfolio:hover{
     background-color: var(--black);
+}
+
+/* ---Portfolio Page */
+
+.portfolio-sect{
+    text-align: center;
 }
