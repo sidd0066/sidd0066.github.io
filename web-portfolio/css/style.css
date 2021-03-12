@@ -12,6 +12,7 @@ body{
     --black: #0F0D0D;
     --white: #F7F7F7;
     --grey: #505050;
+    --border-radius: 10px;
 }
 
 .nav-list{
@@ -52,8 +53,9 @@ body{
 footer{
     text-align: center;
 }
+
 .footer-icons .icon{
-    border-radius: 30%;
+    border-radius: var(--border-radius);
     background-color: var(--grey);
     padding: .8em;
     width: 15px;
@@ -78,7 +80,6 @@ footer{
 
 .home-sect p{
     margin-bottom: 1em;
-    font-size: 18px;
 }
 
 .home-sect img{
@@ -95,6 +96,7 @@ footer{
     text-decoration: none;
     font-weight: 600;
     margin-bottom: 2em;
+    border-radius: var(--border-radius);
 }
 
 .view-portfolio:hover{
