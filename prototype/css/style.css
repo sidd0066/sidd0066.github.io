@@ -960,6 +960,12 @@ iframe{
 		max-width: 100%;
 	}
 
+	/* ---Contact Page--- */
+
+	.contact-h1{
+		font-size: 60px;
+	}
+
 	/* Adjusting margin on form section to for better spacing for desktop */
 	.form{
 		margin: 1em 1em 1em 10em;
@@ -972,6 +978,13 @@ iframe{
 		gap: 1em;
 	}
 
+	.contact-grid p{
+		font-size: 18px;
+	}
+
+	.contact-grid img{
+		max-width: 80%;
+	}
 	/* Increasing Message box for better legibility for desktop */
 	textarea{
 		height: 125px;
@@ -1003,9 +1016,21 @@ iframe{
 		display: none;
 	}
 
+	.location-text h2{
+		font-size: 60px;
+	}
+
+	.location-text h3{
+		font-size: 30px;
+	}
+
+	.location-text p{
+		font-size: 18px;
+	}
+
 	/* Adjusting width of map for better legibility on desktop */
 	.map-div{
 		display: block;
-		width: 700px;
+		width: 730px;
 	}
  }
