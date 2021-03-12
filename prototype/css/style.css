@@ -990,6 +990,7 @@ iframe{
 	.location-grid{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
+		gap: 1em;
 	}
 
 	/* Adding margin-bottom to push footer down on desktop */
@@ -1005,6 +1006,6 @@ iframe{
 	/* Adjusting width of map for better legibility on desktop */
 	.map-div{
 		display: block;
-		width: 800px;
+		width: 700px;
 	}
  }
