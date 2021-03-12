@@ -633,9 +633,9 @@ iframe{
 
 	/* Adding max-height and object-fit to crop and not stretch discover images */
 	.discover-mobile .school-img,	
-	.discover-mobile .bar-img{
+	.discover-mobile .entertainment-img{
 	position: relative;
-    max-height: 240px;
+    max-height: 250px;
     width: 100%;
     object-fit: cover;
 	}
