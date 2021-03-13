@@ -1016,6 +1016,7 @@ iframe{
 		display: none;
 	}
 
+	/* Adjusting font sizes for location section to make it more readable on desktop */
 	.location-text h2{
 		font-size: 60px;
 	}
