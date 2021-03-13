@@ -582,7 +582,7 @@ iframe{
 			These are the Tablet Styles 
 ----------------------------------------------------*/
 
-@media screen and (min-width: 680px) and (max-width: 1024px){
+@media screen and (min-width: 680px) and (max-width: 1080px){
 
 	/* ---Custom Styles--- */
 
@@ -735,7 +735,7 @@ iframe{
  		These are the desktop styles 
  ---------------------------------------*/
 
- @media screen and (min-width: 1024px){
+ @media screen and (min-width: 1080px){
 
 	/* --- Custom Styles---- */
 
