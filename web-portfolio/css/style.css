@@ -13,11 +13,12 @@ body{
     --black: #0F0D0D;
     --white: #F7F7F7;
     --grey: #505050;
-    --border-radius: 12px;
+    --border-radius: 10px;
 }
 
 p,
 h1,
+h2,
 h3,
 h4{
     color: var(--black);
