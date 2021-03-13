@@ -28,6 +28,10 @@ h1{
     font-size: 40px;
 }
 
+.logo{
+    max-width: 20%;
+}
+
 .nav-list{
     text-align: center;
     background-color: var(--black);
