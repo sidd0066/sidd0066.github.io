@@ -145,3 +145,61 @@ footer{
 .web-dev{
     margin-bottom: 5em;
 }
+
+
+@media screen and (min-width: 680px) and (max-width: 1024px){
+
+    .wrapper{
+        width: 90%;
+    }
+
+
+    .portfolio-sect{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+    }
+
+    .portfolio-sect img{
+        max-width: 80%;
+    }
+}
+/* .container {
+    position: relative;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10;
+    right: 10;
+    height: 278px;
+    width: 50%;
+    opacity: 0;
+    transition: .5s;
+    background-color: var(--grey);
+    border-radius: var(--border-radius);
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.8;
+  }
+  
+  .text {
+    color: white;
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+  } */
