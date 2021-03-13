@@ -975,7 +975,7 @@ iframe{
 	.contact-grid{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		gap: 1em;
+		/* gap: 1em; */
 	}
 
 	.contact-grid p{
