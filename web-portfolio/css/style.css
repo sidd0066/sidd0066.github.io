@@ -29,6 +29,10 @@ h1{
     font-size: 40px;
 }
 
+p{
+    line-height: 1.7;
+}
+
 .logo{
     max-width: 23%;
     /* margin-top: 1em; */
@@ -38,6 +42,7 @@ h1{
     text-align: center;
     background-color: var(--black);
     padding: .5em;
+    margin-bottom: 1em;
 }
 
 /* Adding padding to Nav to give more spacing */
@@ -147,6 +152,16 @@ footer{
 .web-dev{
     margin-bottom: 5em;
 }
+
+/* ---About Me--- */
+
+.about-me{
+    text-align: center;
+}
+.about-img{
+    max-width: 50%;
+}
+
 
 
 @media screen and (min-width: 600px) and (max-width: 1024px){
