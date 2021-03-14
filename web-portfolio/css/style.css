@@ -36,7 +36,7 @@ h1{
 .nav-list{
     text-align: center;
     background-color: var(--black);
-    padding: 1em;
+    padding: .5em;
 }
 
 /* Adding padding to Nav to give more spacing */
