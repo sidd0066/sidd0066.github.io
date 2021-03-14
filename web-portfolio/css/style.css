@@ -30,8 +30,8 @@ h1{
 }
 
 .logo{
-    max-width: 20%;
-    margin-top: 1em;
+    max-width: 23%;
+    /* margin-top: 1em; */
 }
 
 .nav-list{
@@ -67,7 +67,7 @@ h1{
 .nav-list a:focus,
 .nav-list a.current{
 	background-color: var(--grey);
-    border-radius: var(--border-radius);
+    /* border-radius: var(--border-radius); */
     transition: background-color 0.3s;
 }
 
