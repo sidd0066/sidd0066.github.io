@@ -81,6 +81,10 @@ img{
     height: auto;
 }
 
+li{
+    font-size: 18px;
+}
+
 footer{
     text-align: center;
 }
