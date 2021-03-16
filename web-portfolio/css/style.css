@@ -80,9 +80,12 @@ nav{
     margin-bottom: 1em;
 }
 
+li{
+    padding-left: 1em;
+}
+
 .dropdown-item:active{
     background-color: var(--black);
-    padding-left: 1em;
 }
 
 img{
