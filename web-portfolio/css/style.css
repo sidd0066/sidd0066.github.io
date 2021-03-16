@@ -30,7 +30,7 @@ h1{
 }
 
 p{
-    line-height: 1.7;
+    line-height: 2.5;
 }
 
 #logo{
@@ -188,6 +188,13 @@ footer{
 .about-img{
     max-width: 60%;
 }
+
+.mission{
+    background-color: white;
+    padding: 2em;
+    
+}
+/* Image container */
 .img-container {
     position: relative;
   }
