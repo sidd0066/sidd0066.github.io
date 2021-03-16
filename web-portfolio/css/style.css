@@ -186,28 +186,6 @@ footer{
 .about-img{
     max-width: 60%;
 }
-
-@media screen and (min-width: 600px) and (max-width: 1024px){
-
-    .wrapper{
-        width: 90%;
-    }
-
-
-    .portfolio-sect{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1em;
-    }
-
-    .portfolio-sect img{
-        max-width: 100%;
-    }
-
-    /* .overlay{
-        width: 100%;
-    } */
-}
 .img-container {
     position: relative;
   }
@@ -245,3 +223,22 @@ footer{
     -ms-transform: translate(-50%, -50%);
     text-align: center;
   }
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+
+    .wrapper{
+        width: 90%;
+    }
+
+
+    .portfolio-sect{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+    }
+
+    .portfolio-sect img{
+        max-width: 100%;
+    }
+
+}
