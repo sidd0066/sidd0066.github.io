@@ -29,30 +29,30 @@
             </nav> -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
-                    <img src="./images/logo.svg" alt="logo" style="max-width: 20%;">
+                    <a href="index.html"><img src="./images/logo.svg" alt="logo" id="logo"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Portfolio
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Photography</a></li>
-                                    <li><a class="dropdown-item" href="#">UX/UI Design</a></li>
-                                    <li><a class="dropdown-item" href="#">Graphic Design</a></li>
-                                    <li><a class="dropdown-item" href="#">Web Development</a></li>
+                                    <li><a class="dropdown-item" href="photography.html">Photography</a></li>
+                                    <li><a class="dropdown-item" href="ux-ui.html">UX/UI Design</a></li>
+                                    <li><a class="dropdown-item" href="graphic-design.html">Graphic Design</a></li>
+                                    <li><a class="dropdown-item" href="web-dev.html">Web Development</a></li>
                                 </ul>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="about.html">About Me</a>
+                                    <a class="nav-link" href="about.html">About Me</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
                                 </li>
                                 
                             </li>
@@ -72,33 +72,124 @@
                 <div>
                     <h1 class="fw-bold">Hamid Siddiqi</h1>
                     <p>Think. Feel. Design</p>
-                    <!-- <div class="btn-div">
-                        <a href="portfolio.html" class=" view-portfolio">View Portfolio</a>
-                    </div> -->
+                    <div class="btn-div">
+                        <a href="contact.html" class=" view-portfolio">Get in Touch</a>
+                    </div>
                 </div>
                 
             </section>
             <section>
-                <h2 class="fw-bold">My Portfolio</h2>
+                <h2 class="fw-bold text-center">My Portfolio</h2>
                 <div class="portfolio-sect">
-                    <div class="portfolio photgraphy">
-                        <img src="./images/photography.jpg" alt="photography">
+                    <div>
+                    
+                        <div class="img-container">
+                            <img src="./images/photography.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <div class="text">View</div>
+                            </div>
+                        </div>
                         <h3>Photography</h3>
-                    </div>
-                    <div class="portfolio ux-ui">
-                            <img src="./images/ux.jpg" alt="ux and ui">
-                            <h3>UX/UI Design</h3>
-                    </div>
-                    <div class="portfolio graphic-design">
+                        </div> 
+                        
+                    <div>
+                    
+                        <div class="img-container">
+                            <img src="./images/ux.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <div class="text">View</div>
+                            </div>
+                        </div>
+                        <h3>UX/UI Design</h3>
+                        </div> 
+                        
+                    
+                    <div>
+                        <div class="img-container">
+                            <img src="./images/graphic-design.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <div class="text">View</div>
+                            </div>
+                        </div>
+                        <h3>Graphic Design</h3>
+                    </div> 
+                        
+                   
+                   
+                    <!-- <div class="portfolio graphic-design">
                             <img src="./images/graphic-design.jpg" alt="graphic-design">
                             <h3>Graphic Design</h3>
+                    </div> -->
+                    
+                    <div>
+                    
+                    <div class="img-container">
+                        <img src="./images/web-dev.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                          <div class="text">View</div>
+                        </div>
                     </div>
-                    <div class="portfolio web-dev">
+                    <h3>Web Development</h3>
+                    </div> 
+                    
+                    
+                    <!-- <div class="portfolio web-dev">
                             <img src="./images/web-dev.jpg" alt="web development">
                             <h3>Web Development</h3>
-                    </div>
+                    </div> -->
                 </div>
             </section> 
+
+            <!-- <div class="img-container">
+                <img src="./images/photography.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">Hello World</div>
+                </div>
+              </div> -->
+            <!-- <div class="row justify-content-center">
+                <div class="col-5">
+                    <div class="card">
+                        <img src="images/photography.jpg" class="card-img-top" alt="gfx">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="col-5">
+                    <div class="card">
+                        <img src="images/ux.jpg" class="card-img-top" alt="ux">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-5">    
+                    <div class="card">
+                        <img src="images/graphic-design.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5">    
+                    <div class="card">
+                        <img src="images/web-dev.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
         </main>
 
           <!-- Optional JavaScript; choose one of the two! -->
