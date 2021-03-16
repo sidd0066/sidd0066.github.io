@@ -35,7 +35,7 @@ p{
 
 #logo{
     max-width: 60%;
-    /* margin-top: 1em; */
+    margin-left: 1em;
 }
 
 .nav-list{
@@ -82,6 +82,7 @@ nav{
 
 .dropdown-item:active{
     background-color: var(--black);
+    padding-left: 1em;
 }
 
 img{
@@ -156,8 +157,8 @@ footer{
     text-align: center;
 }
 
-.portfolio-sect h3{
-    padding-top: 1em;
+.portfolio-sect h4{
+    margin-top: .5em;
 }
 
 /* .portfolio-sect img{
@@ -166,7 +167,7 @@ footer{
 } */
 
 .portfolio{
-    padding-top: 2em;
+    padding-top: 3em;
 }
 
 .web-dev{
@@ -196,8 +197,8 @@ footer{
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 10;
-    right: 10;
+    /* left: 10;
+    right: 10; */
     width: 100%;
     height: 100%;
     opacity: 0;
@@ -213,7 +214,7 @@ footer{
     color: var(--white);
     font-size: 36px;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
