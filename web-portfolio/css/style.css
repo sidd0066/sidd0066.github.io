@@ -99,6 +99,7 @@ li{
 
 footer{
     text-align: center;
+    margin-top: 5em;
 }
 
 .footer-icons .icon{
@@ -129,10 +130,10 @@ footer{
     margin-bottom: 1em;
 }
 
-.btn-div{
+/* .btn-div{
     margin-top: 4em;
     margin-bottom: 5em;
-}
+} */
 .view-portfolio{
     color: var(--white);
     background-color: var(--grey);
@@ -168,15 +169,10 @@ footer{
     padding-top: 3em;
 }
 
-.web-dev{
-    margin-bottom: 5em;
-}
-
 /* ---About Me--- */
 
 .about-me{
     text-align: center;
-    margin-bottom: 5em;
 }
 .about-img{
     max-width: 60%;
