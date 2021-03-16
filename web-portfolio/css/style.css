@@ -76,6 +76,10 @@ p{
     transition: background-color 0.3s;
 }
 
+.dropdown-item:active{
+    background-color: var(--black);
+}
+
 img{
     max-width: 100%;
     height: auto;
@@ -135,8 +139,10 @@ footer{
     border-radius: var(--border-radius);
 }
 
-.view-portfolio:hover{
+.view-portfolio:hover,
+.view-portfolio:active{
     background-color: var(--black);
+    color: var(--white);
 }
 
 /* ---Portfolio Page */
