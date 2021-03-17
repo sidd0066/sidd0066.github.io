@@ -33,7 +33,7 @@ p{
     line-height: 2;
 }
 
-#logo{
+.logo-img{
     max-width: 60%;
     margin-left: 1em;
 }
@@ -95,6 +95,10 @@ img{
 
 li{
     font-size: 18px;
+}
+
+.img{
+    margin-bottom: 1.5em;
 }
 
 footer{
@@ -238,6 +242,13 @@ footer{
 
     .portfolio-sect img{
         max-width: 100%;
+    }
+
+
+    .photography-work{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
     }
 
 }
