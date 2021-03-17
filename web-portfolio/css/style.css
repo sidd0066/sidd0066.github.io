@@ -196,6 +196,18 @@ footer{
     
 }
 
+.progress{
+    border-radius: none;
+    margin-bottom: .5em;
+}
+
+.bar{
+    margin-bottom: .7em;
+}
+.bar p{
+    margin: 0;
+}
+
 /* Skills Bar */
 
 .skill-container {
