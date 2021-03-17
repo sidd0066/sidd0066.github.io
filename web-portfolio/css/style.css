@@ -196,66 +196,15 @@ footer{
     
 }
 
-.progress{
-    border-radius: none;
-    margin-bottom: .5em;
-}
 
+
+/* Skills Bar */
 .bar{
     margin-bottom: .7em;
 }
 .bar p{
     margin: 0;
 }
-
-/* Skills Bar */
-
-.skill-container {
-    margin-top: 1em; 
-    border-radius: var(--border-radius);
-  }
-
-  .skill-container h2{
-      margin-bottom: 1em;
-  }
-  
-  .progressBar {
-    margin-bottom: 1em;
-  }
-  
-  .progressBar h4 {
-    font-size: 18px;
-    margin-bottom: .5em;
-  }
-  
-  .progressBarContainer {
-    width: 100%;
-    height: 1em;
-    border: solid 1px var(--black);
-    overflow: hidden;
-    
-  }
-  
-  .progressBarValue {
-    height: 1em;
-    background-color: var(--black);
-  }
-  
-
-  
-  .html-css { width: 87%; }
-  
-  .indesign { width: 77%; }
-  
-  .photoshop { width: 90%; }
-  
-  .xd { width: 80%; }
-  
-  .illustrator { width: 90%; }
-  
-  .photography { width: 95%; }
-  
-  .creativity { width: 100%; }
 
 
 /* Image container */
