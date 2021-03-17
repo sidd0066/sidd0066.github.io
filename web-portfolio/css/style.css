@@ -198,6 +198,10 @@ footer{
     margin-top: 1em; 
     border-radius: var(--border-radius);
   }
+
+  .skill-container h2{
+      margin-bottom: 1em;
+  }
   
   .progressBar {
     margin-bottom: .8em;
