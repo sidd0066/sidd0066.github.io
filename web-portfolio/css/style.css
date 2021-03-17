@@ -16,6 +16,10 @@ body{
     --border-radius: 10px;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 p,
 h1,
 h2,
