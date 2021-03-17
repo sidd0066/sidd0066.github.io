@@ -97,9 +97,7 @@ li{
     font-size: 18px;
 }
 
-.img{
-    margin-bottom: 1.5em;
-}
+
 
 footer{
     text-align: center;
@@ -173,6 +171,12 @@ footer{
     padding-top: 3em;
 }
 
+/* Photography Page */
+
+.img{
+    margin-bottom: 1.5em;
+}
+
 /* ---About Me--- */
 
 .about-me{
@@ -187,6 +191,8 @@ footer{
     padding: 2em;
     
 }
+
+
 /* Image container */
 .img-container {
     position: relative;
