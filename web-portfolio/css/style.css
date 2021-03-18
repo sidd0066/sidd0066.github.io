@@ -221,7 +221,7 @@ footer{
     margin-bottom: 1.5em;
 }
 
-/* ---About Me--- */
+/* ---About Me Page --- */
 
 .about-me{
     text-align: center;
@@ -233,12 +233,9 @@ footer{
 .mission{
     background-color: white;
     padding: 2em;
-    
 }
 
-
-
-/* Skills Bar */
+/* Skills Section */
 .bar{
     margin-bottom: .7em;
 }
@@ -250,7 +247,7 @@ footer{
     margin-top: .5em;
 }
 
-/* Work Experience */
+/* Work Experience Section */
 
 .work{
     margin-top: 1em;
@@ -302,12 +299,34 @@ footer{
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .about-me{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .about-me{
+        text-align: left;
+    }
+
+    .about-me p{
+        width: 590px;
+    }
+    .about-img{
+        max-width: 55%;
+    }
+
+    /* .mission{
+        padding-left: 4em;
+        padding-right: 4em;
+    } */
 
     .skill-work{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1em;
     }
+
 
     .bar{
         margin-bottom: .5em;
