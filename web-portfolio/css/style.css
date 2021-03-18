@@ -159,6 +159,46 @@ footer{
     margin-bottom: 1em;
 }
 
+/* Image container */
+.img-container {
+    position: relative;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* left: 10;
+    right: 10; */
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s;
+    background-color: var(--black);
+  }
+  
+  .img-container:hover .overlay {
+    opacity: 0.8;
+  }
+  
+  .text {
+    color: var(--white);
+    font-size: 26px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 1;
+    text-transform: uppercase;
+  }
+
 /* ---Portfolio Page */
 
 
@@ -206,51 +246,16 @@ footer{
     margin: 0;
 }
 
-/* Work Experience */
-
-.work h2{
-    margin-bottom: 1em;
+.skills h2{
+    margin-top: .5em;
 }
 
-/* Image container */
-.img-container {
-    position: relative;
-  }
-  
-  .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    /* left: 10;
-    right: 10; */
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: .5s;
-    background-color: var(--black);
-  }
-  
-  .img-container:hover .overlay {
-    opacity: 0.8;
-  }
-  
-  .text {
-    color: var(--white);
-    font-size: 26px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    opacity: 1;
-    text-transform: uppercase;
-  }
+/* Work Experience */
+
+.work{
+    margin-top: .7em;
+}
+
 
 @media screen and (min-width: 600px) and (max-width: 1024px){
 
