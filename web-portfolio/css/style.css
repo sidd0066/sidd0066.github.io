@@ -294,11 +294,6 @@ footer{
         gap: 2em;
     }
 
-    .photography-work{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
     .about-me{
         display: flex;
        justify-content: space-evenly;
