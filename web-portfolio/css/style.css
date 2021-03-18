@@ -300,9 +300,8 @@ footer{
     }
 
     .about-me{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
+        display: flex;
+       justify-content: space-evenly;
     }
 
     .about-me{
@@ -310,7 +309,7 @@ footer{
     }
 
     .about-me p{
-        width: 590px;
+        width: 690px;
     }
     .about-img{
         max-width: 55%;
