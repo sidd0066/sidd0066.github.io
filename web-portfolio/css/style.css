@@ -118,6 +118,7 @@ footer{
 
 .footer-icons .icon:hover{
    background-color: var(--black);
+   transition: 0.3s;
 }
 
 /* ---Home Page---- */
