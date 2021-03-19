@@ -226,8 +226,12 @@ footer{
         padding-left: 4.5em;
         max-width: 95%;
     }
-    ul{
+    li{
         padding-right: 4rem;
+    }
+
+    .dropdown-item{
+        padding-right: 0 0;
     }
 
     .portfolio-sect{
