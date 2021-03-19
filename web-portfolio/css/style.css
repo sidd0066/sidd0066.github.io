@@ -172,7 +172,7 @@ footer{
     opacity: 0.8;
   }
   
-  .text {
+  .view {
     color: var(--white);
     font-size: 26px;
     position: absolute;
