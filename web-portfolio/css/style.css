@@ -237,10 +237,11 @@ footer{
     .home{
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
-    .home-text{
-        order: 2;
+    .home .home-img{
+        order: 1;
     }
 
     .portfolio-sect{
