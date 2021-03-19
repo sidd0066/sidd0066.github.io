@@ -247,6 +247,7 @@ footer{
        justify-content: space-evenly;
        padding: 3em 0;
        align-items: center;
+       margin-bottom: 4em;
     }
 
     .about-me{
