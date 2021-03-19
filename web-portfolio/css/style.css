@@ -270,6 +270,8 @@ footer{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2em;
+        max-width: 85%;
+        margin: auto;
     }
 
     .about-me{
@@ -312,6 +314,11 @@ footer{
 
     hr{
         display: none;
+    }
+
+    .ux-work{
+        max-width: 80%;
+        margin: auto;
     }
 
     
