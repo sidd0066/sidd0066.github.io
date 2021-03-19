@@ -234,6 +234,15 @@ footer{
         padding-right: 0 0;
     }
 
+    .home{
+        display: flex;
+        align-items: center;
+    }
+
+    .home-text{
+        order: 2;
+    }
+
     .portfolio-sect{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
