@@ -42,44 +42,6 @@ p{
     padding-left: 1em;
 }
 
-.nav-list{
-    text-align: center;
-    background-color: var(--black);
-    padding: .5em;
-    margin-bottom: 1em;
-}
-
-/* Adding padding to Nav to give more spacing */
-.nav-list ul li{
-	padding: .5em;
-    color: var(--white);
-    list-style: none;
-}
-
-.nav-list a,
-.nav-list a:link,
-.nav-list a:visited{
-	display: block;
-	text-decoration: none;
-	color: var(--white); 
-    font-weight: 800;
-    text-transform:uppercase;
-    padding: .6em;
-}
-
-.nav-list ul{
-	text-decoration: none;
-    padding-left: 0;
-}
-
-.nav-list a:hover,
-.nav-list a:focus,
-.nav-list a.current{
-	background-color: var(--grey);
-    /* border-radius: var(--border-radius); */
-    transition: background-color 0.3s;
-}
-
 nav{
     margin-bottom: 3em;
 }
@@ -190,11 +152,6 @@ footer{
 .portfolio-sect h4{
     margin-top: .5em;
 }
-
-/* .portfolio-sect img{
-    border-radius: var(--border-radius);
-    box-shadow: 0px 12px 19px -2px rgba(0, 0, 0, 0.432);
-} */
 
 .portfolio{
     padding-top: 3em;
