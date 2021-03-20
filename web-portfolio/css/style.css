@@ -207,6 +207,9 @@ footer{
         width: 90%;
     }
 
+    .home img{
+        max-width: 50%;
+    }
 
     .portfolio-sect{
         display: grid;
