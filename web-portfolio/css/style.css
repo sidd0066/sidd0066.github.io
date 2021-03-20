@@ -170,6 +170,7 @@ footer{
 }
 .about-img{
     padding: 1em;
+    max-width: 85%;
 }
 
 .mission{
@@ -200,7 +201,7 @@ footer{
 } */
 
 
-@media screen and (min-width: 600px) and (max-width: 992px){
+@media screen and (min-width: 600px) and (max-width: 1200px){
 
     .wrapper{
         width: 90%;
@@ -216,10 +217,36 @@ footer{
     .portfolio-sect img{
         max-width: 100%;
     }
+
+    .about-img{
+        max-width: 50%;
+    }
+
+    .skill-work{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+    }
+
+
+    .bar{
+        margin-bottom: .5em;
+    }
+
+    .work-1{
+        margin-top: 2em;
+    }
+    .work-2{
+        margin-top: 5em;
+    }
+
+    hr{
+        display: none;
+    }
 }
 
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 1200px){
 
 
     .logo-img{
@@ -237,11 +264,23 @@ footer{
     .home{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .home .home-img{
         order: 1;
+    }
+
+    .home h1{
+        font-size: 68px;
+    }
+
+    .home p{
+        font-size: 24px;
+    }
+
+    .home img{
+        max-width: 600px;
     }
 
     .portfolio-sect{
