@@ -200,9 +200,9 @@ footer{
     border-bottom: solid 1px var(--black);
 } */
 
-.circle-img{
+/* .circle-img{
   max-width: 70%;  
-}
+} */
 
 @media screen and (min-width: 680px) and (max-width: 1200px){
 
