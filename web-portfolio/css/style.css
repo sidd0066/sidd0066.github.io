@@ -200,6 +200,9 @@ footer{
     border-bottom: solid 1px var(--black);
 } */
 
+.circle-img{
+  max-width: 70%;  
+}
 
 @media screen and (min-width: 680px) and (max-width: 1200px){
 
@@ -245,6 +248,12 @@ footer{
 
     hr{
         display: none;
+    }
+
+    .gd-work{
+        max-width: 90%;
+        margin: auto;
+
     }
 }
 
@@ -353,5 +362,10 @@ footer{
         margin: auto;
     }
 
+    .gd-work{
+        max-width: 90%;
+        margin: auto;
+
+    }
     
 }
