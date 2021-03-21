@@ -255,6 +255,10 @@ footer{
         margin: auto;
 
     }
+
+    .circle-img{
+        max-width: 70%;  
+      }
 }
 
 
@@ -367,5 +371,9 @@ footer{
         margin: auto;
 
     }
+
+    .circle-img{
+        max-width: 70%;  
+      }
     
 }
