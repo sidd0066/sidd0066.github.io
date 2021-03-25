@@ -424,4 +424,8 @@ textarea{
           display: grid;
           grid-template-columns: repeat(2, 1fr);
       }
+
+      .form{
+		margin: 1em 1em 1em 10em;
+	}
 }
