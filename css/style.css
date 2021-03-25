@@ -204,7 +204,7 @@ footer{
 	border-radius: 20px;
 	padding: 20px 55px 20px 20px;
 	margin: 1em .5em 1em .5em;
-	box-shadow: 0px 4px 8px 0.5px rgba(0, 0, 0, 0.507);
+	box-shadow: 0px 4px 8px 0.5px rgba(0, 0, 0, 0.664);
 }	
 
 .form h2{
@@ -217,7 +217,7 @@ footer{
 	padding: 1em;
 	margin: .5em;
 	background-color: var(--white);
-	border: solid 0.5px white;
+	border: solid 0.25px var(--black);
 	font-family:'Raleway', sans-serif;
 	border-radius: var(--border-radius);
 	font-size: 1em;
