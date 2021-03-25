@@ -65,10 +65,10 @@ li{
 
 
 
-footer{
+/* footer{
     text-align: center;
     margin-top: 5em;
-}
+} */
 
 .footer-icons .icon{
     border-radius: var(--border-radius);
@@ -418,4 +418,10 @@ textarea{
         max-width: 70%;  
       }
     
+      /* Contact Page */
+
+      .contact{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+      }
 }
