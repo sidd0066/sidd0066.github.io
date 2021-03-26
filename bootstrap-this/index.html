@@ -13,86 +13,89 @@
   <body>
 
     <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto pe-5 mb-2 mb-lg-0 p-1 mx-auto">
-                  <li class="nav-item p-4">
-                      <a class="nav-link active"  aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item dropdown p-4">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Portfolio
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Photography</a></li>
-                          <li><a class="dropdown-item" href="#">UX/UI Design</a></li>
-                          <li><a class="dropdown-item" href="#">Graphic Design</a></li>
-                          <li><a class="dropdown-item" href="#">Web Development</a></li>
-                      </ul>
-                      <li class="nav-item p-4">
-                          <a class="nav-link" href="#">About Me</a>
-                      </li>
-                      <li class="nav-item p-4">
-                          <a class="nav-link" href="#">Contact</a>
-                      </li>
-                      
-                  </li>
-              </ul>
-          </div>
-      </div>
-  </nav>
-</header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto pe-5 mb-2 mb-lg-0 p-1 mx-auto">
+                        <li class="nav-item p-4">
+                            <a class="nav-link active"  aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown p-4">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Portfolio
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Photography</a></li>
+                                <li><a class="dropdown-item" href="#">UX/UI Design</a></li>
+                                <li><a class="dropdown-item" href="#">Graphic Design</a></li>
+                                <li><a class="dropdown-item" href="#">Web Development</a></li>
+                            </ul>
+                            <li class="nav-item p-4">
+                                <a class="nav-link" href="#">About Me</a>
+                            </li>
+                            <li class="nav-item p-4">
+                                <a class="nav-link" href="#">Setting Up Bootstrap</a>
+                            </li>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     
 
-<div class="container">
-
-  <h1 class="text-center fw-bold">Benefits of Using Bootstrap</h1>
-  <p class="text-center" >With Bootstrap, there are many things that you can do just giving class names inside of your HTML</p>
-
+    
+    <h1 class="text-center fw-bold">Benefits of Using Bootstrap</h1>
+    <p class="text-center" >With Bootstrap, there are many things that you can do inside of HTML.</p>
+    
+    <div class="container">
     <div>
         <h2>Can easily create Columns</h2>
+        <p>Bootstrap supports and follows the standards of a mobile-first approach using a flexbox grid and as well as twelve column layout to align content for all screen sizes.</p>
     </div>
-
-
+    
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6 pb-4">
             <div class="card">
-                <img src="images/gfx.jpg" class="card-img-top" alt="gfx">
                 <div class="card-body">
-                <h5 class="card-title">Mobile First!</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">This is a column</h5>
+                <p class="card-text">Bootstrap supports mobile first friendly which uses a flexbox grid and as well as a twelve column layout to align content</p>
+                <a href="#" class="btn btn-dark">Go somewhere</a>
                 </div>
             </div>
         </div>  
-        <div class="col-md-4">
+        <div class="col-md-6 pb-4">
             <div class="card">
-                <img src="images/ux.jpg" class="card-img-top" alt="ux">
                 <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">This is another column...</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">    
-            <div class="card">
-                <img src="images/web.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-dark">Go somewhere</a>
                 </div>
             </div>
         </div>
     </div>     
-  
+</div>
+
+<div class="container">
+
+    <h2 class="text-center mb-5">How to set up Bootstrap?</h2>
+
+    <div class="row">
+        <div>
+            <h3>Step 1: Go to <a href="https://getbootstrap.com/" class="btn btn-outline-dark" target="_blank">getbootstrap.com</a></h3>
 
 
+        </div>
+
+    </div>
+
+
+
+    
 
 
 
