@@ -371,28 +371,9 @@ textarea{
         max-width: 85%;
         margin: auto;
     }
-
-    .about-me{
-        display: flex;
-       justify-content: space-evenly;
-       padding: 3em 0;
-       align-items: center;
-       margin-bottom: 4em;
-    }
-
-    .about-me{
-        text-align: left;
-    }
-
-    .about-me p{
-        width: 690px;
-        line-height: 2.5;
-        padding-left: .5rem;
-        font-size: 18px;
-    }
-    .about-img{
-        max-width: 70%;
-    }
+.about-img{
+    max-width: 40%;
+}
 
     .mission{
         padding: 5em;
@@ -441,7 +422,35 @@ textarea{
         max-width: 70%;  
       }
 
-      .contact-head{
+    
+    
+}
+
+@media screen and (min-width: 1200px){
+
+
+    .about-me{
+        display: flex;
+       justify-content: space-evenly;
+       padding: 3em 0;
+       align-items: center;
+       margin-bottom: 4em;
+    }
+
+    .about-me{
+        text-align: left;
+    }
+
+    .about-me p{
+        width: 690px;
+        line-height: 2.5;
+        padding-left: .5rem;
+        font-size: 18px;
+    }
+    .about-img{
+        max-width: 70%;
+    }
+    .contact-head{
         text-align: left;
     }
     /* Contact Page */
@@ -462,11 +471,5 @@ textarea{
       .contact img{
           padding-top: 2.5em;
       }
-    
-}
-
-@media screen and (min-width: 1200px){
-
-
 
 }
