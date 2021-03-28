@@ -437,6 +437,10 @@ textarea{
     .circle-img{
         max-width: 70%;  
       }
+
+      .contact img{
+          padding-top: 3em;
+      }
     
 }
 
