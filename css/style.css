@@ -409,13 +409,10 @@ textarea{
         display: none;
     }
 
-    .ux-work{
-        max-width: 80%;
-        margin: auto;
-    }
+
 
     .gd-work{
-        max-width: 80%;
+        max-width: 94%;
         margin: auto;
 
     }
