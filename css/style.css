@@ -371,9 +371,10 @@ textarea{
         max-width: 85%;
         margin: auto;
     }
-.about-img{
-    max-width: 40%;
-}
+
+    .about-img{
+        max-width: 40%;
+    }
 
     .mission{
         padding: 5em;
@@ -426,8 +427,11 @@ textarea{
     
 }
 
+/* Adding a breakpoint of min-width of 1200px for elements that don't work at 992px  */
+
 @media screen and (min-width: 1200px){
 
+    /* About Me Page */
 
     .about-me{
         display: flex;
@@ -450,10 +454,12 @@ textarea{
     .about-img{
         max-width: 70%;
     }
+    
+    /* Contact Page */
+
     .contact-head{
         text-align: left;
     }
-    /* Contact Page */
     
     .contact{
        display: grid;
