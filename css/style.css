@@ -147,7 +147,7 @@ li{
     text-transform: uppercase;
   }
 
-/* ---Portfolio Page */
+/* ---Portfolio Section */
 
 
 .portfolio-sect h4{
@@ -169,6 +169,7 @@ li{
 .about-me{
     text-align: center;
 }
+
 .about-img{
     padding: 1em;
     max-width: 85%;
@@ -197,7 +198,7 @@ li{
     margin-top: 1em;
 }
 
-/* Contact Page */
+/* ---Contact Page--- */
 
 .form{
 	background-color: white;
@@ -339,7 +340,7 @@ textarea{
     }
 
     .dropdown-item{
-        padding-right: 0 0;
+        padding-right: 0;
     }
 
     .home{
@@ -422,8 +423,6 @@ textarea{
     .circle-img{
         max-width: 70%;  
       }
-
-    
     
 }
 
@@ -454,7 +453,7 @@ textarea{
     .about-img{
         max-width: 70%;
     }
-    
+
     /* Contact Page */
 
     .contact-head{
