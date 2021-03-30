@@ -219,7 +219,7 @@ li{
 
 /* Adjusting size for inputs for better legibility */
 .form input{
-	padding: .7em;
+	padding: .9em;
 	margin: .5em;
 	background-color: var(--white);
 	border: solid 0.25px var(--black);
@@ -461,6 +461,10 @@ textarea{
        display: grid;
        grid-template-columns: repeat(2, 1fr);
     }
+
+    textarea{
+        height: 160px;
+    }
     
     .form{
      margin: 1em 1em 1em 10em;
@@ -471,7 +475,7 @@ textarea{
     }
 
       .contact img{
-          padding-top: 2.5em;
+          padding-top: 3em;
       }
 
 }
