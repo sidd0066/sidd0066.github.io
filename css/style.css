@@ -66,9 +66,14 @@ li{
 
 
 
-/* footer{
-    text-align: center;
-    margin-top: 5em;
+.bottom-btn a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+/* .bottom-btn a:hover{
+    padding-left: 15px;
+    transition: 0.4s ease;
 } */
 
 .footer-icons .icon{
