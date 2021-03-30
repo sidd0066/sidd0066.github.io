@@ -65,12 +65,6 @@ li{
 }
 
 
-
-.bottom-btn a{
-    text-decoration: none;
-    color: var(--black);
-}
-
 /* .bottom-btn a:hover{
     padding-left: 15px;
     transition: 0.4s ease;
@@ -262,8 +256,6 @@ textarea{
 .submit{
     background-color: var(--black);
     color: var(--white);
-    font-weight: bold;
-    text-decoration: none;
     padding: .6em 2em .6em 2em;
     margin-right: -15px;
     border-radius: var(--border-radius);
