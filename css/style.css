@@ -204,7 +204,7 @@ li{
 	border: solid 0.25px white;
 	border-radius: 20px;
 	padding: 20px 55px 20px 20px;
-	margin: 1em .5em 1em .5em;
+	margin: 1.2em .5em 2em .5em;
 	box-shadow: 0px 4px 8px 0.5px rgba(0, 0, 0, 0.664);
 }	
 
@@ -249,10 +249,7 @@ textarea{
 	height: 140px;
 	resize: none;
 }
-
-.submit-div{
-    text-align: right;
-}
+ 
 .submit{
     background-color: var(--black);
     color: var(--white);
@@ -321,6 +318,12 @@ textarea{
 
     .circle-img{
         max-width: 70%;  
+      }
+
+      /* Contact Page */
+
+      .form{
+        margin: 7em 7em 7em 7em; 
       }
 }
 
@@ -417,6 +420,8 @@ textarea{
     .circle-img{
         max-width: 70%;  
       }
+
+      
     
 }
 
