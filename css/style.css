@@ -352,9 +352,9 @@ textarea{
 
       /* Contact Page */
 
-      /* .form{
-        margin: 7em 7em 7em 7em; 
-      } */
+      textarea{
+        height: 15rem;
+    }
 }
 
 
