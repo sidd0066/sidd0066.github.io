@@ -269,16 +269,17 @@ input[type=text],
 input[type=email]{ 
   width: 100%;
   padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
+  margin: 4px 0;
+  /* display: inline-block; */
   border: 1px solid var(--black);
   box-sizing: border-box;
 } 
 
+
 /* Message Box Styles */
 textarea{
   display: block;
-  margin: 8px 0;
+  margin: 16px 0;
   width: 100%; 
   resize: none;
   height: 10rem;
@@ -450,6 +451,10 @@ textarea{
         max-width: 70%;  
       }
 
+    
+    textarea{
+        height: 18rem;
+    }
       
     
 }
