@@ -201,12 +201,22 @@ li{
 input[type=text]{ 
   width: 100%;
   padding: .7em;
-  border: 1px solid var(--black);
-  /* box-sizing: border-box; */
+  border: 0.25px solid var(--black);
 } 
 
 input[name=phone-number]{
     margin-top: 1em;
+}
+
+/* Message Box */
+textarea{
+  display: block;
+  margin: 16px 0;
+  width: 100%; 
+  resize: none;
+  height: 15rem;
+  padding: 1em;
+  border: solid 0.25px var(--black);
 }
 
 .btn{
@@ -220,15 +230,6 @@ input[name=phone-number]{
 }
 
 
-/* Message Box */
-textarea{
-  display: block;
-  margin: 16px 0;
-  width: 100%; 
-  resize: none;
-  height: 15rem;
-  padding: 1em;
-}
 
 
 /* Tablet Styles */
