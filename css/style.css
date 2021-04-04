@@ -277,6 +277,7 @@ input[type=email]{
 
 .btn{
     padding: .5em 2.5em;
+    font-size: 18px;
 }
 
 .btn:hover{
@@ -291,17 +292,12 @@ textarea{
   margin: 16px 0;
   width: 100%; 
   resize: none;
-  height: 10rem;
+  height: 12rem;
   padding: 1em;
 }
 
-/* Submit Button */
-/* .submit{
-  color: #c78c06;
-  background-color: #222;
-  padding: 1em;
-} */
 
+/* Tablet Styles */
 
 @media screen and (min-width: 680px) and (max-width: 992px){
 
@@ -334,9 +330,9 @@ textarea{
     }
 
 
-    .bar{
-        margin-bottom: .5em;
-    }
+    /* .bar{
+        margin-bottom: 5em;
+    } */
 
     .work-1{
         margin-top: 2em;
@@ -410,6 +406,10 @@ textarea{
         gap: 2em;
         max-width: 85%;
         margin: auto;
+    }
+
+    .portfolio{
+        font-size: 18px;
     }
 
     .about-img{
