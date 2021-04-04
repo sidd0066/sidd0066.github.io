@@ -204,6 +204,7 @@ input[type=text]{
   border: 0.25px solid var(--black);
 } 
 
+/* Adding padding-top to phone number form on mobile to push down for equal spacing */
 input[name=phone-number]{
     margin-top: 1em;
 }
