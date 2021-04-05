@@ -299,7 +299,7 @@ textarea{
     }
 }
 
-/* Adding another breakpoint to help fix sizing circle design on Graphic Design Page */
+/* Adding another tablet breakpoint to help fix sizing circle design on Graphic Design Page */
 @media screen and (min-width: 576px) and (max-width: 768px){
     .circle-img{
         max-width: 100%;
