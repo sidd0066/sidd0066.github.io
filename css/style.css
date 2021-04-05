@@ -64,12 +64,6 @@ li{
     font-size: 18px;
 }
 
-
-/* .bottom-btn a:hover{
-    padding-left: 15px;
-    transition: 0.4s ease;
-} */
-
 .footer-icons .icon{
     border-radius: var(--border-radius);
     box-sizing: border-box;
@@ -235,6 +229,8 @@ textarea{
 
 /* Tablet Styles */
 
+
+
 @media screen and (min-width: 576px) and (max-width: 992px){
 
     .wrapper{
@@ -288,7 +284,7 @@ textarea{
     }
 
     .circle-img{
-        max-width: 70%;  
+        max-width: 80%; 
       }
 
       /* Contact Page */
@@ -300,6 +296,13 @@ textarea{
 
       textarea{
         height: 15rem;
+    }
+}
+
+/* Adding another breakpoint to help fix sizing circle design on Graphic Design Page */
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .circle-img{
+        max-width: 100%;
     }
 }
 
