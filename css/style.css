@@ -1,4 +1,5 @@
-/* ---Mobile Styles--- */
+/* ---Mobile Styles--- /
+
 /* Custom Styles*/
 body{
     font-family: 'Open Sans', sans-serif;
@@ -51,6 +52,8 @@ li{
     padding-left: 1em;
 }
 
+/* Adding a background color to the the nav dropdowns to make it interactibe when clicking */
+
 .dropdown-item:active{
     background-color: var(--black);
 }
@@ -78,6 +81,7 @@ li{
 }
 
 /* ---Home Page---- */
+
 .home-sect{
     text-align: center;
     margin-bottom: 5em;
@@ -93,16 +97,13 @@ li{
     margin-bottom: 1em;
 }
 
-/* .btn-div{
-    margin-top: 4em;
-    margin-bottom: 5em;
-} */
-
+/* Adding a margin-bottom to rows to fix spacing with portfolio elements */
 .row{
     margin-bottom: 1em;
 }
 
-/* Image container */
+/* ---Portfolio Section--- */
+
 .img-container {
     position: relative;
   }
@@ -138,10 +139,7 @@ li{
     text-align: center;
     opacity: 1;
     text-transform: uppercase;
-  }
-
-/* ---Portfolio Section */
-
+}
 
 .portfolio-sect h4{
     margin-top: .5em;
@@ -151,13 +149,16 @@ li{
     padding-top: 3em;
 }
 
-/* Photography Page */
+/* Portfolio Pages */
 
 .img{
     margin-bottom: 2.5em;
 }
 
 /* ---About Me Page --- */
+
+/* About Me Section */
+
 
 .about-me{
     text-align: center;
@@ -192,6 +193,7 @@ li{
 }
 
 /* Contact Page */
+
 input[type=text]{ 
   width: 100%;
   padding: .7em;
@@ -224,12 +226,7 @@ textarea{
     transition: 0.3s;
 }
 
-
-
-
 /* Tablet Styles */
-
-
 
 @media screen and (min-width: 576px) and (max-width: 992px){
 
@@ -261,11 +258,6 @@ textarea{
         gap: 1em;
     }
 
-
-    /* .bar{
-        margin-bottom: 5em;
-    } */
-
     .work-1{
         margin-top: 2em;
     }
@@ -280,7 +272,6 @@ textarea{
     .gd-work{
         max-width: 90%;
         margin: auto;
-
     }
 
     .circle-img{
@@ -376,7 +367,6 @@ textarea{
         gap: 1em;
     }
 
-
     .bar{
         margin-bottom: .5em;
     }
@@ -392,20 +382,15 @@ textarea{
         display: none;
     }
 
-
-
     .gd-work{
         max-width: 94%;
         margin: auto;
-
     }
 
     .circle-img{
         max-width: 70%;  
       }
 
-    
-      
       input[name=phone-number]{
         margin: 0;
     }
@@ -413,11 +398,9 @@ textarea{
     textarea{
         height: 18rem;
     }
-      
-    
 }
 
-/* Adding a breakpoint of min-width of 1200px for elements that don't work at 992px  */
+/* Adding a breakpoint of min-width of 1200px for elements that don't work at min-width of 992px  */
 
 @media screen and (min-width: 1200px){
 
@@ -441,10 +424,8 @@ textarea{
         padding-left: .5rem;
         font-size: 18px;
     }
+
     .about-img{
         max-width: 70%;
     }
-
-    /* Contact Page */
-
 }
