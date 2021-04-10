@@ -113,13 +113,14 @@ li{
     position: relative;
   }
   
-  .image {
+.image {
     display: block;
     width: 100%;
     height: auto;
-  }
-  
-  .overlay {
+}
+
+/* Adding in styles of overlay to create hover effect */
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -153,6 +154,7 @@ li{
     margin-top: .5em;
 }
 
+/* Adding a padding-top of 3em for better spacing */
 .portfolio{
     padding-top: 3em;
 }
@@ -211,6 +213,7 @@ li{
 
 /* Contact Page */
 
+/* Adding in styles for input tags to match with mockup */
 input[type=text]{ 
   width: 100%;
   padding: .7em;
@@ -257,7 +260,6 @@ textarea{
     .wrapper{
         width: 90%;
     }
-
 
     /* Home Page */
 
@@ -310,16 +312,16 @@ textarea{
         margin: auto;
     }
 
+    /* Adjusting max-width of  */
     .circle-img{
         max-width: 80%; 
-      }
+    }
 
       /* Contact Page */
 
       input[name=phone-number]{
         margin: 0;
     } 
-    
 
       textarea{
         height: 15rem;
@@ -327,6 +329,7 @@ textarea{
 }
 
 /* Adding another tablet breakpoint to help fix sizing circle design on Graphic Design Page */
+
 @media screen and (min-width: 576px) and (max-width: 768px){
     .circle-img{
         max-width: 100%;
@@ -337,6 +340,8 @@ textarea{
     Desktop Styles
 -----------------*/
 @media screen and (min-width: 992px){
+
+    /* Custom Styles */
 
     .logo-img{
         padding-left: 5.5em;
@@ -351,16 +356,21 @@ textarea{
         padding-right: 0;
     }
 
+    /* Home Page */
+
+    /* Adding flexbox to home section for better alignment of elements */
     .home{
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
 
+    /* Changing order of image and text to match with mockup */
     .home .home-img{
         order: 1;
     }
 
+    /* Adjusting font size for h1 for better legibility */
     .home h1{
         font-size: 68px;
     }
@@ -372,7 +382,10 @@ textarea{
     .home img{
         max-width: 600px;
     }
+    
+    /* Portfolio Section */
 
+    /* Using grid to put portfolio  */
     .portfolio-sect{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
