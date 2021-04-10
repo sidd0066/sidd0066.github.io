@@ -307,6 +307,8 @@ textarea{
     }
 
     /* Graphic Design Page */
+
+    /* Adjusting max-width of Graphics portfolio for better legibility */
     .gd-work{
         max-width: 90%;
         margin: auto;
