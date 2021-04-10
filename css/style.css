@@ -387,7 +387,7 @@ textarea{
     
     /* Portfolio Section */
 
-    /* Using grid to put portfolio  */
+    /* Using grid to put portfolio in a 2 column grid */
     .portfolio-sect{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -427,10 +427,12 @@ textarea{
     .work-1{
         margin-top: 2em;
     }
+
     .work-2{
         margin-top: 5em;
     }
 
+    /* Removing hr line to match with mockup */
     hr{
         display: none;
     }
