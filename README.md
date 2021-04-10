@@ -4,7 +4,7 @@ When I created my Web Portfolio in my User Experience Class, I knew I was really
 
 Challenges that I faced:
 
-1) Creating the overlay hover effect on my homepage to display the view text for the user to click when hovering on the images. 
+1) Creating the overlay hover effect on my homepage to display the view text for the user to click when hovering on the images which I was bale to figure out with help from SPA. 
 
 2) Trying to fix the spacing issue on my contact form where I have my full name and phone number input in columns on desktop and tablet which I was able to fix by giving one of the input a bigger margin at different breakpoints.  
 
