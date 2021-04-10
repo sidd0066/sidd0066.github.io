@@ -350,6 +350,7 @@ textarea{
         max-width: 85%;
     }
 
+    /* Adjusting padding-right on nav lists and dropdowns for better legibility */
     li{
         padding-right: 4rem;
     }
@@ -416,6 +417,7 @@ textarea{
         font-size: 18px;
     }
 
+    /* Putting skills and work section in 2-column grid to match with mockup */
     .skill-work{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
