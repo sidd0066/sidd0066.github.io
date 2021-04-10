@@ -48,9 +48,10 @@ nav{
     margin-bottom: 3em;
 }
 
-/* adding a padding-left to nav lists for better spacing  */
+/* adding a padding-left to nav lists and increasing font-size for better spacing  */
 li{
     padding-left: 1em;
+    font-size: 18px;
 }
 
 /* Adding a background color to the the nav dropdowns to make it interactive when clicking */
@@ -62,10 +63,6 @@ li{
 img{
     max-width: 100%;
     height: auto;
-}
-
-li{
-    font-size: 18px;
 }
 
 /* Adding in styles for footer icons to make it stand out on website */
