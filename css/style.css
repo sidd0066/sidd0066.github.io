@@ -1,4 +1,6 @@
-/* ---Mobile Styles--- /
+/* ---------------------
+    Mobile Styles
+----------- ------------/
 
 /* Custom Styles*/
 body{
@@ -18,6 +20,7 @@ body{
     --border-radius: 10px;
 }
 
+/* Adding box-sizing: border-box fix border issues */
 *{
     box-sizing: border-box;
 }
@@ -31,10 +34,6 @@ h5{
     color: var(--black);
 }
 
-/* h1{
-    font-size: 40px;
-} */
-
 p{
     line-height: 2;
 }
@@ -44,15 +43,17 @@ p{
     padding-left: 1em;
 }
 
+/* adding a margin-bottom to nav for better spacing  */
 nav{
     margin-bottom: 3em;
 }
 
+/* adding a padding-left to nav lists for better spacing  */
 li{
     padding-left: 1em;
 }
 
-/* Adding a background color to the the nav dropdowns to make it interactibe when clicking */
+/* Adding a background color to the the nav dropdowns to make it interactive when clicking */
 
 .dropdown-item:active{
     background-color: var(--black);
@@ -67,6 +68,7 @@ li{
     font-size: 18px;
 }
 
+/* Adding in styles for footer icons to make it stand out on website */
 .footer-icons .icon{
     border-radius: var(--border-radius);
     box-sizing: border-box;
@@ -75,6 +77,7 @@ li{
     margin: .1em
 }
 
+/* Adding hover on footer icons for better interaction */
 .footer-icons .icon:hover{
    background-color: var(--black);
    transition: 0.3s;
@@ -92,6 +95,7 @@ li{
     font-size: 18px;
 }
 
+/* Adjusting size of home image for better spacing */
 .home-sect img{
     max-width: 75%;
     margin-bottom: 1em;
@@ -104,6 +108,7 @@ li{
 
 /* ---Portfolio Section--- */
 
+/* Adding position relative to image container to have overlay on top of images */
 .img-container {
     position: relative;
   }
@@ -125,10 +130,12 @@ li{
     background-color: var(--black);
   }
   
+  /* Bringing the opacity to 0.8 on hover to create effect */
   .img-container:hover .overlay {
     opacity: 0.8;
   }
   
+  /* Adding in styles for view text for hover effect to work */
   .view {
     color: var(--white);
     font-size: 26px;
@@ -141,6 +148,7 @@ li{
     text-transform: uppercase;
 }
 
+/* Portfolio Section */
 .portfolio-sect h4{
     margin-top: .5em;
 }
@@ -151,6 +159,7 @@ li{
 
 /* Portfolio Pages */
 
+/* Adding a margin-bottom to all portfolio elements for better spacing */
 .img{
     margin-bottom: 2.5em;
 }
@@ -159,25 +168,33 @@ li{
 
 /* About Me Section */
 
-
+/* Adding text-align center to center elements on mobile */
 .about-me{
     text-align: center;
 }
 
+/* Adding padding and adjusting max-width to about me image for better legibility  */
 .about-img{
     padding: 1em;
     max-width: 85%;
 }
 
+/* Mission Statement Section  */
+
+/* Adding a background colour of white and padding of 2em to make section stand out more */
 .mission{
     background-color: white;
     padding: 2em;
 }
 
 /* Skills Section */
+
+/* Adding a margin-bottom to each skill bar for better spacing */
 .bar{
     margin-bottom: .7em;
 }
+
+/* giving each text a margin 0f 0 for better alignment */
 .bar p{
     margin: 0;
 }
@@ -205,7 +222,7 @@ input[name=phone-number]{
     margin-top: 1em;
 }
 
-/* Message Box */
+/* Applying styles for message box to match with mockup*/
 textarea{
   display: block;
   margin: 16px 0;
@@ -216,28 +233,40 @@ textarea{
   border: solid 0.25px var(--black);
 }
 
+/* Adjusting font size and padding for submit button for better legibility */
 .btn{
     padding: .5em 2.5em;
     font-size: 18px;
 }
 
+/* Adding a hover to submit button for better user interaction */
 .btn:hover{
     background-color: var(--grey);
     transition: 0.3s;
 }
 
-/* Tablet Styles */
+/* -------------------
+    Tablet Styles 
+--------------------*/
 
 @media screen and (min-width: 576px) and (max-width: 992px){
 
+    /* Custom Styles */
+
+    /* Adjusting width of wrapper for better legibility */
     .wrapper{
         width: 90%;
     }
 
+
+    /* Home Page */
+
+    /* Adjusting max-width of home image for better legibility */
     .home img{
         max-width: 50%;
     }
 
+    /* Using grid to put elements in a 2 column grid */
     .portfolio-sect{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -248,15 +277,20 @@ textarea{
         max-width: 100%;
     }
 
+    /* About Me Page */
+
     .about-img{
         max-width: 40%;
     }
 
+    /* Using grid to skill work section in a 2 column grid */
     .skill-work{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1em;
     }
+
+    /* Adjusting margins of both work sections for better legibility */
 
     .work-1{
         margin-top: 2em;
@@ -265,10 +299,12 @@ textarea{
         margin-top: 5em;
     }
 
+    /* removing hr line to match with mockup */
     hr{
         display: none;
     }
 
+    /* Graphic Design Page */
     .gd-work{
         max-width: 90%;
         margin: auto;
@@ -297,14 +333,16 @@ textarea{
     }
 }
 
-
+/* ---------------
+    Desktop Styles
+-----------------*/
 @media screen and (min-width: 992px){
-
 
     .logo-img{
         padding-left: 5.5em;
         max-width: 85%;
     }
+
     li{
         padding-right: 4rem;
     }
@@ -406,14 +444,16 @@ textarea{
 
     /* About Me Page */
 
+    /* Adding flexbox to About Me section for better alignment on desktop */
     .about-me{
-        display: flex;
+       display: flex;
        justify-content: space-evenly;
        padding: 3em 0;
        align-items: center;
        margin-bottom: 4em;
     }
 
+    /* Adding a text-align left for better legibility */
     .about-me{
         text-align: left;
     }
