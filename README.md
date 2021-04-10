@@ -1,10 +1,12 @@
 How I created my Web Portfolio:
 
-When I created my Web Portfolio in my User Experience Class, I knew I was really happy with the layout that I chose. I knew that the best way to showcase my creative work for a user or future employer was to create separate pages for each category. I also knew that having the categories of my portfolio on my homepage would make it easier for the user to fast click to any of the pages. 
+When I created my Web Portfolio in my User Experience Class, I knew I was really happy with the layout that I chose. I knew that the best way to showcase my creative work for a user or future employer was to create separate pages for each category. I also knew that having the categories of my portfolio on my homepage would make it easier for the user to fast click to any of the pages of their choice. 
 
 Challenges that I faced:
 
-The biggest challenge that I faced when making my website was trying to figure out how to create the overlay hover effect on my homepage to display the view text for the user to click when hovering on the images. Another challenge that I faced was trying to figure out 
+1) Creating the overlay hover effect on my homepage to display the view text for the user to click when hovering on the images. 
+
+2) Trying to fix the spacing issue on my contact form where I have my full name and phone number input in columns on desktop and tablet.  
 
 Learning Outcomes: I would say one thing I learned when I created my web portfolio is how important it is to make sure that your website that is responsive for all screen sizes and functional on all browsers for all users. 
 
