@@ -106,11 +106,11 @@ img{
 /* ---Portfolio Section--- */
 
 /* Adding position relative to image container to have overlay on top of images */
-.img-container {
+.img-container{
     position: relative;
   }
   
-.image {
+.image{
     display: block;
     width: 100%;
     height: auto;
@@ -128,13 +128,13 @@ img{
     background-color: var(--black);
   }
   
-  /* Bringing the opacity to 0.8 on hover to create effect */
-  .img-container:hover .overlay {
+/* Bringing the opacity to 0.8 on hover to create effect */
+.img-container:hover .overlay {
     opacity: 0.8;
   }
   
-  /* Adding in styles for view text for hover effect to work */
-  .view {
+/* Adding in styles for view text for hover effect to work */
+.view {
     color: var(--white);
     font-size: 26px;
     position: absolute;
@@ -400,13 +400,18 @@ textarea{
 
     /* About Me Page */
 
+    /* Decreasing max-width of About me image for better alignment */
     .about-img{
         max-width: 40%;
     }
 
+    /* Mission Statement section */
+
+    /* Increasing padding on mission section to match with mockup */
     .mission{
         padding: 5em;
     }
+    
     .mission p{
         padding-left: 11em;
         padding-right: 11em;
@@ -421,10 +426,12 @@ textarea{
         gap: 1em;
     }
 
+    /* Adjusting margin-bottom to each skill bar for better spacing */
     .bar{
         margin-bottom: .5em;
     }
 
+    /* Adjusting margins of both work sections for better legibility */
     .work-1{
         margin-top: 2em;
     }
