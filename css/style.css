@@ -400,6 +400,8 @@ textarea{
         font-size: 20px;
     }
 
+    /* About Me Page */
+
     .about-img{
         max-width: 40%;
     }
@@ -437,6 +439,9 @@ textarea{
         display: none;
     }
 
+    /* Graphic Design Page */
+
+    /* Adjusting max-width of Graphic Design work to match with mockup */
     .gd-work{
         max-width: 94%;
         margin: auto;
@@ -446,10 +451,14 @@ textarea{
         max-width: 70%;  
       }
 
+    /* Contact Page */
+
+    /* Adding a margin of 0 to phone number input to put it on the same line as the full name input */
       input[name=phone-number]{
         margin: 0;
     }
 
+    /* Increasing height of message box to match with mockup */
     textarea{
         height: 18rem;
     }
@@ -475,6 +484,7 @@ textarea{
         text-align: left;
     }
 
+    /* Adjusting size of about me body text for better legibility on desktop */
     .about-me p{
         width: 690px;
         line-height: 2.5;
