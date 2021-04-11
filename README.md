@@ -4,11 +4,11 @@ When I created my Web Portfolio in my User Experience Class, I knew I was really
 
 Challenges that I faced:
 
-Challenge 1) Creating the overlay hover effect on my homepage to display the view text for the user to click when hovering on the images which I was able to figure out with help from SPA. 
+Challenge 1) Creating the overlay hover effect on my homepage to display the view text for the user to click when hovering on the images which I was able to figure out with help from the SPA. 
 
  Challenge 2) Trying to fix the spacing issue on my contact form where I have my full name and phone number input in columns on desktop and tablet which I was able to fix by giving one of the input a bigger margin at different breakpoints.  
 
-Learning Outcomes: I would say one thing I learned when I created my web portfolio is how important it is to make sure that your website that is responsive for all screen sizes and functional on all browsers for all users. 
+Learning Outcomes: I would say one thing I learned when I created my web portfolio is how important it is to make sure that your website is responsive for all screen sizes and functional on all browsers for all users. 
 
 Assets that I used:
 
