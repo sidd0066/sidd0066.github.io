@@ -370,7 +370,7 @@ textarea{
         order: 1;
     }
 
-    /* Adjusting font size for h1 for better legibility */
+    /* Adjusting font size for h1 and p for better legibility */
     .home h1{
         font-size: 68px;
     }
@@ -498,6 +498,7 @@ textarea{
         font-size: 18px;
     }
 
+    /* Adjusting max-width of about me image for better legibility */
     .about-img{
         max-width: 70%;
     }
