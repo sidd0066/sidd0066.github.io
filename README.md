@@ -1,6 +1,6 @@
 How I created my Web Portfolio:
 
-When I created my Web Portfolio in my User Experience Class, I knew I was really happy with the layout that I chose. I knew that the best way to showcase my creative work for a user or future employer was to create separate pages for each category. I also knew that having the categories of my portfolio on my homepage would make it easier for the user to fast click to any of the pages of their choice. 
+When I created my Web Portfolio in my User Experience class, I knew I was really happy with the layout that I designed. I knew that the best way to showcase my creative work for a user or future employer was to create separate pages for each portfolio category. I also knew that having each of the categories of my portfolio on my homepage would make it easier for the user to fast click to any of the pages of their choice to view my work. 
 
 Challenges that I faced:
 
