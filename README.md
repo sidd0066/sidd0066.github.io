@@ -4,7 +4,7 @@ When I created my Web Portfolio in my User Experience Class, I knew I was really
 
 Challenges that I faced:
 
-The first challenge I had was when creating the overlay hover effect on my homepage to display the view text for the user to click when hovering on the images. I was luckily able to figure it out with help from the SPA. The second challenge that I had was trying to fix the spacing issue on my contact form where I have my full-name and phone-number input in columns on desktop and tablet which I was able to fix by giving one of the input a bigger margin at different breakpoints.
+The first challenge I had was when creating the overlay hover effect on my homepage to display the view text for the user to click when hovering on the images. I was luckily able to figure it out with help from the SPA. The second challenge that I had was trying to fix the spacing issue on my contact form, the input of full-name and phone-number which is in the Bootstrap column grid on desktop and tablet, were not spaced well on mobile when they were on top of each other. The solution to fix this issue that I had was to give the phone-number input a margin-top of 1em on the mobile breakpoint and then give it a margin of 0 on the tablet and desktop breakpoints. 
 
 Learning Outcomes: 
 
