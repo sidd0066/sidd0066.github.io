@@ -15,7 +15,7 @@ Assets that I used:
 Images 
 
 Photography image: https://unsplash.com/photos/FFsyNuTXBQ0 
-UX/Ui Design image: https://unsplash.com/photos/tZc3vjPCk-Q
+UX/UI Design image: https://unsplash.com/photos/tZc3vjPCk-Q
 Graphic Design image: https://unsplash.com/photos/ubIWo074QlU
 Web Development image: https://unsplash.com/photos/SXihyA4oEJs
 
