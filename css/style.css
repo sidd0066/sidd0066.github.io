@@ -2,7 +2,7 @@
     Mobile Styles
 ----------- ------------/
 
-/* Custom Styles*/
+/* ---Custom Styles---*/
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: var(--white);
@@ -156,7 +156,7 @@ img{
     padding-top: 3em;
 }
 
-/* Portfolio Pages */
+/* ---Portfolio Pages--- */
 
 /* Adding a margin-bottom to all portfolio elements for better spacing */
 .img{
@@ -193,7 +193,7 @@ img{
     margin-bottom: .7em;
 }
 
-/* giving each text a margin 0f 0 for better alignment */
+/* Giving each text a margin 0f 0 for better alignment */
 .bar p{
     margin: 0;
 }
@@ -208,7 +208,7 @@ img{
     margin-top: 1em;
 }
 
-/* Contact Page */
+/* ---Contact Page--- */
 
 /* Adding in styles for input tags to match with mockup */
 input[type=text]{ 
@@ -251,14 +251,14 @@ textarea{
 
 @media screen and (min-width: 576px) and (max-width: 992px){
 
-    /* Custom Styles */
+    /* ---Custom Styles--- */
 
     /* Adjusting width of wrapper for better legibility */
     .wrapper{
         width: 90%;
     }
 
-    /* Home Page */
+    /* ---Home Page--- */
 
     /* Adjusting max-width of home image for better legibility */
     .home img{
@@ -276,7 +276,7 @@ textarea{
         max-width: 100%;
     }
 
-    /* About Me Page */
+    /* ---About Me Page--- */
 
     .about-img{
         max-width: 40%;
@@ -303,7 +303,7 @@ textarea{
         display: none;
     }
 
-    /* Graphic Design Page */
+    /* ---Graphic Design Page--- */
 
     /* Adjusting max-width of Graphics portfolio for better legibility */
     .gd-work{
@@ -316,7 +316,7 @@ textarea{
         max-width: 80%; 
     }
 
-      /* Contact Page */
+      /* ---Contact Page--- */
 
       input[name=phone-number]{
         margin: 0;
@@ -335,12 +335,12 @@ textarea{
     }
 }
 
-/* ---------------
+/* -------------------
     Desktop Styles
------------------*/
+----------------------*/
 @media screen and (min-width: 992px){
 
-    /* Custom Styles */
+    /*--- Custom Styles--- */
 
     .logo-img{
         padding-left: 5.5em;
@@ -356,7 +356,7 @@ textarea{
         padding-right: 0;
     }
 
-    /* Home Page */
+    /*---Home Page--- */
 
     /* Adding flexbox to home section for better alignment of elements */
     .home{
@@ -398,7 +398,7 @@ textarea{
         font-size: 20px;
     }
 
-    /* About Me Page */
+    /* ---About Me Page--- */
 
     /* Decreasing max-width of About me image for better alignment */
     .about-img{
@@ -445,7 +445,7 @@ textarea{
         display: none;
     }
 
-    /* Graphic Design Page */
+    /* ---Graphic Design Page--- */
 
     /* Adjusting max-width of Graphic Design work to match with mockup */
     .gd-work{
@@ -457,7 +457,7 @@ textarea{
         max-width: 70%;  
       }
 
-    /* Contact Page */
+    /* ---Contact Page--- */
 
     /* Adding a margin of 0 to phone number input to put it on the same line as the full name input */
       input[name=phone-number]{
@@ -474,7 +474,7 @@ textarea{
 
 @media screen and (min-width: 1200px){
 
-    /* About Me Page */
+    /* ---About Me Page--- */
 
     /* Adding flexbox to About Me section for better alignment on desktop */
     .about-me{
