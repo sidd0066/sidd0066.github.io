@@ -21,11 +21,11 @@ Web Development image: https://unsplash.com/photos/SXihyA4oEJs
 
 Icons
 
-https://iconmonstr.com/twitter-1-svg/
-https://iconmonstr.com/linkedin-1-svg/
-https://iconmonstr.com/instagram-11-svg/
-https://iconmonstr.com/arrow-25-svg/
-https://iconmonstr.com/arrow-64-svg/
+Twitter: https://iconmonstr.com/twitter-1-svg/
+LinkedIn: https://iconmonstr.com/linkedin-1-svg/
+Instagram: https://iconmonstr.com/instagram-11-svg/
+Right Arrow: https://iconmonstr.com/arrow-25-svg/
+Left Arrow: https://iconmonstr.com/arrow-64-svg/
 
 Fonts
 
