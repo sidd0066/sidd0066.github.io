@@ -8,7 +8,7 @@ The first challenge I had was when creating the overlay hover effect on my homep
 
 Learning Outcomes: 
 
-I would say one thing I learned when I created my web portfolio is how important it is to make sure that your website is responsive for all screen sizes and functional on all browsers for all users. 
+I would say one thing I learned when I was coding my web portfolio website is how important it is to make sure that your website is responsive for all screen sizes and functional across all browsers for all users. 
 
 Assets that I used:
 
