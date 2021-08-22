@@ -14,8 +14,8 @@ h2{
     color: white;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 300px;
-    font-size: 5rem;
+    padding-top: 330px;
+    font-size: 4.3rem;
 }
 
 .hero{
@@ -39,6 +39,7 @@ h2{
 @media screen and (min-width: 600px){
     h2{
         padding-top: 450px;
+        font-size: 6rem;
     }
     
 }
