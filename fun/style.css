@@ -22,8 +22,8 @@ h2{
     position: relative;
     min-height: 100vh;
    background-image:linear-gradient(120deg,
-                        rgba(26, 108, 202, 0.4),
-                        rgba(0, 234, 255, 0.5)
+                        rgba(26, 108, 202, 0.2),
+                        rgba(0, 234, 255, 0.45)
    );
     /* background-blend-mode: overlay; */
     overflow: hidden;
