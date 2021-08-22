@@ -35,3 +35,10 @@ h2{
     z-index: -1;
     min-height: 200px;
 }
+
+@media screen and (min-width: 600px){
+    h2{
+        padding-top: 450px;
+    }
+    
+}
