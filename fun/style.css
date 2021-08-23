@@ -30,26 +30,35 @@ h2{
     
 }
 
-.header{
-    display: flex;
-    justify-content: space-between;
+/* .wrapper{
+   padding-left: 2em;
+   padding-right: 2em;
+    margin: auto;
+}
+
+.wrapper .header{
     position: absolute;
-    padding: 50px 80px;
     z-index: 10;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
 .header img{
     max-width: 20px;
     filter: invert(1);
-    /* display: inline-block; */
+    display: inline-block;
     
 }
  .header h3{
      color: white;
      font-size: 24px;
      text-transform: uppercase;
- }
+ } */
+ 
 .video-bg{
     position: absolute;
     z-index: -1;
